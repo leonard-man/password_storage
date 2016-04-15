@@ -15,22 +15,22 @@ class PasswordEntry
     public:
         PasswordEntry();
         virtual ~PasswordEntry();
-        unsigned int get_id() { return m_ID; }
-        void set_id(unsigned int val) { m_ID = val; }
-        string get_name() { return m_name; }
-        void set_name(string val) { m_name = val; }
-        string get_description() { return m_description; }
-        void set_description(string val) { m_description = val; }
-        string get_login_url() { return m_login_url; }
-        void set_login_url(string val) { m_login_url = val; }
-        string get_email() { return m_email; }
-        void set_email(string val) { m_email = val; }
-        string get_username() { return m_username; }
-        void set_username(string val) { m_username = val; }
-        string get_password() { return m_password; }
-        void set_password(string val) { m_password = val; }
-        string get_password_hint() { return m_password_hint; }
-        void set_password_hint(string val) { m_password_hint = val; }
+        unsigned int get_id();
+        void set_id(unsigned int val);
+        string get_name();
+        void set_name(string val);
+        string get_description();
+        void set_description(string val);
+        string get_login_url();
+        void set_login_url(string val);
+        string get_email();
+        void set_email(string val);
+        string get_username();
+        void set_username(string val);
+        string get_password();
+        void set_password(string val);
+        string get_password_hint();
+        void set_password_hint(string val);
     protected:
     private:
         unsigned int m_ID;
