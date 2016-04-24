@@ -45,12 +45,27 @@ int main()
 
     LOG4CXX_INFO(universalLogger, "log4cxx configuration successfully parsed");
 
-    // TODO (sgnjidic#9#2016-04-12): remove - this is for testing purposes, only
-    controller->get_utils()->get_database_instance();
-
     CommunicationLayer* comm = new CommunicationLayer();
     controller->set_communication_layer(comm);
     comm = nullptr;
+
+    DatabaseLayer* db = new DatabaseLayer();
+    db->set_database(controller->get_utils()->get_database_instance());
+    controller->set_database_layer(db);
+    db = nullptr;
+
+    // for testing purposes, only
+    PasswordEntry pwd;
+    pwd.set_id(1);
+    pwd.set_name("Srećko Gnjidić");
+    pwd.set_description("test entry");
+    pwd.set_email("sgnjidic@inet.hr");
+    pwd.set_login_url("ubuntu vm workstation");
+    pwd.set_username("sgnjidic");
+    pwd.set_password("Fido11");
+    pwd.set_password("pekingese eleven");
+
+    controller->get_database_layer()->insert_password_entry(pwd);
 
     delete(controller);
 

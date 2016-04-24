@@ -20,3 +20,120 @@ INFO   (/home/sgnjidic/devel/cplusplus/password_storage/password_server/password
 2016-04-12 12:55:44,733 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
 2016-04-12 12:55:44,733 DEBUG Utility - Opened database successfully
 2016-04-12 12:55:44,733 INFO   - -- program end --
+2016-04-24 12:02:46,433 INFO   - -- program start --
+2016-04-24 12:02:46,457 INFO   - password storage project - server component
+2016-04-24 12:02:46,457 INFO   - -------------------------------------------
+2016-04-24 12:02:46,457 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-24 12:02:46,457 INFO   - server needs to store passwords and communicate password information
+2016-04-24 12:02:46,457 INFO   - to clients, rich and thin
+2016-04-24 12:02:46,457 INFO   - 
+2016-04-24 12:02:46,457 INFO   - log4cxx configuration successfully parsed
+2016-04-24 12:02:46,457 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-24 12:02:46,457 DEBUG Utility - Opened database successfully
+2016-04-24 12:04:46,667 INFO   - -- program start --
+2016-04-24 12:04:46,667 INFO   - password storage project - server component
+2016-04-24 12:04:46,667 INFO   - -------------------------------------------
+2016-04-24 12:04:46,667 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-24 12:04:46,667 INFO   - server needs to store passwords and communicate password information
+2016-04-24 12:04:46,667 INFO   - to clients, rich and thin
+2016-04-24 12:04:46,667 INFO   - 
+2016-04-24 12:04:46,667 INFO   - log4cxx configuration successfully parsed
+2016-04-24 12:04:46,667 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-24 12:04:46,668 DEBUG Utility - Opened database successfully
+2016-04-24 12:05:30,922 INFO   - -- program start --
+2016-04-24 12:05:30,922 INFO   - password storage project - server component
+2016-04-24 12:05:30,922 INFO   - -------------------------------------------
+2016-04-24 12:05:30,922 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-24 12:05:30,922 INFO   - server needs to store passwords and communicate password information
+2016-04-24 12:05:30,922 INFO   - to clients, rich and thin
+2016-04-24 12:05:30,922 INFO   - 
+2016-04-24 12:05:30,922 INFO   - log4cxx configuration successfully parsed
+2016-04-24 12:05:30,922 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-24 12:05:30,923 DEBUG Utility - Opened database successfully
+2016-04-24 12:05:30,923 INFO   - -- program end --
+2016-04-24 12:05:55,053 INFO   - -- program start --
+2016-04-24 12:05:55,053 INFO   - password storage project - server component
+2016-04-24 12:05:55,053 INFO   - -------------------------------------------
+2016-04-24 12:05:55,053 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-24 12:05:55,053 INFO   - server needs to store passwords and communicate password information
+2016-04-24 12:05:55,053 INFO   - to clients, rich and thin
+2016-04-24 12:05:55,053 INFO   - 
+2016-04-24 12:05:55,053 INFO   - log4cxx configuration successfully parsed
+2016-04-24 12:05:55,053 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-24 12:05:55,053 DEBUG Utility - Opened database successfully
+2016-04-24 12:05:55,053 INFO   - -- program end --
+2016-04-24 12:07:27,184 INFO   - -- program start --
+2016-04-24 12:07:27,184 INFO   - password storage project - server component
+2016-04-24 12:07:27,184 INFO   - -------------------------------------------
+2016-04-24 12:07:27,184 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-24 12:07:27,184 INFO   - server needs to store passwords and communicate password information
+2016-04-24 12:07:27,184 INFO   - to clients, rich and thin
+2016-04-24 12:07:27,184 INFO   - 
+2016-04-24 12:07:27,184 INFO   - log4cxx configuration successfully parsed
+2016-04-24 12:07:27,184 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-24 12:07:27,184 DEBUG Utility - Opened database successfully
+2016-04-24 12:07:27,185 ERROR DatabaseLayer - SQL error: database is locked
+2016-04-24 12:07:27,185 INFO   - -- program end --
+2016-04-24 12:07:59,250 INFO   - -- program start --
+2016-04-24 12:07:59,250 INFO   - password storage project - server component
+2016-04-24 12:07:59,250 INFO   - -------------------------------------------
+2016-04-24 12:07:59,250 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-24 12:07:59,250 INFO   - server needs to store passwords and communicate password information
+2016-04-24 12:07:59,250 INFO   - to clients, rich and thin
+2016-04-24 12:07:59,250 INFO   - 
+2016-04-24 12:07:59,250 INFO   - log4cxx configuration successfully parsed
+2016-04-24 12:07:59,250 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-24 12:07:59,251 DEBUG Utility - Opened database successfully
+2016-04-24 12:07:59,297 ERROR DatabaseLayer - Records created successfully
+
+2016-04-24 12:07:59,297 INFO   - -- program end --
+2016-04-24 12:08:11,453 INFO   - -- program start --
+2016-04-24 12:08:11,453 INFO   - password storage project - server component
+2016-04-24 12:08:11,453 INFO   - -------------------------------------------
+2016-04-24 12:08:11,453 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-24 12:08:11,453 INFO   - server needs to store passwords and communicate password information
+2016-04-24 12:08:11,453 INFO   - to clients, rich and thin
+2016-04-24 12:08:11,453 INFO   - 
+2016-04-24 12:08:11,453 INFO   - log4cxx configuration successfully parsed
+2016-04-24 12:08:11,453 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-24 12:08:11,453 DEBUG Utility - Opened database successfully
+2016-04-24 12:08:11,453 ERROR DatabaseLayer - SQL error: UNIQUE constraint failed: password.ID
+2016-04-24 12:08:11,453 INFO   - -- program end --
+2016-04-24 12:08:44,496 INFO   - -- program start --
+2016-04-24 12:08:44,496 INFO   - password storage project - server component
+2016-04-24 12:08:44,496 INFO   - -------------------------------------------
+2016-04-24 12:08:44,496 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-24 12:08:44,496 INFO   - server needs to store passwords and communicate password information
+2016-04-24 12:08:44,496 INFO   - to clients, rich and thin
+2016-04-24 12:08:44,496 INFO   - 
+2016-04-24 12:08:44,496 INFO   - log4cxx configuration successfully parsed
+2016-04-24 12:08:44,496 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-24 12:08:44,496 DEBUG Utility - Opened database successfully
+2016-04-24 12:08:44,509 ERROR DatabaseLayer - Records created successfully
+
+2016-04-24 12:08:44,509 INFO   - -- program end --
+2016-04-24 12:36:32,697 INFO   - -- program start --
+2016-04-24 12:36:32,697 INFO   - password storage project - server component
+2016-04-24 12:36:32,697 INFO   - -------------------------------------------
+2016-04-24 12:36:32,697 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-24 12:36:32,697 INFO   - server needs to store passwords and communicate password information
+2016-04-24 12:36:32,697 INFO   - to clients, rich and thin
+2016-04-24 12:36:32,697 INFO   - 
+2016-04-24 12:36:32,697 INFO   - log4cxx configuration successfully parsed
+2016-04-24 12:36:32,697 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-24 12:36:32,697 DEBUG Utility - Opened database successfully
+2016-04-24 12:36:32,697 ERROR DatabaseLayer - SQL error: UNIQUE constraint failed: password.ID
+2016-04-24 12:36:32,698 INFO   - -- program end --
+2016-04-24 12:36:51,424 INFO   - -- program start --
+2016-04-24 12:36:51,424 INFO   - password storage project - server component
+2016-04-24 12:36:51,425 INFO   - -------------------------------------------
+2016-04-24 12:36:51,425 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-24 12:36:51,425 INFO   - server needs to store passwords and communicate password information
+2016-04-24 12:36:51,425 INFO   - to clients, rich and thin
+2016-04-24 12:36:51,425 INFO   - 
+2016-04-24 12:36:51,425 INFO   - log4cxx configuration successfully parsed
+2016-04-24 12:36:51,425 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-24 12:36:51,425 DEBUG Utility - Opened database successfully
+2016-04-24 12:36:51,431 INFO  DatabaseLayer - Records created successfully
+
+2016-04-24 12:36:51,431 INFO   - -- program end --
