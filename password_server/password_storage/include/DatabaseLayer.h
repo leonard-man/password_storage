@@ -23,6 +23,7 @@ class DatabaseLayer
         bool delete_password_entry(PasswordEntry &password_entry);
         void set_database(sqlite3 *database);
         sqlite3* get_database();
+        bool execute_sql_on_sqlite3db(char *sql);
     protected:
     private:
         sqlite3* m_database = nullptr;

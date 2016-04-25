@@ -67,9 +67,11 @@ int main()
 
     controller->get_database_layer()->insert_password_entry(pwd);
 
+    // controller->get_database_layer()->delete_password_entry(pwd);
+
     delete(controller);
 
-    LOG4CXX_INFO(universalLogger, "-- program end --");
+    LOG4CXX_INFO(universalLogger, "-- program end --\n");
 
     return 0;
 }
