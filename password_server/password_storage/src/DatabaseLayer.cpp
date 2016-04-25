@@ -9,7 +9,7 @@ DatabaseLayer::DatabaseLayer()
 
 DatabaseLayer::~DatabaseLayer()
 {
-    //dtor
+    m_database = nullptr;
 }
 
 void DatabaseLayer::set_database(sqlite3 *database)
@@ -30,6 +30,8 @@ vector<PasswordEntry> DatabaseLayer::get_all_password_entries()
 {
     LOG4CXX_INFO(DbLogger, "get_all_password_entries function");
 
+    // TODO (sgnjidic #2 #2016-04-25): implement get_all_password_entries function
+
     //return vector<dynamic_cast<PasswordEntry*>(nullptr)>;
 }
 
@@ -44,6 +46,8 @@ bool DatabaseLayer::insert_password_entry(PasswordEntry& password_entry)
 {
     bool result = false;
 
+    // TODO (sgnjidic #2 #2016-04-25): modify insert_password_entry function to work with PasswordEntry& password_entry
+
     LOG4CXX_INFO(DbLogger, "insert_password_entry function");
 
     char sql[] = "INSERT INTO password (ID, name, description,login_url, email, username, password, password_hint) VALUES (2, '2', '3', '4', '5', '6', '7', '8');";
@@ -55,6 +59,8 @@ bool DatabaseLayer::insert_password_entry(PasswordEntry& password_entry)
 
 PasswordEntry* DatabaseLayer::change_password_entry(PasswordEntry& new_password_entry)
 {
+    // TODO (sgnjidic #2 #2016-04-25): implement change_password_entry function
+
     LOG4CXX_INFO(DbLogger, "change_password_entry function");
 
     return nullptr;
@@ -63,6 +69,8 @@ PasswordEntry* DatabaseLayer::change_password_entry(PasswordEntry& new_password_
 bool DatabaseLayer::delete_password_entry(PasswordEntry& password_entry)
 {
     bool result = false;
+
+    // TODO (sgnjidic #2 #2016-04-25): modify delete_password_entry function to work with PasswordEntry& password_entry
 
     LOG4CXX_INFO(DbLogger, "delete_password_entry function");
 
