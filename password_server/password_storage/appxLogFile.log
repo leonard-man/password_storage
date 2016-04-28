@@ -429,3 +429,195 @@ INFO   (/home/sgnjidic/devel/cplusplus/password_storage/password_server/password
 2016-04-28 10:29:24,717 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: INSERT INTO password (ID, name, description,login_url, email, username, password, password_hint) VALUES (5, 'Sre??ko Gnjidi??', 'test entry', 'ubuntu vm workstation', 'sgnjidic@inet.hr', 'sgnjidic', 'Fido11', 'Theres nothing quite as effective as putting an accurate estimate of the amount of time it will take to produce good documentation into an estimate to slacken the demand for documentation. The truth is cold and hard: documentation, like testing, can take ');
 2016-04-28 10:29:24,717 INFO   - -- program end --
 
+2016-04-28 11:49:59,633 INFO   - -- program start --
+2016-04-28 11:49:59,634 INFO   - password storage project - server component
+2016-04-28 11:49:59,634 INFO   - -------------------------------------------
+2016-04-28 11:49:59,634 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 11:49:59,634 INFO   - server needs to store passwords and communicate password information
+2016-04-28 11:49:59,634 INFO   - to clients, rich and thin
+2016-04-28 11:49:59,634 INFO   - 
+2016-04-28 11:49:59,634 INFO   - log4cxx configuration successfully parsed
+2016-04-28 11:49:59,634 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 11:49:59,634 DEBUG Utility - Opened database successfully
+2016-04-28 11:49:59,634 INFO  DatabaseLayer - set_database function
+2016-04-28 11:49:59,634 INFO  DatabaseLayer - insert_password_entry function
+2016-04-28 11:49:59,634 INFO  DatabaseLayer - get_database function
+2016-04-28 11:49:59,648 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: INSERT INTO password (ID, name, description,login_url, email, username, password, password_hint) VALUES (6, 'Sre??ko Gnjidi??', 'test entry', 'ubuntu vm workstation', 'sgnjidic@inet.hr', 'sgnjidic', 'Fido11', 'Theres nothing quite as effective as putting an accurate estimate of the amount of time it will take to produce good documentation into an estimate to slacken the demand for documentation. The truth is cold and hard: documentation, like testing, can take ');
+2016-04-28 11:49:59,649 INFO   - -- program end --
+
+2016-04-28 12:04:12,649 INFO   - -- program start --
+2016-04-28 12:04:12,649 INFO   - password storage project - server component
+2016-04-28 12:04:12,649 INFO   - -------------------------------------------
+2016-04-28 12:04:12,649 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:04:12,649 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:04:12,649 INFO   - to clients, rich and thin
+2016-04-28 12:04:12,649 INFO   - 
+2016-04-28 12:04:12,649 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:04:12,649 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:04:12,649 DEBUG Utility - Opened database successfully
+2016-04-28 12:04:12,649 INFO  DatabaseLayer - set_database function
+2016-04-28 12:04:12,649 INFO  DatabaseLayer - delete_password_entry function
+2016-04-28 12:04:12,649 INFO  DatabaseLayer - get_database function
+2016-04-28 12:04:12,650 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: DELETE FROM password WHERE ID = 1;
+2016-04-28 12:04:12,650 INFO   - -- program end --
+
+2016-04-28 12:04:28,340 INFO   - -- program start --
+2016-04-28 12:04:28,340 INFO   - password storage project - server component
+2016-04-28 12:04:28,340 INFO   - -------------------------------------------
+2016-04-28 12:04:28,340 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:04:28,340 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:04:28,340 INFO   - to clients, rich and thin
+2016-04-28 12:04:28,340 INFO   - 
+2016-04-28 12:04:28,340 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:04:28,340 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:04:28,340 DEBUG Utility - Opened database successfully
+2016-04-28 12:04:28,340 INFO  DatabaseLayer - set_database function
+2016-04-28 12:04:28,340 INFO  DatabaseLayer - delete_password_entry function
+2016-04-28 12:04:28,340 INFO  DatabaseLayer - get_database function
+2016-04-28 12:04:28,347 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: DELETE FROM password WHERE ID = 2;
+2016-04-28 12:04:28,347 INFO   - -- program end --
+
+2016-04-28 12:04:37,120 INFO   - -- program start --
+2016-04-28 12:04:37,120 INFO   - password storage project - server component
+2016-04-28 12:04:37,120 INFO   - -------------------------------------------
+2016-04-28 12:04:37,120 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:04:37,120 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:04:37,120 INFO   - to clients, rich and thin
+2016-04-28 12:04:37,120 INFO   - 
+2016-04-28 12:04:37,120 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:04:37,120 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:04:37,121 DEBUG Utility - Opened database successfully
+2016-04-28 12:04:37,121 INFO  DatabaseLayer - set_database function
+2016-04-28 12:04:37,121 INFO  DatabaseLayer - delete_password_entry function
+2016-04-28 12:04:37,121 INFO  DatabaseLayer - get_database function
+2016-04-28 12:04:37,121 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: DELETE FROM password WHERE ID = 2;
+2016-04-28 12:04:37,121 INFO   - -- program end --
+
+2016-04-28 12:04:45,804 INFO   - -- program start --
+2016-04-28 12:04:45,805 INFO   - password storage project - server component
+2016-04-28 12:04:45,805 INFO   - -------------------------------------------
+2016-04-28 12:04:45,805 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:04:45,805 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:04:45,805 INFO   - to clients, rich and thin
+2016-04-28 12:04:45,805 INFO   - 
+2016-04-28 12:04:45,805 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:04:45,805 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:04:45,805 DEBUG Utility - Opened database successfully
+2016-04-28 12:04:45,805 INFO  DatabaseLayer - set_database function
+2016-04-28 12:04:45,805 INFO  DatabaseLayer - delete_password_entry function
+2016-04-28 12:04:45,805 INFO  DatabaseLayer - get_database function
+2016-04-28 12:04:45,814 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: DELETE FROM password WHERE ID = 3;
+2016-04-28 12:04:45,814 INFO   - -- program end --
+
+2016-04-28 12:04:58,127 INFO   - -- program start --
+2016-04-28 12:04:58,127 INFO   - password storage project - server component
+2016-04-28 12:04:58,127 INFO   - -------------------------------------------
+2016-04-28 12:04:58,127 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:04:58,127 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:04:58,127 INFO   - to clients, rich and thin
+2016-04-28 12:04:58,127 INFO   - 
+2016-04-28 12:04:58,127 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:04:58,127 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:04:58,127 DEBUG Utility - Opened database successfully
+2016-04-28 12:04:58,127 INFO  DatabaseLayer - set_database function
+2016-04-28 12:04:58,127 INFO  DatabaseLayer - delete_password_entry function
+2016-04-28 12:04:58,127 INFO  DatabaseLayer - get_database function
+2016-04-28 12:04:58,134 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: DELETE FROM password WHERE ID = 4;
+2016-04-28 12:04:58,135 INFO   - -- program end --
+
+2016-04-28 12:05:34,069 INFO   - -- program start --
+2016-04-28 12:05:34,069 INFO   - password storage project - server component
+2016-04-28 12:05:34,069 INFO   - -------------------------------------------
+2016-04-28 12:05:34,069 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:05:34,069 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:05:34,069 INFO   - to clients, rich and thin
+2016-04-28 12:05:34,069 INFO   - 
+2016-04-28 12:05:34,069 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:05:34,069 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:05:34,069 DEBUG Utility - Opened database successfully
+2016-04-28 12:05:34,069 INFO  DatabaseLayer - set_database function
+2016-04-28 12:05:34,069 INFO  DatabaseLayer - delete_password_entry function
+2016-04-28 12:05:34,069 INFO  DatabaseLayer - get_database function
+2016-04-28 12:05:34,077 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: DELETE FROM password WHERE ID = 5;
+2016-04-28 12:05:34,077 INFO   - -- program end --
+
+2016-04-28 12:05:44,341 INFO   - -- program start --
+2016-04-28 12:05:44,341 INFO   - password storage project - server component
+2016-04-28 12:05:44,341 INFO   - -------------------------------------------
+2016-04-28 12:05:44,342 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:05:44,342 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:05:44,342 INFO   - to clients, rich and thin
+2016-04-28 12:05:44,342 INFO   - 
+2016-04-28 12:05:44,342 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:05:44,342 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:05:44,342 DEBUG Utility - Opened database successfully
+2016-04-28 12:05:44,342 INFO  DatabaseLayer - set_database function
+2016-04-28 12:05:44,342 INFO  DatabaseLayer - delete_password_entry function
+2016-04-28 12:05:44,342 INFO  DatabaseLayer - get_database function
+2016-04-28 12:05:44,348 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: DELETE FROM password WHERE ID = 6;
+2016-04-28 12:05:44,348 INFO   - -- program end --
+
+2016-04-28 12:18:06,670 INFO   - -- program start --
+2016-04-28 12:18:06,670 INFO   - password storage project - server component
+2016-04-28 12:18:06,670 INFO   - -------------------------------------------
+2016-04-28 12:18:06,670 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:18:06,670 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:18:06,670 INFO   - to clients, rich and thin
+2016-04-28 12:18:06,670 INFO   - 
+2016-04-28 12:18:06,670 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:18:06,670 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:18:06,671 DEBUG Utility - Opened database successfully
+2016-04-28 12:18:06,671 INFO  DatabaseLayer - set_database function
+2016-04-28 12:18:06,671 INFO  DatabaseLayer - change_password_entry function
+2016-04-28 12:18:06,671 INFO  DatabaseLayer - get_database function
+2016-04-28 12:18:06,671 ERROR DatabaseLayer - SQL error: near "(": syntax error
+2016-04-28 12:18:06,671 INFO   - -- program end --
+
+2016-04-28 12:18:34,641 INFO   - -- program start --
+2016-04-28 12:18:34,641 INFO   - password storage project - server component
+2016-04-28 12:18:34,641 INFO   - -------------------------------------------
+2016-04-28 12:18:34,641 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:18:34,641 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:18:34,641 INFO   - to clients, rich and thin
+2016-04-28 12:18:34,641 INFO   - 
+2016-04-28 12:18:34,641 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:18:34,641 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:18:34,641 DEBUG Utility - Opened database successfully
+2016-04-28 12:18:34,641 INFO  DatabaseLayer - set_database function
+2016-04-28 12:18:34,641 INFO  DatabaseLayer - change_password_entry function
+2016-04-28 12:18:34,641 INFO  DatabaseLayer - get_database function
+2016-04-28 12:18:34,641 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: UPDATE password SET name = 'Sre??ko Gnjidi??', description = 'update - test entry', login_url = 'ubuntu vm workstation', email = 'sgnjidic@inet.hr', username = 'sgnjidic', password = 'Fido11', password_hint = 'tralala...' WHERE ID = 6;
+2016-04-28 12:18:34,642 INFO   - -- program end --
+
+2016-04-28 12:19:53,363 INFO   - -- program start --
+2016-04-28 12:19:53,363 INFO   - password storage project - server component
+2016-04-28 12:19:53,363 INFO   - -------------------------------------------
+2016-04-28 12:19:53,363 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:19:53,364 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:19:53,364 INFO   - to clients, rich and thin
+2016-04-28 12:19:53,364 INFO   - 
+2016-04-28 12:19:53,364 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:19:53,364 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:19:53,364 DEBUG Utility - Opened database successfully
+2016-04-28 12:19:53,364 INFO  DatabaseLayer - set_database function
+2016-04-28 12:19:53,364 INFO  DatabaseLayer - insert_password_entry function
+2016-04-28 12:19:53,364 INFO  DatabaseLayer - get_database function
+2016-04-28 12:19:53,371 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: INSERT INTO password (ID, name, description,login_url, email, username, password, password_hint) VALUES (6, 'Sre??ko Gnjidi??', 'update - test entry', 'ubuntu vm workstation', 'sgnjidic@inet.hr', 'sgnjidic', 'Fido11', 'tralala...');
+2016-04-28 12:19:53,372 INFO   - -- program end --
+
+2016-04-28 12:20:20,465 INFO   - -- program start --
+2016-04-28 12:20:20,465 INFO   - password storage project - server component
+2016-04-28 12:20:20,465 INFO   - -------------------------------------------
+2016-04-28 12:20:20,465 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-04-28 12:20:20,465 INFO   - server needs to store passwords and communicate password information
+2016-04-28 12:20:20,465 INFO   - to clients, rich and thin
+2016-04-28 12:20:20,465 INFO   - 
+2016-04-28 12:20:20,465 INFO   - log4cxx configuration successfully parsed
+2016-04-28 12:20:20,465 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-04-28 12:20:20,465 DEBUG Utility - Opened database successfully
+2016-04-28 12:20:20,465 INFO  DatabaseLayer - set_database function
+2016-04-28 12:20:20,465 INFO  DatabaseLayer - change_password_entry function
+2016-04-28 12:20:20,465 INFO  DatabaseLayer - get_database function
+2016-04-28 12:20:20,473 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: UPDATE password SET name = 'Sre??ko Gnjidi??', description = 'update - test entry', login_url = 'ubuntu vm workstation', email = 'sgnjidic@inet.hr', username = 'sgnjidic', password = 'Fido11', password_hint = 'pekingese eleven' WHERE ID = 6;
+2016-04-28 12:20:20,474 INFO   - -- program end --
+

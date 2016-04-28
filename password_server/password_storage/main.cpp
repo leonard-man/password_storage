@@ -52,20 +52,21 @@ int main()
 
     // for testing purposes, only
     PasswordEntry pwd;
-    pwd.set_id(5);
+    pwd.set_id(6);
     pwd.set_name("Srećko Gnjidić");
-    pwd.set_description("test entry");
+    pwd.set_description("update - test entry");
     pwd.set_email("sgnjidic@inet.hr");
     pwd.set_login_url("ubuntu vm workstation");
     pwd.set_username("sgnjidic");
     pwd.set_password("Fido11");
-  //  pwd.set_password_hint("pekingese eleven");
-pwd.set_password_hint(
-    "Theres nothing quite as effective as putting an accurate estimate of the amount of time it will take to produce good documentation into an estimate to slacken the demand for documentation. The truth is cold and hard: documentation, like testing, can take many times longer than developing code."
-);
-    controller->get_database_layer()->insert_password_entry(pwd);
+    pwd.set_password_hint("pekingese eleven");
+    // pwd.set_password_hint("tralala...");
+
+    // controller->get_database_layer()->insert_password_entry(pwd);
 
     // controller->get_database_layer()->delete_password_entry(pwd);
+
+    controller->get_database_layer()->update_password_entry(pwd);
 
     delete(controller);
 
