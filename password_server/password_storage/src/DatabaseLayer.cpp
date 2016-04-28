@@ -45,14 +45,78 @@ PasswordEntry* DatabaseLayer::get_password_entry(unsigned int id)
 bool DatabaseLayer::insert_password_entry(PasswordEntry& password_entry)
 {
     bool result = false;
+    char insert_cher_buffer[4000];
+    int insert_string_size = 0;
 
-    // TODO (sgnjidic #2 #2016-04-25): modify insert_password_entry function to work with PasswordEntry& password_entry
+    unsigned int entry_id = password_entry.get_id();
+    string entry_name = password_entry.get_name();
+    string entry_description = password_entry.get_description();
+    string entry_login_url = password_entry.get_login_url();
+    string entry_email = password_entry.get_email();
+    string entry_username = password_entry.get_username();
+    string entry_password = password_entry.get_password();
+    string entry_password_hint = password_entry.get_password_hint();
+
+    entry_name = trim(entry_name);
+    entry_description = trim(entry_description);
+    entry_login_url = trim(entry_login_url);
+    entry_email = trim(entry_email);
+    entry_username = trim(entry_username);
+    entry_password = trim(entry_password);
+    entry_password_hint = trim(entry_password_hint);
+
+    if (entry_name.length() > 256)
+    {
+        entry_name = entry_name.substr(0, 255);
+    }
+
+    if (entry_description.length() > 256)
+    {
+        entry_description = entry_description.substr(0, 255);
+    }
+
+    if (entry_login_url.length() > 256)
+    {
+        entry_login_url = entry_login_url.substr(0, 255);
+    }
+
+    if (entry_email.length() > 256)
+    {
+        entry_email = entry_email.substr(0, 255);
+    }
+
+    if (entry_username.length() > 256)
+    {
+        entry_username = entry_username.substr(0, 255);
+    }
+
+    if (entry_password.length() > 256)
+    {
+        entry_password = entry_password.substr(0, 255);
+    }
+
+    if (entry_password_hint.length() > 256)
+    {
+        entry_password_hint = entry_password_hint.substr(0, 255);
+    }
 
     LOG4CXX_INFO(DbLogger, "insert_password_entry function");
 
-    char sql[] = "INSERT INTO password (ID, name, description,login_url, email, username, password, password_hint) VALUES (2, '2', '3', '4', '5', '6', '7', '8');";
+    insert_string_size =
+        sprintf(
+                    insert_cher_buffer,
+                    "INSERT INTO password (ID, name, description,login_url, email, username, password, password_hint) VALUES (%d, '%s', '%s', '%s', '%s', '%s', '%s', '%s');",
+                    entry_id,
+                    entry_name.c_str(),
+                    entry_description.c_str(),
+                    entry_login_url.c_str(),
+                    entry_email.c_str(),
+                    entry_username.c_str(),
+                    entry_password.c_str(),
+                    entry_password_hint.c_str()
+                    );
 
-    result = execute_sql_on_sqlite3db(sql);
+    result = execute_sql_on_sqlite3db(insert_cher_buffer);
 
     return result;
 }
