@@ -1,7 +1,5 @@
 #include "DatabaseLayer.h"
 
-LoggerPtr DbLogger = Logger::getLogger("DatabaseLayer");
-
 DatabaseLayer::DatabaseLayer()
 {
     //ctor
@@ -37,9 +35,48 @@ vector<PasswordEntry> DatabaseLayer::get_all_password_entries()
 
 PasswordEntry* DatabaseLayer::get_password_entry(unsigned int id)
 {
-    LOG4CXX_INFO(DbLogger, "get_password_entry function");
+    PasswordEntry* result = nullptr;
+    char select_char_buffer[150];
+    char *zErrMsg = 0;
+    int rc;
+    const char* data = "Callback function called";
 
-    return nullptr;
+    LOG4CXX_INFO(DbLogger, "get_password_entry function for id: " + to_string(id));
+
+    sprintf(
+            select_char_buffer,
+            "select ID, name, description,login_url, email, username, password, password_hint from password where ID = %d;",
+            id
+           );
+
+    rc = sqlite3_exec(get_database(), select_char_buffer, callback, (void*)data, &zErrMsg);
+
+    if( rc != SQLITE_OK )
+    {
+        LOG4CXX_ERROR(DbLogger, "SQL error: " + string(zErrMsg));
+
+        sqlite3_free(zErrMsg);
+    }
+    else
+    {
+        LOG4CXX_INFO(DbLogger, "get_password_entry - success for: " + string(select_char_buffer));
+    }
+
+    return result;
+}
+
+int DatabaseLayer::callback(void *data, int argc, char **argv, char **azColName)
+{
+    int i;
+
+    LOG4CXX_ERROR(DbLogger, "SQL callback function error: " + string(data));
+
+    for(i=0; i<argc; i++)
+    {
+        printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+    }
+
+    return 0;
 }
 
 bool DatabaseLayer::insert_password_entry(PasswordEntry& password_entry)
@@ -166,11 +203,11 @@ bool DatabaseLayer::execute_sql_on_sqlite3db(char *sql)
         LOG4CXX_ERROR(DbLogger, "SQL error: " + string(zErrMsg));
 
         sqlite3_free(zErrMsg);
-        result = true;
     }
     else
     {
         LOG4CXX_INFO(DbLogger, "execute_sql_on_sqlite3db - success for: " + string(sql));
+        result = true;
     }
 
     return result;
@@ -185,6 +222,8 @@ void DatabaseLayer::prepare_password_entry_strings(PasswordEntry &password_entry
                                     string &entry_password,
                                     string &entry_password_hint)
 {
+    LOG4CXX_INFO(DbLogger, "prepare_password_entry_strings function");
+
     entry_name = password_entry.get_name();
     entry_description = password_entry.get_description();
     entry_login_url = password_entry.get_login_url();

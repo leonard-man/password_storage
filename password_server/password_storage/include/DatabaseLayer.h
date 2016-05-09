@@ -13,6 +13,7 @@ using namespace std;
 using namespace log4cxx;
 using namespace log4cxx::helpers;
 
+LoggerPtr DbLogger = Logger::getLogger("DatabaseLayer");
 
 class DatabaseLayer
 {
@@ -38,13 +39,17 @@ class DatabaseLayer
                                             string &entry_username,
                                             string &entry_password,
                                             string &entry_password_hint);
+
+        int callback(void *data, int argc, char **argv, char **azColName);
 };
 
 inline std::string trim(const std::string &s)
 {
-   auto wsfront=std::find_if_not(s.begin(),s.end(),[](int c){return std::isspace(c);});
-   auto wsback=std::find_if_not(s.rbegin(),s.rend(),[](int c){return std::isspace(c);}).base();
-   return (wsback<=wsfront ? std::string() : std::string(wsfront,wsback));
+    LOG4CXX_INFO(DbLogger, "trim function");
+
+    auto wsfront=std::find_if_not(s.begin(),s.end(),[](int c){return std::isspace(c);});
+    auto wsback=std::find_if_not(s.rbegin(),s.rend(),[](int c){return std::isspace(c);}).base();
+    return (wsback<=wsfront ? std::string() : std::string(wsfront,wsback));
 }
 
 #endif // DATABASELAYER_H
