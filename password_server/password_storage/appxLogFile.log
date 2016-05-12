@@ -665,3 +665,304 @@ INFO   (/home/sgnjidic/devel/cplusplus/password_storage/password_server/password
 2016-05-12 08:00:10,218 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
 2016-05-12 08:00:10,218 INFO   - -- program end --
 
+2016-05-12 08:13:20,713 INFO   - -- program start --
+2016-05-12 08:13:20,713 INFO   - password storage project - server component
+2016-05-12 08:13:20,713 INFO   - -------------------------------------------
+2016-05-12 08:13:20,713 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-05-12 08:13:20,713 INFO   - server needs to store passwords and communicate password information
+2016-05-12 08:13:20,713 INFO   - to clients, rich and thin
+2016-05-12 08:13:20,713 INFO   - 
+2016-05-12 08:13:20,713 INFO   - log4cxx configuration successfully parsed
+2016-05-12 08:13:20,713 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-05-12 08:13:20,713 DEBUG Utility - Opened database successfully
+2016-05-12 08:13:20,713 INFO  DatabaseLayer - set_database function
+2016-05-12 08:13:20,713 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:13:20,713 INFO  DatabaseLayer - get_database function
+2016-05-12 08:13:20,714 INFO  DatabaseLayer - get_password_entry - column 0: 6
+2016-05-12 08:13:20,714 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:13:20,714 INFO   - -- program end --
+
+2016-05-12 08:27:27,342 INFO   - -- program start --
+2016-05-12 08:27:27,342 INFO   - password storage project - server component
+2016-05-12 08:27:27,342 INFO   - -------------------------------------------
+2016-05-12 08:27:27,342 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-05-12 08:27:27,342 INFO   - server needs to store passwords and communicate password information
+2016-05-12 08:27:27,342 INFO   - to clients, rich and thin
+2016-05-12 08:27:27,342 INFO   - 
+2016-05-12 08:27:27,342 INFO   - log4cxx configuration successfully parsed
+2016-05-12 08:27:27,342 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-05-12 08:27:27,343 DEBUG Utility - Opened database successfully
+2016-05-12 08:27:27,343 INFO  DatabaseLayer - set_database function
+2016-05-12 08:27:27,343 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:27:27,343 INFO  DatabaseLayer - get_database function
+2016-05-12 08:27:27,343 INFO  DatabaseLayer - get_password_entry - column 1: Sre??ko Gnjidi??
+2016-05-12 08:27:27,343 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:27:27,343 INFO   - -- program end --
+
+2016-05-12 08:31:53,888 INFO   - -- program start --
+2016-05-12 08:31:53,888 INFO   - password storage project - server component
+2016-05-12 08:31:53,888 INFO   - -------------------------------------------
+2016-05-12 08:31:53,888 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-05-12 08:31:53,888 INFO   - server needs to store passwords and communicate password information
+2016-05-12 08:31:53,888 INFO   - to clients, rich and thin
+2016-05-12 08:31:53,888 INFO   - 
+2016-05-12 08:31:53,888 INFO   - log4cxx configuration successfully parsed
+2016-05-12 08:31:53,888 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-05-12 08:31:53,888 DEBUG Utility - Opened database successfully
+2016-05-12 08:31:53,889 INFO  DatabaseLayer - set_database function
+2016-05-12 08:31:53,889 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:31:53,889 INFO  DatabaseLayer - get_database function
+2016-05-12 08:31:53,889 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:31:53,889 INFO   - rd_entry - column 0: 
+2016-05-12 08:31:53,889 INFO   - password_entry - column 1: Sre??ko Gnjidi??
+2016-05-12 08:31:53,889 INFO   - password_entry - column 2: update - test entry
+2016-05-12 08:31:53,889 INFO   - password_entry - column 3: sgnjidic@inet.hr
+2016-05-12 08:31:53,889 INFO   - password_entry - column 4: ubuntu vm workstation
+2016-05-12 08:31:53,889 INFO   - password_entry - column 5: sgnjidic
+2016-05-12 08:31:53,889 INFO   - password_entry - column 6: Fido11
+2016-05-12 08:31:53,889 INFO   - password_entry - column 7: pekingese eleven
+2016-05-12 08:31:53,889 INFO   - -- program end --
+
+2016-05-12 08:32:50,066 INFO   - -- program start --
+2016-05-12 08:32:50,066 INFO   - password storage project - server component
+2016-05-12 08:32:50,066 INFO   - -------------------------------------------
+2016-05-12 08:32:50,066 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-05-12 08:32:50,066 INFO   - server needs to store passwords and communicate password information
+2016-05-12 08:32:50,066 INFO   - to clients, rich and thin
+2016-05-12 08:32:50,066 INFO   - 
+2016-05-12 08:32:50,066 INFO   - log4cxx configuration successfully parsed
+2016-05-12 08:32:50,066 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-05-12 08:32:50,067 DEBUG Utility - Opened database successfully
+2016-05-12 08:32:50,067 INFO  DatabaseLayer - set_database function
+2016-05-12 08:32:50,067 INFO  DatabaseLayer - delete_password_entry function
+2016-05-12 08:32:50,067 INFO  DatabaseLayer - get_database function
+2016-05-12 08:32:50,072 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: DELETE FROM password WHERE ID = 6;
+2016-05-12 08:32:50,072 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:32:50,072 INFO  DatabaseLayer - get_database function
+2016-05-12 08:33:49,021 INFO   - -- program start --
+2016-05-12 08:33:49,021 INFO   - password storage project - server component
+2016-05-12 08:33:49,021 INFO   - -------------------------------------------
+2016-05-12 08:33:49,021 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-05-12 08:33:49,021 INFO   - server needs to store passwords and communicate password information
+2016-05-12 08:33:49,021 INFO   - to clients, rich and thin
+2016-05-12 08:33:49,021 INFO   - 
+2016-05-12 08:33:49,021 INFO   - log4cxx configuration successfully parsed
+2016-05-12 08:33:49,021 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-05-12 08:33:49,022 DEBUG Utility - Opened database successfully
+2016-05-12 08:33:49,022 INFO  DatabaseLayer - set_database function
+2016-05-12 08:33:49,022 INFO  DatabaseLayer - insert_password_entry function
+2016-05-12 08:33:49,022 INFO  DatabaseLayer - prepare_password_entry_strings function
+2016-05-12 08:33:49,022 INFO  std - trim function
+2016-05-12 08:33:49,022 INFO  std - trim function
+2016-05-12 08:33:49,022 INFO  std - trim function
+2016-05-12 08:33:49,022 INFO  std - trim function
+2016-05-12 08:33:49,022 INFO  std - trim function
+2016-05-12 08:33:49,022 INFO  std - trim function
+2016-05-12 08:33:49,022 INFO  std - trim function
+2016-05-12 08:33:49,022 INFO  DatabaseLayer - get_database function
+2016-05-12 08:33:49,028 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: INSERT INTO password (ID, name, description,login_url, email, username, password, password_hint) VALUES (6, 'Sre??ko Gnjidi??', 'update - test entry', 'ubuntu vm workstation', 'sgnjidic@inet.hr', 'sgnjidic', 'Fido11', 'tralala...');
+2016-05-12 08:33:49,028 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:33:49,028 INFO  DatabaseLayer - get_database function
+2016-05-12 08:33:49,028 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:33:49,028 INFO   - rd_entry - column 0: 
+2016-05-12 08:33:49,028 INFO   - password_entry - column 1: Sre??ko Gnjidi??
+2016-05-12 08:33:49,028 INFO   - password_entry - column 2: update - test entry
+2016-05-12 08:33:49,028 INFO   - password_entry - column 3: sgnjidic@inet.hr
+2016-05-12 08:33:49,028 INFO   - password_entry - column 4: ubuntu vm workstation
+2016-05-12 08:33:49,028 INFO   - password_entry - column 5: sgnjidic
+2016-05-12 08:33:49,028 INFO   - password_entry - column 6: Fido11
+2016-05-12 08:33:49,028 INFO   - password_entry - column 7: tralala...
+2016-05-12 08:33:49,028 INFO   - -- program end --
+
+2016-05-12 08:34:13,441 INFO   - -- program start --
+2016-05-12 08:34:13,442 INFO   - password storage project - server component
+2016-05-12 08:34:13,442 INFO   - -------------------------------------------
+2016-05-12 08:34:13,442 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-05-12 08:34:13,442 INFO   - server needs to store passwords and communicate password information
+2016-05-12 08:34:13,442 INFO   - to clients, rich and thin
+2016-05-12 08:34:13,442 INFO   - 
+2016-05-12 08:34:13,442 INFO   - log4cxx configuration successfully parsed
+2016-05-12 08:34:13,442 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-05-12 08:34:13,442 DEBUG Utility - Opened database successfully
+2016-05-12 08:34:13,442 INFO  DatabaseLayer - set_database function
+2016-05-12 08:34:13,442 INFO  DatabaseLayer - change_password_entry function
+2016-05-12 08:34:13,442 INFO  DatabaseLayer - prepare_password_entry_strings function
+2016-05-12 08:34:13,442 INFO  std - trim function
+2016-05-12 08:34:13,442 INFO  std - trim function
+2016-05-12 08:34:13,442 INFO  std - trim function
+2016-05-12 08:34:13,442 INFO  std - trim function
+2016-05-12 08:34:13,442 INFO  std - trim function
+2016-05-12 08:34:13,442 INFO  std - trim function
+2016-05-12 08:34:13,442 INFO  std - trim function
+2016-05-12 08:34:13,442 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:34:13,442 INFO  DatabaseLayer - get_database function
+2016-05-12 08:34:13,442 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:34:13,443 INFO  DatabaseLayer - get_database function
+2016-05-12 08:34:13,443 ERROR DatabaseLayer - SQL error: unrecognized token: "'pekingese eleven WHERE ID = 6;"
+2016-05-12 08:34:13,443 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:34:13,443 INFO  DatabaseLayer - get_database function
+2016-05-12 08:34:13,443 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:34:13,443 INFO   - rd_entry - column 0: 
+2016-05-12 08:34:13,443 INFO   - password_entry - column 1: Sre??ko Gnjidi??
+2016-05-12 08:34:13,443 INFO   - password_entry - column 2: update - test entry
+2016-05-12 08:34:13,443 INFO   - password_entry - column 3: sgnjidic@inet.hr
+2016-05-12 08:34:13,443 INFO   - password_entry - column 4: ubuntu vm workstation
+2016-05-12 08:34:13,443 INFO   - password_entry - column 5: sgnjidic
+2016-05-12 08:34:13,443 INFO   - password_entry - column 6: Fido11
+2016-05-12 08:34:13,443 INFO   - password_entry - column 7: tralala...
+2016-05-12 08:34:13,443 INFO   - -- program end --
+
+2016-05-12 08:35:08,297 INFO   - -- program start --
+2016-05-12 08:35:08,297 INFO   - password storage project - server component
+2016-05-12 08:35:08,297 INFO   - -------------------------------------------
+2016-05-12 08:35:08,297 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-05-12 08:35:08,297 INFO   - server needs to store passwords and communicate password information
+2016-05-12 08:35:08,297 INFO   - to clients, rich and thin
+2016-05-12 08:35:08,297 INFO   - 
+2016-05-12 08:35:08,298 INFO   - log4cxx configuration successfully parsed
+2016-05-12 08:35:08,298 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-05-12 08:35:08,298 DEBUG Utility - Opened database successfully
+2016-05-12 08:35:08,298 INFO  DatabaseLayer - set_database function
+2016-05-12 08:35:08,298 INFO  DatabaseLayer - change_password_entry function
+2016-05-12 08:35:08,298 INFO  DatabaseLayer - prepare_password_entry_strings function
+2016-05-12 08:35:08,298 INFO  std - trim function
+2016-05-12 08:35:08,298 INFO  std - trim function
+2016-05-12 08:35:08,298 INFO  std - trim function
+2016-05-12 08:35:08,298 INFO  std - trim function
+2016-05-12 08:35:08,298 INFO  std - trim function
+2016-05-12 08:35:08,298 INFO  std - trim function
+2016-05-12 08:35:08,298 INFO  std - trim function
+2016-05-12 08:35:08,298 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:35:08,298 INFO  DatabaseLayer - get_database function
+2016-05-12 08:35:08,298 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:35:08,298 INFO  DatabaseLayer - get_database function
+2016-05-12 08:35:08,307 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: UPDATE password SET name = 'Sre??ko Gnjidi??', description = 'update - test entry', login_url = 'ubuntu vm workstation', email = 'sgnjidic@inet.hr', username = 'sgnjidic', password = 'Fido11', password_hint = 'pekingese eleven' WHERE ID = 6;
+2016-05-12 08:35:08,307 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:35:08,307 INFO  DatabaseLayer - get_database function
+2016-05-12 08:35:08,307 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:35:08,307 INFO   - rd_entry - column 0: 
+2016-05-12 08:35:08,307 INFO   - password_entry - column 1: Sre??ko Gnjidi??
+2016-05-12 08:35:08,307 INFO   - password_entry - column 2: update - test entry
+2016-05-12 08:35:08,307 INFO   - password_entry - column 3: sgnjidic@inet.hr
+2016-05-12 08:35:08,307 INFO   - password_entry - column 4: ubuntu vm workstation
+2016-05-12 08:35:08,307 INFO   - password_entry - column 5: sgnjidic
+2016-05-12 08:35:08,307 INFO   - password_entry - column 6: Fido11
+2016-05-12 08:35:08,307 INFO   - password_entry - column 7: pekingese eleven
+2016-05-12 08:35:08,307 INFO   - -- program end --
+
+2016-05-12 08:38:50,328 INFO   - -- program start --
+2016-05-12 08:38:50,328 INFO   - password storage project - server component
+2016-05-12 08:38:50,328 INFO   - -------------------------------------------
+2016-05-12 08:38:50,328 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-05-12 08:38:50,328 INFO   - server needs to store passwords and communicate password information
+2016-05-12 08:38:50,328 INFO   - to clients, rich and thin
+2016-05-12 08:38:50,328 INFO   - 
+2016-05-12 08:38:50,328 INFO   - log4cxx configuration successfully parsed
+2016-05-12 08:38:50,328 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-05-12 08:38:50,328 DEBUG Utility - Opened database successfully
+2016-05-12 08:38:50,328 INFO  DatabaseLayer - set_database function
+2016-05-12 08:38:50,328 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:38:50,328 INFO  DatabaseLayer - get_database function
+2016-05-12 08:38:50,329 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:38:50,329 INFO   - rd_entry - column 0: 
+2016-05-12 08:38:50,329 INFO   - password_entry - column 1: Sre??ko Gnjidi??
+2016-05-12 08:38:50,329 INFO   - password_entry - column 2: update - test entry
+2016-05-12 08:38:50,329 INFO   - password_entry - column 3: sgnjidic@inet.hr
+2016-05-12 08:38:50,329 INFO   - password_entry - column 4: ubuntu vm workstation
+2016-05-12 08:38:50,329 INFO   - password_entry - column 5: sgnjidic
+2016-05-12 08:38:50,329 INFO   - password_entry - column 6: Fido11
+2016-05-12 08:38:50,329 INFO   - password_entry - column 7: pekingese eleven
+2016-05-12 08:38:50,329 INFO   - -- program end --
+
+2016-05-12 08:43:57,756 INFO   - -- program start --
+2016-05-12 08:43:57,756 INFO   - password storage project - server component
+2016-05-12 08:43:57,756 INFO   - -------------------------------------------
+2016-05-12 08:43:57,756 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-05-12 08:43:57,756 INFO   - server needs to store passwords and communicate password information
+2016-05-12 08:43:57,756 INFO   - to clients, rich and thin
+2016-05-12 08:43:57,756 INFO   - 
+2016-05-12 08:43:57,756 INFO   - log4cxx configuration successfully parsed
+2016-05-12 08:43:57,756 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-05-12 08:43:57,757 DEBUG Utility - Opened database successfully
+2016-05-12 08:43:57,757 INFO  DatabaseLayer - set_database function
+2016-05-12 08:43:57,757 INFO  DatabaseLayer - change_password_entry function
+2016-05-12 08:43:57,757 INFO  DatabaseLayer - prepare_password_entry_strings function
+2016-05-12 08:43:57,757 INFO  std - trim function
+2016-05-12 08:43:57,757 INFO  std - trim function
+2016-05-12 08:43:57,757 INFO  std - trim function
+2016-05-12 08:43:57,757 INFO  std - trim function
+2016-05-12 08:43:57,757 INFO  std - trim function
+2016-05-12 08:43:57,757 INFO  std - trim function
+2016-05-12 08:43:57,757 INFO  std - trim function
+2016-05-12 08:43:57,757 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:43:57,757 INFO  DatabaseLayer - get_database function
+2016-05-12 08:43:57,757 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:43:57,757 INFO  DatabaseLayer - get_database function
+2016-05-12 08:43:57,763 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: UPDATE password SET name = 'Sre??ko Gnjidi??', description = 'update - test entry', login_url = 'ubuntu vm workstation', email = 'sgnjidic@inet.hr', username = 'sgnjidic', password = 'Fido11', password_hint = 'tralala...' WHERE ID = 6;
+2016-05-12 08:43:57,763 INFO   - try - column 0: 
+2016-05-12 08:43:57,763 INFO   - old_entry - column 1: Sre??ko Gnjidi??
+2016-05-12 08:43:57,763 INFO   - old_entry - column 2: update - test entry
+2016-05-12 08:43:57,763 INFO   - old_entry - column 3: sgnjidic@inet.hr
+2016-05-12 08:43:57,763 INFO   - old_entry - column 4: ubuntu vm workstation
+2016-05-12 08:43:57,763 INFO   - old_entry - column 5: sgnjidic
+2016-05-12 08:43:57,763 INFO   - old_entry - column 6: Fido11
+2016-05-12 08:43:57,763 INFO   - old_entry - column 7: pekingese eleven
+2016-05-12 08:43:57,763 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:43:57,763 INFO  DatabaseLayer - get_database function
+2016-05-12 08:43:57,763 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:43:57,763 INFO   - rd_entry - column 0: 
+2016-05-12 08:43:57,763 INFO   - password_entry - column 1: Sre??ko Gnjidi??
+2016-05-12 08:43:57,763 INFO   - password_entry - column 2: update - test entry
+2016-05-12 08:43:57,763 INFO   - password_entry - column 3: sgnjidic@inet.hr
+2016-05-12 08:43:57,763 INFO   - password_entry - column 4: ubuntu vm workstation
+2016-05-12 08:43:57,763 INFO   - password_entry - column 5: sgnjidic
+2016-05-12 08:43:57,763 INFO   - password_entry - column 6: Fido11
+2016-05-12 08:43:57,763 INFO   - password_entry - column 7: tralala...
+2016-05-12 08:43:57,763 INFO   - -- program end --
+
+2016-05-12 08:44:41,887 INFO   - -- program start --
+2016-05-12 08:44:41,887 INFO   - password storage project - server component
+2016-05-12 08:44:41,887 INFO   - -------------------------------------------
+2016-05-12 08:44:41,887 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-05-12 08:44:41,887 INFO   - server needs to store passwords and communicate password information
+2016-05-12 08:44:41,887 INFO   - to clients, rich and thin
+2016-05-12 08:44:41,887 INFO   - 
+2016-05-12 08:44:41,887 INFO   - log4cxx configuration successfully parsed
+2016-05-12 08:44:41,887 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-05-12 08:44:41,887 DEBUG Utility - Opened database successfully
+2016-05-12 08:44:41,887 INFO  DatabaseLayer - set_database function
+2016-05-12 08:44:41,887 INFO  DatabaseLayer - change_password_entry function
+2016-05-12 08:44:41,887 INFO  DatabaseLayer - prepare_password_entry_strings function
+2016-05-12 08:44:41,888 INFO  std - trim function
+2016-05-12 08:44:41,888 INFO  std - trim function
+2016-05-12 08:44:41,888 INFO  std - trim function
+2016-05-12 08:44:41,888 INFO  std - trim function
+2016-05-12 08:44:41,888 INFO  std - trim function
+2016-05-12 08:44:41,888 INFO  std - trim function
+2016-05-12 08:44:41,888 INFO  std - trim function
+2016-05-12 08:44:41,888 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:44:41,888 INFO  DatabaseLayer - get_database function
+2016-05-12 08:44:41,888 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:44:41,888 INFO  DatabaseLayer - get_database function
+2016-05-12 08:44:41,935 INFO  DatabaseLayer - execute_sql_on_sqlite3db - success for: UPDATE password SET name = 'Sre??ko Gnjidi??', description = 'update - test entry', login_url = 'ubuntu vm workstation', email = 'sgnjidic@inet.hr', username = 'sgnjidic', password = 'Fido11', password_hint = 'pekingese eleven' WHERE ID = 6;
+2016-05-12 08:44:41,935 INFO   - try - column 0: 
+2016-05-12 08:44:41,935 INFO   - old_entry - column 1: Sre??ko Gnjidi??
+2016-05-12 08:44:41,935 INFO   - old_entry - column 2: update - test entry
+2016-05-12 08:44:41,935 INFO   - old_entry - column 3: sgnjidic@inet.hr
+2016-05-12 08:44:41,935 INFO   - old_entry - column 4: ubuntu vm workstation
+2016-05-12 08:44:41,935 INFO   - old_entry - column 5: sgnjidic
+2016-05-12 08:44:41,935 INFO   - old_entry - column 6: Fido11
+2016-05-12 08:44:41,935 INFO   - old_entry - column 7: tralala...
+2016-05-12 08:44:41,935 INFO  DatabaseLayer - get_password_entry function for id: 6
+2016-05-12 08:44:41,935 INFO  DatabaseLayer - get_database function
+2016-05-12 08:44:41,936 INFO  DatabaseLayer - get_password_entry - success for: select ID, name, description,login_url, email, username, password, password_hint from password where ID = 6;
+2016-05-12 08:44:41,936 INFO   - rd_entry - column 0: 
+2016-05-12 08:44:41,936 INFO   - password_entry - column 1: Sre??ko Gnjidi??
+2016-05-12 08:44:41,936 INFO   - password_entry - column 2: update - test entry
+2016-05-12 08:44:41,936 INFO   - password_entry - column 3: sgnjidic@inet.hr
+2016-05-12 08:44:41,936 INFO   - password_entry - column 4: ubuntu vm workstation
+2016-05-12 08:44:41,936 INFO   - password_entry - column 5: sgnjidic
+2016-05-12 08:44:41,936 INFO   - password_entry - column 6: Fido11
+2016-05-12 08:44:41,936 INFO   - password_entry - column 7: pekingese eleven
+2016-05-12 08:44:41,936 INFO   - -- program end --
+

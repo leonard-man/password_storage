@@ -66,9 +66,30 @@ int main()
 
     // controller->get_database_layer()->delete_password_entry(pwd);
 
-    // controller->get_database_layer()->update_password_entry(pwd);
+    /*
+    PasswordEntry* old_entity = controller->get_database_layer()->update_password_entry(pwd);
+    LOG4CXX_INFO(main_cpp, "old_entry - column 0: " + old_entity->get_id());
+    LOG4CXX_INFO(main_cpp, "old_entry - column 1: " + old_entity->get_name());
+    LOG4CXX_INFO(main_cpp, "old_entry - column 2: " + old_entity->get_description());
+    LOG4CXX_INFO(main_cpp, "old_entry - column 3: " + old_entity->get_email());
+    LOG4CXX_INFO(main_cpp, "old_entry - column 4: " + old_entity->get_login_url());
+    LOG4CXX_INFO(main_cpp, "old_entry - column 5: " + old_entity->get_username());
+    LOG4CXX_INFO(main_cpp, "old_entry - column 6: " + old_entity->get_password());
+    LOG4CXX_INFO(main_cpp, "old_entry - column 7: " + old_entity->get_password_hint());
+    delete(old_entity);
+    */
 
-    controller->get_database_layer()->get_password_entry(pwd.get_id());
+    PasswordEntry* result = controller->get_database_layer()->get_password_entry(pwd.get_id());
+
+    LOG4CXX_INFO(main_cpp, "password_entry - column 0: " + result->get_id());
+    LOG4CXX_INFO(main_cpp, "password_entry - column 1: " + result->get_name());
+    LOG4CXX_INFO(main_cpp, "password_entry - column 2: " + result->get_description());
+    LOG4CXX_INFO(main_cpp, "password_entry - column 3: " + result->get_email());
+    LOG4CXX_INFO(main_cpp, "password_entry - column 4: " + result->get_login_url());
+    LOG4CXX_INFO(main_cpp, "password_entry - column 5: " + result->get_username());
+    LOG4CXX_INFO(main_cpp, "password_entry - column 6: " + result->get_password());
+    LOG4CXX_INFO(main_cpp, "password_entry - column 7: " + result->get_password_hint());
+    delete(result);
 
     delete(controller);
 

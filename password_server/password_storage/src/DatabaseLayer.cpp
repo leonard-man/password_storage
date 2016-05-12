@@ -60,9 +60,7 @@ PasswordEntry* DatabaseLayer::get_password_entry(unsigned int id)
             id
            );
 
-    const char* select_statement = select_char_buffer ;
-
-    rc = sqlite3_prepare(get_database(), select_statement, -1, &data, &zErrMsg);
+    rc = sqlite3_prepare(get_database(), (const char*) select_char_buffer, -1, &data, &zErrMsg);
 
     if( rc != SQLITE_OK )
     {
@@ -72,6 +70,23 @@ PasswordEntry* DatabaseLayer::get_password_entry(unsigned int id)
     }
     else
     {
+        sqlite3_step(data);
+
+        // TODO (sgnjidic #2 #2016-05-12): handle the case when select statement returns no rows in dataset
+
+        result = new PasswordEntry();
+
+        result->set_id(sqlite3_column_int( data, 0)) ;
+        result->set_name((const char *)sqlite3_column_text( data, 1)) ;
+        result->set_description((const char *)sqlite3_column_text( data, 2)) ;
+        result->set_login_url((const char *)sqlite3_column_text( data, 3)) ;
+        result->set_email((const char *)sqlite3_column_text( data, 4)) ;
+        result->set_username((const char *)sqlite3_column_text( data, 5)) ;
+        result->set_password((const char *)sqlite3_column_text( data, 6)) ;
+        result->set_password_hint((const char *)sqlite3_column_text( data, 7)) ;
+
+        sqlite3_finalize(data);
+
         LOG4CXX_INFO(DbLogger, "get_password_entry - success for: " + string(select_char_buffer));
     }
 
@@ -150,7 +165,7 @@ PasswordEntry* DatabaseLayer::update_password_entry(PasswordEntry& new_password_
 
     sprintf(
             update_char_buffer,
-            "UPDATE password SET name = '%s', description = '%s', login_url = '%s', email = '%s', username = '%s', password = '%s', password_hint = '%s WHERE ID = %d;",
+            "UPDATE password SET name = '%s', description = '%s', login_url = '%s', email = '%s', username = '%s', password = '%s', password_hint = '%s' WHERE ID = %d;",
             entry_name.c_str(),
             entry_description.c_str(),
             entry_login_url.c_str(),
@@ -161,7 +176,6 @@ PasswordEntry* DatabaseLayer::update_password_entry(PasswordEntry& new_password_
             entry_id
            );
 
-    // TODO (sgnjidic #2 #2016-04-28): finish change_password_entry function by returning old_password_entry to caller
     old_password_entry = get_password_entry(entry_id);
 
     execute_sql_on_sqlite3db(update_char_buffer);
