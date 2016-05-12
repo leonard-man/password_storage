@@ -1,5 +1,7 @@
 #include "DatabaseLayer.h"
 
+LoggerPtr DbLogger = Logger::getLogger("DatabaseLayer");
+
 DatabaseLayer::DatabaseLayer()
 {
     //ctor
@@ -8,6 +10,15 @@ DatabaseLayer::DatabaseLayer()
 DatabaseLayer::~DatabaseLayer()
 {
     m_database = nullptr;
+}
+
+inline std::string trim(const std::string &s)
+{
+    LOG4CXX_INFO(DbLogger, "trim function");
+
+    auto wsfront=std::find_if_not(s.begin(),s.end(),[](int c){return std::isspace(c);});
+    auto wsback=std::find_if_not(s.rbegin(),s.rend(),[](int c){return std::isspace(c);}).base();
+    return (wsback<=wsfront ? std::string() : std::string(wsfront,wsback));
 }
 
 void DatabaseLayer::set_database(sqlite3 *database)
@@ -37,9 +48,9 @@ PasswordEntry* DatabaseLayer::get_password_entry(unsigned int id)
 {
     PasswordEntry* result = nullptr;
     char select_char_buffer[150];
-    char *zErrMsg = 0;
+    const char *zErrMsg = 0;
     int rc;
-    const char* data = "Callback function called";
+    sqlite3_stmt* data = nullptr;
 
     LOG4CXX_INFO(DbLogger, "get_password_entry function for id: " + to_string(id));
 
@@ -49,13 +60,15 @@ PasswordEntry* DatabaseLayer::get_password_entry(unsigned int id)
             id
            );
 
-    rc = sqlite3_exec(get_database(), select_char_buffer, callback, (void*)data, &zErrMsg);
+    const char* select_statement = select_char_buffer ;
+
+    rc = sqlite3_prepare(get_database(), select_statement, -1, &data, &zErrMsg);
 
     if( rc != SQLITE_OK )
     {
         LOG4CXX_ERROR(DbLogger, "SQL error: " + string(zErrMsg));
 
-        sqlite3_free(zErrMsg);
+        return nullptr;
     }
     else
     {
@@ -63,20 +76,6 @@ PasswordEntry* DatabaseLayer::get_password_entry(unsigned int id)
     }
 
     return result;
-}
-
-int DatabaseLayer::callback(void *data, int argc, char **argv, char **azColName)
-{
-    int i;
-
-    LOG4CXX_ERROR(DbLogger, "SQL callback function error: " + string(data));
-
-    for(i=0; i<argc; i++)
-    {
-        printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
-    }
-
-    return 0;
 }
 
 bool DatabaseLayer::insert_password_entry(PasswordEntry& password_entry)

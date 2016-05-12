@@ -66,7 +66,9 @@ int main()
 
     // controller->get_database_layer()->delete_password_entry(pwd);
 
-    controller->get_database_layer()->update_password_entry(pwd);
+    // controller->get_database_layer()->update_password_entry(pwd);
+
+    controller->get_database_layer()->get_password_entry(pwd.get_id());
 
     delete(controller);
 
