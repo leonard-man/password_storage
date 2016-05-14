@@ -35,13 +35,64 @@ sqlite3* DatabaseLayer::get_database()
     return m_database;
 }
 
-vector<PasswordEntry> DatabaseLayer::get_all_password_entries()
+vector<PasswordEntry*> DatabaseLayer::get_all_password_entries()
 {
+    vector<PasswordEntry*> result;
+    char select_char_buffer[150];
+    const char *zErrMsg = 0;
+    int rc;
+    sqlite3_stmt* data = nullptr;
+
     LOG4CXX_INFO(DbLogger, "get_all_password_entries function");
 
-    // TODO (sgnjidic #2 #2016-04-25): implement get_all_password_entries function
+    sprintf(
+            select_char_buffer,
+            "select ID, name, description,login_url, email, username, password, password_hint from password;"
+           );
 
-    //return vector<dynamic_cast<PasswordEntry*>(nullptr)>;
+    rc = sqlite3_prepare(get_database(), (const char*) select_char_buffer, -1, &data, &zErrMsg);
+
+    if( rc != SQLITE_OK )
+    {
+        LOG4CXX_ERROR(DbLogger, "SQL error: " + string(zErrMsg));
+    }
+    else
+    {
+        // TODO (sgnjidic #2 #2016-05-13): handle the case when select statement in get_all_password_entries returns no rows in dataset
+
+        int sql_row = 0;
+
+        while(true)
+        {
+            sql_row = sqlite3_step(data);
+
+            if(sql_row == SQLITE_ROW)
+            {
+                PasswordEntry* password_entry = new PasswordEntry();
+
+                password_entry->set_id(sqlite3_column_int( data, 0)) ;
+                password_entry->set_name((const char *)sqlite3_column_text( data, 1)) ;
+                password_entry->set_description((const char *)sqlite3_column_text( data, 2)) ;
+                password_entry->set_login_url((const char *)sqlite3_column_text( data, 3)) ;
+                password_entry->set_email((const char *)sqlite3_column_text( data, 4)) ;
+                password_entry->set_username((const char *)sqlite3_column_text( data, 5)) ;
+                password_entry->set_password((const char *)sqlite3_column_text( data, 6)) ;
+                password_entry->set_password_hint((const char *)sqlite3_column_text( data, 7)) ;
+
+                result.push_back(password_entry);
+            }
+            else
+            {
+                break;
+            }
+        }
+
+        sqlite3_finalize(data);
+
+        LOG4CXX_INFO(DbLogger, "get_all_password_entries - success for: " + string(select_char_buffer));
+    }
+
+    return result;
 }
 
 PasswordEntry* DatabaseLayer::get_password_entry(unsigned int id)
@@ -72,7 +123,7 @@ PasswordEntry* DatabaseLayer::get_password_entry(unsigned int id)
     {
         sqlite3_step(data);
 
-        // TODO (sgnjidic #2 #2016-05-12): handle the case when select statement returns no rows in dataset
+        // TODO (sgnjidic #2 #2016-05-12): handle the case when select statement in get_password_entry returns no rows in dataset
 
         result = new PasswordEntry();
 

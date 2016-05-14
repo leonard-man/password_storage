@@ -18,7 +18,7 @@ class DatabaseLayer
     public:
         DatabaseLayer();
         virtual ~DatabaseLayer();
-        vector<PasswordEntry> get_all_password_entries();
+        vector<PasswordEntry*> get_all_password_entries();
         PasswordEntry* get_password_entry(unsigned int id);
         bool insert_password_entry(PasswordEntry &password_entry);
         PasswordEntry* update_password_entry(PasswordEntry &new_password_entry);

@@ -50,6 +50,7 @@ int main()
     controller->set_database_layer(db);
     db = nullptr;
 
+    /*
     // for testing purposes, only
     PasswordEntry pwd;
     pwd.set_id(6);
@@ -61,8 +62,21 @@ int main()
     pwd.set_password("Fido11");
     pwd.set_password_hint("pekingese eleven");
     // pwd.set_password_hint("tralala...");
+    */
 
-    // controller->get_database_layer()->insert_password_entry(pwd);
+    /*
+    PasswordEntry another_pwd;
+    another_pwd.set_id(12);
+    another_pwd.set_name("Srećko Gnjidić");
+    another_pwd.set_description("update - test entry 2");
+    another_pwd.set_email("sgnjidic@inet.hr");
+    another_pwd.set_login_url("ubuntu vm server");
+    another_pwd.set_username("s.gnjidic");
+    another_pwd.set_password("MacakP1ko");
+    another_pwd.set_password_hint("dot marked cat");
+    */
+
+    // controller->get_database_layer()->insert_password_entry(another_pwd);
 
     // controller->get_database_layer()->delete_password_entry(pwd);
 
@@ -79,9 +93,10 @@ int main()
     delete(old_entity);
     */
 
-    PasswordEntry* result = controller->get_database_layer()->get_password_entry(pwd.get_id());
+    /*
+    PasswordEntry* result = controller->get_database_layer()->get_password_entry(another_pwd.get_id());
 
-    LOG4CXX_INFO(main_cpp, "password_entry - column 0: " + result->get_id());
+    LOG4CXX_INFO(main_cpp, "password_entry - column 0: " + to_string(result->get_id()));
     LOG4CXX_INFO(main_cpp, "password_entry - column 1: " + result->get_name());
     LOG4CXX_INFO(main_cpp, "password_entry - column 2: " + result->get_description());
     LOG4CXX_INFO(main_cpp, "password_entry - column 3: " + result->get_email());
@@ -90,6 +105,28 @@ int main()
     LOG4CXX_INFO(main_cpp, "password_entry - column 6: " + result->get_password());
     LOG4CXX_INFO(main_cpp, "password_entry - column 7: " + result->get_password_hint());
     delete(result);
+    */
+
+    vector<PasswordEntry*> result = controller-> get_database_layer()->get_all_password_entries();
+
+    for(auto & it : result)
+    {
+        LOG4CXX_INFO(main_cpp, "password_entry - column 0: " + to_string(it->get_id()));
+        LOG4CXX_INFO(main_cpp, "password_entry - column 1: " + it->get_name());
+        LOG4CXX_INFO(main_cpp, "password_entry - column 2: " + it->get_description());
+        LOG4CXX_INFO(main_cpp, "password_entry - column 3: " + it->get_email());
+        LOG4CXX_INFO(main_cpp, "password_entry - column 4: " + it->get_login_url());
+        LOG4CXX_INFO(main_cpp, "password_entry - column 5: " + it->get_username());
+        LOG4CXX_INFO(main_cpp, "password_entry - column 6: " + it->get_password());
+        LOG4CXX_INFO(main_cpp, "password_entry - column 7: " + it->get_password_hint());
+    }
+
+    for(auto & it : result)
+    {
+        delete(it);
+    }
+
+    result.clear();
 
     delete(controller);
 
@@ -99,8 +136,6 @@ int main()
 }
 
 // TODO (sgnjidic #9 #2016-04-12): next steps:
-// TODO (sgnjidic #9 #2016-04-12): * start with datalayer with CRUD API - should work with designated database
-// TODO (sgnjidic #9 #2016-04-13): - learn how to use SQLite API to manipulate SQL data
 // TODO (sgnjidic #9 #2016-04-12): * start with communication layer - learn a bit about socket programming and network streaming
 // TODO (sgnjidic #9 #2016-04-12): * integrate datalayer and communication layer - make sure data is streamed back and forts as expected
 // TODO (sgnjidic #9 #2016-04-12): * move to thick client - make sure it enables basic CRUD
