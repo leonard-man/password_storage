@@ -58,7 +58,7 @@ vector<PasswordEntry*> DatabaseLayer::get_all_password_entries()
     }
     else
     {
-        // TODO (sgnjidic #2 #2016-05-13): handle the case when select statement in get_all_password_entries returns no rows in dataset
+        // TODO (developer_1 #9 #2016-05-13): handle the case when select statement in get_all_password_entries returns no rows in dataset
 
         int sql_row = 0;
 
@@ -123,7 +123,7 @@ PasswordEntry* DatabaseLayer::get_password_entry(unsigned int id)
     {
         sqlite3_step(data);
 
-        // TODO (sgnjidic #2 #2016-05-12): handle the case when select statement in get_password_entry returns no rows in dataset
+        // TODO (developer_1 #9 #2016-05-12): handle the case when select statement in get_password_entry returns no rows in dataset
 
         result = new PasswordEntry();
 

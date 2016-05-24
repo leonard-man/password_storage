@@ -109,7 +109,7 @@ int main()
 
     vector<PasswordEntry*> result = controller-> get_database_layer()->get_all_password_entries();
 
-    for(auto & it : result)
+    for(auto &it : result)
     {
         LOG4CXX_INFO(main_cpp, "password_entry - column 0: " + to_string(it->get_id()));
         LOG4CXX_INFO(main_cpp, "password_entry - column 1: " + it->get_name());
@@ -121,7 +121,7 @@ int main()
         LOG4CXX_INFO(main_cpp, "password_entry - column 7: " + it->get_password_hint());
     }
 
-    for(auto & it : result)
+    for(auto &it : result)
     {
         delete(it);
     }
@@ -135,9 +135,9 @@ int main()
     return 0;
 }
 
-// TODO (sgnjidic #9 #2016-04-12): next steps:
-// TODO (sgnjidic #9 #2016-04-12): * start with communication layer - learn a bit about socket programming and network streaming
-// TODO (sgnjidic #9 #2016-04-12): * integrate datalayer and communication layer - make sure data is streamed back and forts as expected
-// TODO (sgnjidic #9 #2016-04-12): * move to thick client - make sure it enables basic CRUD
-// TODO (sgnjidic #9 #2016-04-12): * when thick client with basic CRUD is in place, implement encryption
+// TODO (developer_1 #5 #2016-04-12): next steps:
+// TODO (developer_1 #6 #2016-04-12): * start with communication layer - learn a bit about socket programming and network streaming
+// TODO (developer_1 #8 #2016-04-12): * integrate datalayer and communication layer - make sure data is streamed back and forts as expected
+// TODO (developer_1 #8 #2016-04-12): * move to thick client - make sure it enables basic CRUD
+// TODO (developer_1 #8 #2016-04-12): * when thick client with basic CRUD is in place, implement encryption
 
