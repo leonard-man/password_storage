@@ -29,7 +29,7 @@ class CommunicationLayer
     public:
         CommunicationLayer();
         virtual ~CommunicationLayer();
-        void sigchld_handler(int s);
+        void *sigchld_handler(int s);
         void *get_in_addr(struct sockaddr *sa);
         int start_server();
     protected:

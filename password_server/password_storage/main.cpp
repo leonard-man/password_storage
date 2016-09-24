@@ -42,8 +42,12 @@ int main()
 
     CommunicationLayer* comm = new CommunicationLayer();
     controller->set_communication_layer(comm);
-    comm = nullptr;
+    int something = comm->start_server();
 
+    // CommunicationLayer* comm_layer = controller->get_communication_layer();
+    // comm_layer->start_server();
+
+    /*
     DatabaseLayer* db = new DatabaseLayer();
     db->set_database(controller->get_utils()->get_database_instance());
     controller->set_database_layer(db);
@@ -106,6 +110,7 @@ int main()
     delete(result);
     */
 
+    /*
     vector<PasswordEntry*> result = controller-> get_database_layer()->get_all_password_entries();
 
     for(auto &it : result)
@@ -126,8 +131,10 @@ int main()
     }
 
     result.clear();
+    */
 
     delete(controller);
+
 
     LOG4CXX_INFO(main_cpp, "-- program end --\n");
 
@@ -140,4 +147,3 @@ int main()
 // TODO (developer_1 #8 #2016-04-12): * integrate data layer and communication layer - make sure data is streamed back and forts as expected
 // TODO (developer_1 #8 #2016-04-12): * move to thick client - make sure it enables basic CRUD
 // TODO (developer_1 #8 #2016-04-12): * when thick client with basic CRUD is in place, implement encryption
-

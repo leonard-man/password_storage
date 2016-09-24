@@ -10,7 +10,7 @@ CommunicationLayer::~CommunicationLayer()
     //dtor
 }
 
-void sigchld_handler(int s)
+void *CommunicationLayer::sigchld_handler(int s)
 {
     // waitpid() might overwrite errno, so we save and restore it:
     int saved_errno = errno;
@@ -22,7 +22,7 @@ void sigchld_handler(int s)
 
 
 // get sockaddr, IPv4 or IPv6:
-void *get_in_addr(struct sockaddr *sa)
+void *CommunicationLayer::get_in_addr(struct sockaddr *sa)
 {
     if (sa->sa_family == AF_INET) {
         return &(((struct sockaddr_in*)sa)->sin_addr);
@@ -31,7 +31,7 @@ void *get_in_addr(struct sockaddr *sa)
     return &(((struct sockaddr_in6*)sa)->sin6_addr);
 }
 
-int start_server()
+int CommunicationLayer::start_server()
 {
     int sockfd, new_fd;  // listen on sock_fd, new connection on new_fd
     struct addrinfo hints, *servinfo, *p;
@@ -87,7 +87,7 @@ int start_server()
         exit(1);
     }
 
-    sa.sa_handler = sigchld_handler; // reap all dead processes
+    sa.sa_handler = this->sigchld_handler(0); // reap all dead processes
     sigemptyset(&sa.sa_mask);
     sa.sa_flags = SA_RESTART;
     if (sigaction(SIGCHLD, &sa, NULL) == -1) {

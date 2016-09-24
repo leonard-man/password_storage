@@ -1229,3 +1229,59 @@ INFO   (/home/sgnjidic/devel/cplusplus/password_storage/password_server/password
 2016-05-14 14:33:12,670 INFO   - password_entry - column 7: dot marked cat
 2016-05-14 14:33:12,670 INFO   - -- program end --
 
+2016-09-18 23:46:24,638 INFO   - -- program start --
+2016-09-18 23:46:24,663 INFO   - password storage project - server component
+2016-09-18 23:46:24,663 INFO   - -------------------------------------------
+2016-09-18 23:46:24,663 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-09-18 23:46:24,663 INFO   - server needs to store passwords and communicate password information
+2016-09-18 23:46:24,663 INFO   - to clients, rich and thin
+2016-09-18 23:46:24,663 INFO   - 
+2016-09-18 23:46:24,663 INFO   - log4cxx configuration successfully parsed
+2016-09-18 23:46:24,663 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2016-09-18 23:46:24,664 DEBUG Utility - Opened database successfully
+2016-09-18 23:46:24,664 INFO  DatabaseLayer - set_database function
+2016-09-18 23:46:24,664 INFO  std - get_all_password_entries function
+2016-09-18 23:46:24,664 INFO  DatabaseLayer - get_database function
+2016-09-18 23:46:24,665 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2016-09-18 23:46:24,665 INFO   - password_entry - column 0: 6
+2016-09-18 23:46:24,665 INFO   - password_entry - column 1: Sre??ko Gnjidi??
+2016-09-18 23:46:24,665 INFO   - password_entry - column 2: update - test entry
+2016-09-18 23:46:24,665 INFO   - password_entry - column 3: sgnjidic@inet.hr
+2016-09-18 23:46:24,665 INFO   - password_entry - column 4: ubuntu vm workstation
+2016-09-18 23:46:24,665 INFO   - password_entry - column 5: sgnjidic
+2016-09-18 23:46:24,665 INFO   - password_entry - column 6: Fido11
+2016-09-18 23:46:24,665 INFO   - password_entry - column 7: pekingese eleven
+2016-09-18 23:46:24,665 INFO   - password_entry - column 0: 12
+2016-09-18 23:46:24,665 INFO   - password_entry - column 1: Sre??ko Gnjidi??
+2016-09-18 23:46:24,665 INFO   - password_entry - column 2: update - test entry 2
+2016-09-18 23:46:24,665 INFO   - password_entry - column 3: sgnjidic@inet.hr
+2016-09-18 23:46:24,665 INFO   - password_entry - column 4: ubuntu vm server
+2016-09-18 23:46:24,665 INFO   - password_entry - column 5: s.gnjidic
+2016-09-18 23:46:24,665 INFO   - password_entry - column 6: MacakP1ko
+2016-09-18 23:46:24,665 INFO   - password_entry - column 7: dot marked cat
+2016-09-18 23:46:24,665 INFO   - -- program end --
+
+2016-09-24 16:05:25,622 INFO   - -- program start --
+2016-09-24 16:05:25,650 INFO   - password storage project - server component
+2016-09-24 16:05:25,650 INFO   - -------------------------------------------
+2016-09-24 16:05:25,650 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-09-24 16:05:25,650 INFO   - server needs to store passwords and communicate password information
+2016-09-24 16:05:25,650 INFO   - to clients, rich and thin
+2016-09-24 16:05:25,650 INFO   - 
+2016-09-24 16:05:25,650 INFO   - log4cxx configuration successfully parsed
+2016-09-24 17:33:19,398 INFO   - -- program start --
+2016-09-24 17:33:19,398 INFO   - password storage project - server component
+2016-09-24 17:33:19,399 INFO   - -------------------------------------------
+2016-09-24 17:33:19,399 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-09-24 17:33:19,399 INFO   - server needs to store passwords and communicate password information
+2016-09-24 17:33:19,399 INFO   - to clients, rich and thin
+2016-09-24 17:33:19,399 INFO   - 
+2016-09-24 17:33:19,399 INFO   - log4cxx configuration successfully parsed
+2016-09-24 17:34:14,116 INFO   - -- program start --
+2016-09-24 17:34:14,117 INFO   - password storage project - server component
+2016-09-24 17:34:14,117 INFO   - -------------------------------------------
+2016-09-24 17:34:14,117 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-09-24 17:34:14,117 INFO   - server needs to store passwords and communicate password information
+2016-09-24 17:34:14,117 INFO   - to clients, rich and thin
+2016-09-24 17:34:14,117 INFO   - 
+2016-09-24 17:34:14,117 INFO   - log4cxx configuration successfully parsed
