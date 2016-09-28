@@ -1285,3 +1285,27 @@ INFO   (/home/sgnjidic/devel/cplusplus/password_storage/password_server/password
 2016-09-24 17:34:14,117 INFO   - to clients, rich and thin
 2016-09-24 17:34:14,117 INFO   - 
 2016-09-24 17:34:14,117 INFO   - log4cxx configuration successfully parsed
+2016-09-28 13:19:25,573 INFO   - -- program start --
+2016-09-28 13:19:25,573 INFO   - password storage project - server component
+2016-09-28 13:19:25,573 INFO   - -------------------------------------------
+2016-09-28 13:19:25,573 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-09-28 13:19:25,573 INFO   - server needs to store passwords and communicate password information
+2016-09-28 13:19:25,573 INFO   - to clients, rich and thin
+2016-09-28 13:19:25,573 INFO   - 
+2016-09-28 13:19:25,573 INFO   - log4cxx configuration successfully parsed
+2016-09-28 13:24:07,095 INFO   - -- program start --
+2016-09-28 13:24:07,095 INFO   - password storage project - server component
+2016-09-28 13:24:07,095 INFO   - -------------------------------------------
+2016-09-28 13:24:07,095 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-09-28 13:24:07,095 INFO   - server needs to store passwords and communicate password information
+2016-09-28 13:24:07,095 INFO   - to clients, rich and thin
+2016-09-28 13:24:07,095 INFO   - 
+2016-09-28 13:24:07,095 INFO   - log4cxx configuration successfully parsed
+2016-09-28 13:28:33,419 INFO   - -- program start --
+2016-09-28 13:28:33,419 INFO   - password storage project - server component
+2016-09-28 13:28:33,419 INFO   - -------------------------------------------
+2016-09-28 13:28:33,419 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-09-28 13:28:33,419 INFO   - server needs to store passwords and communicate password information
+2016-09-28 13:28:33,419 INFO   - to clients, rich and thin
+2016-09-28 13:28:33,419 INFO   - 
+2016-09-28 13:28:33,419 INFO   - log4cxx configuration successfully parsed
