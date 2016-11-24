@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1480015623 source:/home/sgnjidic/devel/cplusplus/password_storage/password_client_cmdln/client_socket.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<netdb.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+
