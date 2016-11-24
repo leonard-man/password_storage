@@ -7,7 +7,32 @@ CommunicationLayer::CommunicationLayer()
 
 CommunicationLayer::~CommunicationLayer()
 {
-    //dtor
+    delete send_package;
+    delete receive_package;
+}
+
+bool CommunicationLayer::set_receive_package(ReceivePackage* new_receive_package)
+{
+    delete receive_package;
+    receive_package = new_receive_package;
+}
+
+bool CommunicationLayer::remove_receive_package()
+{
+    delete receive_package;
+    receive_package = nullptr;
+}
+
+bool CommunicationLayer::set_send_package(SendPackage* new_send_package)
+{
+    delete send_package;
+    send_package = new_send_package;
+}
+
+bool CommunicationLayer::remove_send_package()
+{
+    delete send_package;
+    send_package = nullptr;
 }
 
 void *CommunicationLayer::sigchld_handler(int s)
@@ -99,24 +124,38 @@ int CommunicationLayer::start_server()
 
     while(1) {  // main accept() loop
         sin_size = sizeof their_addr;
+        char buf[1000000];
+
         new_fd = accept(sockfd, (struct sockaddr *)&their_addr, &sin_size);
-        if (new_fd == -1) {
+
+        if (new_fd == -1)
+        {
             perror("accept");
             continue;
         }
 
-        inet_ntop(their_addr.ss_family,
-            this->get_in_addr((struct sockaddr *)&their_addr),
-            s, sizeof s);
+        inet_ntop(their_addr.ss_family, this->get_in_addr((struct sockaddr *)&their_addr), s, sizeof s);
+
         printf("server: got connection from %s\n", s);
 
         // if (!fork()) { // this is the child process
             //close(sockfd); // child doesn't need the listener
-        for(int i = 0; i < 20; i++)
+
+        if ((send_package != nullptr) && (send_package->IsSent == false))
         {
-            if (send(new_fd, "Hello, world!", 13, 0) == -1)
+            if (send(new_fd, (send_package->payload).c_str(), sizeof send_package->payload, 0) == -1)
                 perror("send");
         }
+
+        if (recv(new_fd, buf, 1000000, 0) == -1)
+        {
+            perror("receive");
+        }
+        else
+        {
+            printf("server: got string from %s - %s\n", s, buf);
+        }
+
             // close(new_fd);
             // exit(0);
         //}

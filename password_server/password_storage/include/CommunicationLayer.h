@@ -19,6 +19,10 @@
 #include <log4cxx/logger.h>
 #include <log4cxx/xml/domconfigurator.h>
 
+#include <SendPackage.h>
+#include <ReceivePackage.h>
+
+using namespace std;
 using namespace log4cxx;
 using namespace log4cxx::xml;
 using namespace log4cxx::helpers;
@@ -32,8 +36,14 @@ class CommunicationLayer
         void *sigchld_handler(int s);
         void *get_in_addr(struct sockaddr *sa);
         int start_server();
+        bool set_receive_package(ReceivePackage* new_receive_package);
+        bool remove_receive_package();
+        bool set_send_package(SendPackage* new_send_package);
+        bool remove_send_package();
     protected:
     private:
+        ReceivePackage* receive_package;
+        SendPackage* send_package;
 };
 
 #endif // COMMUNICATIONLAYER_H

@@ -40,7 +40,14 @@ int main()
 
     LOG4CXX_INFO(main_cpp, "log4cxx configuration successfully parsed");
 
+    SendPackage* sendPackage = new SendPackage();
+    sendPackage->IsSent = false;
+    sendPackage->Setpayload("I think this is good exercise!");
+
+
     CommunicationLayer* comm = new CommunicationLayer();
+    comm->set_send_package(sendPackage);
+
     controller->set_communication_layer(comm);
     int something = comm->start_server();
 

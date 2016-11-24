@@ -1413,3 +1413,91 @@ INFO   (/home/sgnjidic/devel/cplusplus/password_storage/password_server/password
 2016-11-22 23:34:38,513 INFO   - to clients, rich and thin
 2016-11-22 23:34:38,513 INFO   - 
 2016-11-22 23:34:38,513 INFO   - log4cxx configuration successfully parsed
+2016-11-24 19:53:53,310 INFO   - -- program start --
+2016-11-24 19:53:53,319 INFO   - password storage project - server component
+2016-11-24 19:53:53,319 INFO   - -------------------------------------------
+2016-11-24 19:53:53,319 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 19:53:53,319 INFO   - server needs to store passwords and communicate password information
+2016-11-24 19:53:53,319 INFO   - to clients, rich and thin
+2016-11-24 19:53:53,319 INFO   - 
+2016-11-24 19:53:53,319 INFO   - log4cxx configuration successfully parsed
+2016-11-24 19:58:04,348 INFO   - -- program start --
+2016-11-24 19:58:04,348 INFO   - password storage project - server component
+2016-11-24 19:58:04,348 INFO   - -------------------------------------------
+2016-11-24 19:58:04,348 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 19:58:04,348 INFO   - server needs to store passwords and communicate password information
+2016-11-24 19:58:04,348 INFO   - to clients, rich and thin
+2016-11-24 19:58:04,348 INFO   - 
+2016-11-24 19:58:04,348 INFO   - log4cxx configuration successfully parsed
+2016-11-24 20:00:50,463 INFO   - -- program start --
+2016-11-24 20:00:50,464 INFO   - password storage project - server component
+2016-11-24 20:00:50,464 INFO   - -------------------------------------------
+2016-11-24 20:00:50,464 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 20:00:50,464 INFO   - server needs to store passwords and communicate password information
+2016-11-24 20:00:50,464 INFO   - to clients, rich and thin
+2016-11-24 20:00:50,464 INFO   - 
+2016-11-24 20:00:50,464 INFO   - log4cxx configuration successfully parsed
+2016-11-24 20:03:47,900 INFO   - -- program start --
+2016-11-24 20:03:47,900 INFO   - password storage project - server component
+2016-11-24 20:03:47,900 INFO   - -------------------------------------------
+2016-11-24 20:03:47,900 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 20:03:47,900 INFO   - server needs to store passwords and communicate password information
+2016-11-24 20:03:47,901 INFO   - to clients, rich and thin
+2016-11-24 20:03:47,901 INFO   - 
+2016-11-24 20:03:47,901 INFO   - log4cxx configuration successfully parsed
+2016-11-24 20:27:07,955 INFO   - -- program start --
+2016-11-24 20:27:07,955 INFO   - password storage project - server component
+2016-11-24 20:27:07,955 INFO   - -------------------------------------------
+2016-11-24 20:27:07,955 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 20:27:07,955 INFO   - server needs to store passwords and communicate password information
+2016-11-24 20:27:07,955 INFO   - to clients, rich and thin
+2016-11-24 20:27:07,955 INFO   - 
+2016-11-24 20:27:07,955 INFO   - log4cxx configuration successfully parsed
+2016-11-24 20:32:20,485 INFO   - -- program start --
+2016-11-24 20:32:20,486 INFO   - password storage project - server component
+2016-11-24 20:32:20,486 INFO   - -------------------------------------------
+2016-11-24 20:32:20,486 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 20:32:20,486 INFO   - server needs to store passwords and communicate password information
+2016-11-24 20:32:20,486 INFO   - to clients, rich and thin
+2016-11-24 20:32:20,486 INFO   - 
+2016-11-24 20:32:20,486 INFO   - log4cxx configuration successfully parsed
+2016-11-24 20:34:05,896 INFO   - -- program start --
+2016-11-24 20:34:05,896 INFO   - password storage project - server component
+2016-11-24 20:34:05,896 INFO   - -------------------------------------------
+2016-11-24 20:34:05,896 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 20:34:05,896 INFO   - server needs to store passwords and communicate password information
+2016-11-24 20:34:05,896 INFO   - to clients, rich and thin
+2016-11-24 20:34:05,896 INFO   - 
+2016-11-24 20:34:05,896 INFO   - log4cxx configuration successfully parsed
+2016-11-24 20:34:26,641 INFO   - -- program start --
+2016-11-24 20:34:26,642 INFO   - password storage project - server component
+2016-11-24 20:34:26,642 INFO   - -------------------------------------------
+2016-11-24 20:34:26,642 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 20:34:26,642 INFO   - server needs to store passwords and communicate password information
+2016-11-24 20:34:26,642 INFO   - to clients, rich and thin
+2016-11-24 20:34:26,642 INFO   - 
+2016-11-24 20:34:26,642 INFO   - log4cxx configuration successfully parsed
+2016-11-24 20:34:53,510 INFO   - -- program start --
+2016-11-24 20:34:53,510 INFO   - password storage project - server component
+2016-11-24 20:34:53,510 INFO   - -------------------------------------------
+2016-11-24 20:34:53,510 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 20:34:53,510 INFO   - server needs to store passwords and communicate password information
+2016-11-24 20:34:53,510 INFO   - to clients, rich and thin
+2016-11-24 20:34:53,510 INFO   - 
+2016-11-24 20:34:53,510 INFO   - log4cxx configuration successfully parsed
+2016-11-24 20:35:43,105 INFO   - -- program start --
+2016-11-24 20:35:43,105 INFO   - password storage project - server component
+2016-11-24 20:35:43,105 INFO   - -------------------------------------------
+2016-11-24 20:35:43,105 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 20:35:43,106 INFO   - server needs to store passwords and communicate password information
+2016-11-24 20:35:43,106 INFO   - to clients, rich and thin
+2016-11-24 20:35:43,106 INFO   - 
+2016-11-24 20:35:43,106 INFO   - log4cxx configuration successfully parsed
+2016-11-24 20:36:30,664 INFO   - -- program start --
+2016-11-24 20:36:30,664 INFO   - password storage project - server component
+2016-11-24 20:36:30,664 INFO   - -------------------------------------------
+2016-11-24 20:36:30,664 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2016-11-24 20:36:30,664 INFO   - server needs to store passwords and communicate password information
+2016-11-24 20:36:30,664 INFO   - to clients, rich and thin
+2016-11-24 20:36:30,664 INFO   - 
+2016-11-24 20:36:30,664 INFO   - log4cxx configuration successfully parsed
