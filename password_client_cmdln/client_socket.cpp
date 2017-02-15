@@ -94,7 +94,3 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-
-// TODO (developer_1 #5 #2016-04-12): next steps - from client_socket.cpp:
-// TODO (developer_1 #6 #2016-04-12): * https://beej.us/guide/bgnet/output/html/multipage/clientserver.html
-// TODO (developer_1 #8 #2016-04-12): * integrate data layer and communication layer - make sure data is streamed back and forts as expected
