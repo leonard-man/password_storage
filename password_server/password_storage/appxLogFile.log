@@ -1501,3 +1501,148 @@ INFO   (/home/sgnjidic/devel/cplusplus/password_storage/password_server/password
 2016-11-24 20:36:30,664 INFO   - to clients, rich and thin
 2016-11-24 20:36:30,664 INFO   - 
 2016-11-24 20:36:30,664 INFO   - log4cxx configuration successfully parsed
+2017-02-14 14:24:08,243 INFO   - -- program start --
+2017-02-14 14:24:08,243 INFO   - password storage project - server component
+2017-02-14 14:24:08,243 INFO   - -------------------------------------------
+2017-02-14 14:24:08,243 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 14:24:08,243 INFO   - server needs to store passwords and communicate password information
+2017-02-14 14:24:08,243 INFO   - to clients, rich and thin
+2017-02-14 14:24:08,243 INFO   - 
+2017-02-14 14:24:08,243 INFO   - log4cxx configuration successfully parsed
+2017-02-14 14:37:47,197 INFO   - -- program start --
+2017-02-14 14:37:47,197 INFO   - password storage project - server component
+2017-02-14 14:37:47,197 INFO   - -------------------------------------------
+2017-02-14 14:37:47,197 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 14:37:47,197 INFO   - server needs to store passwords and communicate password information
+2017-02-14 14:37:47,197 INFO   - to clients, rich and thin
+2017-02-14 14:37:47,197 INFO   - 
+2017-02-14 14:37:47,197 INFO   - log4cxx configuration successfully parsed
+2017-02-14 14:37:53,470 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+2017-02-14 14:46:05,496 INFO   - -- program start --
+2017-02-14 14:46:05,496 INFO   - password storage project - server component
+2017-02-14 14:46:05,496 INFO   - -------------------------------------------
+2017-02-14 14:46:05,496 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 14:46:05,496 INFO   - server needs to store passwords and communicate password information
+2017-02-14 14:46:05,496 INFO   - to clients, rich and thin
+2017-02-14 14:46:05,496 INFO   - 
+2017-02-14 14:46:05,497 INFO   - log4cxx configuration successfully parsed
+2017-02-14 14:46:16,465 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+2017-02-14 14:47:02,679 INFO   - -- program start --
+2017-02-14 14:47:02,683 INFO   - password storage project - server component
+2017-02-14 14:47:02,683 INFO   - -------------------------------------------
+2017-02-14 14:47:02,683 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 14:47:02,683 INFO   - server needs to store passwords and communicate password information
+2017-02-14 14:47:02,683 INFO   - to clients, rich and thin
+2017-02-14 14:47:02,683 INFO   - 
+2017-02-14 14:47:02,683 INFO   - log4cxx configuration successfully parsed
+2017-02-14 14:47:08,592 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+2017-02-14 14:47:22,895 INFO   - -- program start --
+2017-02-14 14:47:22,896 INFO   - password storage project - server component
+2017-02-14 14:47:22,896 INFO   - -------------------------------------------
+2017-02-14 14:47:22,896 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 14:47:22,896 INFO   - server needs to store passwords and communicate password information
+2017-02-14 14:47:22,896 INFO   - to clients, rich and thin
+2017-02-14 14:47:22,896 INFO   - 
+2017-02-14 14:47:22,896 INFO   - log4cxx configuration successfully parsed
+2017-02-14 14:47:27,288 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+2017-02-14 14:47:39,864 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+2017-02-14 14:48:55,223 INFO   - -- program start --
+2017-02-14 14:48:55,223 INFO   - password storage project - server component
+2017-02-14 14:48:55,223 INFO   - -------------------------------------------
+2017-02-14 14:48:55,223 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 14:48:55,223 INFO   - server needs to store passwords and communicate password information
+2017-02-14 14:48:55,223 INFO   - to clients, rich and thin
+2017-02-14 14:48:55,223 INFO   - 
+2017-02-14 14:48:55,223 INFO   - log4cxx configuration successfully parsed
+2017-02-14 14:48:59,499 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+
+2017-02-14 14:49:13,291 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+
+2017-02-14 14:49:15,851 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+
+2017-02-14 15:21:03,883 INFO   - -- program start --
+2017-02-14 15:21:03,883 INFO   - password storage project - server component
+2017-02-14 15:21:03,884 INFO   - -------------------------------------------
+2017-02-14 15:21:03,884 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 15:21:03,884 INFO   - server needs to store passwords and communicate password information
+2017-02-14 15:21:03,884 INFO   - to clients, rich and thin
+2017-02-14 15:21:03,884 INFO   - 
+2017-02-14 15:21:03,884 INFO   - log4cxx configuration successfully parsed
+2017-02-14 15:26:51,866 INFO   - -- program start --
+2017-02-14 15:26:51,869 INFO   - password storage project - server component
+2017-02-14 15:26:51,869 INFO   - -------------------------------------------
+2017-02-14 15:26:51,869 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 15:26:51,869 INFO   - server needs to store passwords and communicate password information
+2017-02-14 15:26:51,869 INFO   - to clients, rich and thin
+2017-02-14 15:26:51,869 INFO   - 
+2017-02-14 15:26:51,869 INFO   - log4cxx configuration successfully parsed
+2017-02-14 15:27:57,687 INFO   - -- program start --
+2017-02-14 15:27:57,687 INFO   - password storage project - server component
+2017-02-14 15:27:57,687 INFO   - -------------------------------------------
+2017-02-14 15:27:57,687 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 15:27:57,687 INFO   - server needs to store passwords and communicate password information
+2017-02-14 15:27:57,687 INFO   - to clients, rich and thin
+2017-02-14 15:27:57,687 INFO   - 
+2017-02-14 15:27:57,687 INFO   - log4cxx configuration successfully parsed
+2017-02-14 15:28:02,267 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+
+2017-02-14 15:28:02,267 INFO  CommunicationLayer - eive
+2017-02-14 15:28:22,972 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+
+2017-02-14 15:28:22,973 INFO  CommunicationLayer - eive
+2017-02-14 15:28:36,555 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+
+2017-02-14 15:28:36,555 INFO  CommunicationLayer - eive
+2017-02-14 15:28:44,325 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+
+2017-02-14 15:28:44,325 INFO  CommunicationLayer - eive
+2017-02-14 15:43:03,806 INFO   - -- program start --
+2017-02-14 15:43:03,806 INFO   - password storage project - server component
+2017-02-14 15:43:03,806 INFO   - -------------------------------------------
+2017-02-14 15:43:03,806 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 15:43:03,806 INFO   - server needs to store passwords and communicate password information
+2017-02-14 15:43:03,806 INFO   - to clients, rich and thin
+2017-02-14 15:43:03,806 INFO   - 
+2017-02-14 15:43:03,806 INFO   - log4cxx configuration successfully parsed
+2017-02-14 15:43:08,048 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+
+2017-02-14 15:43:08,049 INFO  CommunicationLayer - payload buffer size: 30
+
+2017-02-14 15:43:56,611 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+
+2017-02-14 15:43:56,611 INFO  CommunicationLayer - payload buffer size: 30
+
+2017-02-14 15:51:33,082 INFO   - -- program start --
+2017-02-14 15:51:33,082 INFO   - password storage project - server component
+2017-02-14 15:51:33,082 INFO   - -------------------------------------------
+2017-02-14 15:51:33,082 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 15:51:33,082 INFO   - server needs to store passwords and communicate password information
+2017-02-14 15:51:33,082 INFO   - to clients, rich and thin
+2017-02-14 15:51:33,082 INFO   - 
+2017-02-14 15:51:33,082 INFO   - log4cxx configuration successfully parsed
+2017-02-14 15:51:39,908 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+
+2017-02-14 15:51:39,908 INFO  CommunicationLayer - payload buffer size: 30
+
+2017-02-14 15:52:11,437 INFO   - -- program start --
+2017-02-14 15:52:11,437 INFO   - password storage project - server component
+2017-02-14 15:52:11,437 INFO   - -------------------------------------------
+2017-02-14 15:52:11,437 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 15:52:11,437 INFO   - server needs to store passwords and communicate password information
+2017-02-14 15:52:11,437 INFO   - to clients, rich and thin
+2017-02-14 15:52:11,437 INFO   - 
+2017-02-14 15:52:11,437 INFO   - log4cxx configuration successfully parsed
+2017-02-14 15:52:16,909 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+2017-02-14 15:52:16,909 INFO  CommunicationLayer - payload buffer size: 30
+2017-02-14 16:18:23,169 INFO   - -- program start --
+2017-02-14 16:18:23,177 INFO   - password storage project - server component
+2017-02-14 16:18:23,177 INFO   - -------------------------------------------
+2017-02-14 16:18:23,177 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-02-14 16:18:23,177 INFO   - server needs to store passwords and communicate password information
+2017-02-14 16:18:23,177 INFO   - to clients, rich and thin
+2017-02-14 16:18:23,177 INFO   - 
+2017-02-14 16:18:23,177 INFO   - log4cxx configuration successfully parsed
+2017-02-14 16:18:27,576 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+2017-02-14 16:18:27,576 INFO  CommunicationLayer - payload buffer size: 30
+2017-02-14 16:18:45,002 INFO  CommunicationLayer - payload being sent: I think this is good exercise!
+2017-02-14 16:18:45,002 INFO  CommunicationLayer - payload buffer size: 30

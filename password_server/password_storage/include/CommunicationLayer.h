@@ -37,6 +37,7 @@ class CommunicationLayer
         void *get_in_addr(struct sockaddr *sa);
         int start_server();
         bool set_receive_package(ReceivePackage* new_receive_package);
+        ReceivePackage* create_receive_package();
         bool remove_receive_package();
         bool set_send_package(SendPackage* new_send_package);
         bool remove_send_package();

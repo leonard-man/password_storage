@@ -2,10 +2,35 @@
 
 SendPackage::SendPackage()
 {
-    //ctor
+
 }
 
 SendPackage::~SendPackage()
 {
-    //dtor
+
+}
+
+void SendPackage::set_is_sent(bool val)
+{
+    sent = val;
+}
+
+string SendPackage::get_payload()
+{
+    return payload;
+}
+
+void SendPackage::set_payload(string val)
+{
+    payload = val;
+}
+
+bool SendPackage::is_sent()
+{
+    return sent;
+}
+
+int SendPackage::get_payload_length()
+{
+    return payload.size();
 }

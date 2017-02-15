@@ -10,14 +10,15 @@ class ReceivePackage
     public:
         ReceivePackage();
         virtual ~ReceivePackage();
-        bool GetIsRead() { return IsRead; }
-        void SetIsRead(bool val) { IsRead = val; }
-        std::string GetPayload() { return payload; }
-        void SetPayload(std::string val) { payload = val; }
-        bool IsRead;
+        void set_is_read(bool val);
+        std::string get_payload();
+        void set_payload(std::string val);
+        bool is_read();
+        int get_payload_length();
     protected:
     private:
         std::string payload;
+        bool read;
 };
 
 #endif // RECEIVEPACKAGE_H

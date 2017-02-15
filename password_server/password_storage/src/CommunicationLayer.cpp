@@ -1,5 +1,7 @@
 #include "CommunicationLayer.h"
 
+LoggerPtr CommLogger = Logger::getLogger("CommunicationLayer");
+
 CommunicationLayer::CommunicationLayer()
 {
     //ctor
@@ -15,24 +17,34 @@ bool CommunicationLayer::set_receive_package(ReceivePackage* new_receive_package
 {
     delete receive_package;
     receive_package = new_receive_package;
+    return true;
 }
 
 bool CommunicationLayer::remove_receive_package()
 {
     delete receive_package;
     receive_package = nullptr;
+    return true;
 }
 
 bool CommunicationLayer::set_send_package(SendPackage* new_send_package)
 {
     delete send_package;
     send_package = new_send_package;
+    return true;
 }
 
 bool CommunicationLayer::remove_send_package()
 {
     delete send_package;
     send_package = nullptr;
+    return true;
+}
+
+ReceivePackage* CommunicationLayer::create_receive_package()
+{
+    ReceivePackage* receive_pack = new ReceivePackage();
+    return receive_pack;
 }
 
 void *CommunicationLayer::sigchld_handler(int s)
@@ -141,9 +153,13 @@ int CommunicationLayer::start_server()
         // if (!fork()) { // this is the child process
             //close(sockfd); // child doesn't need the listener
 
-        if ((send_package != nullptr) && (send_package->IsSent == false))
+        if ((send_package != nullptr) && (send_package->is_sent() == false))
         {
-            if (send(new_fd, (send_package->payload).c_str(), sizeof send_package->payload, 0) == -1)
+            LOG4CXX_INFO(CommLogger, "payload being sent: " + send_package->get_payload());
+            LOG4CXX_INFO(CommLogger, "payload buffer size: " + to_string(send_package->get_payload_length()));
+
+
+            if (send(new_fd, (send_package->get_payload()).c_str(), send_package->get_payload_length() , 0) == -1)
                 perror("send");
         }
 
@@ -153,7 +169,10 @@ int CommunicationLayer::start_server()
         }
         else
         {
-            printf("server: got string from %s - %s\n", s, buf);
+            ReceivePackage* rec_pack = this->create_receive_package();
+            rec_pack->set_payload(string(buf));
+
+            printf("server: got string from %s - %s\n", s, rec_pack->get_payload().c_str());
         }
 
             // close(new_fd);
