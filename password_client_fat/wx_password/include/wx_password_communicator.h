@@ -33,7 +33,7 @@ class wx_password_communicator
         string delete_password_entry();
         string edit_password_entry();
         void set_server_ipv4_address(string address);
-        int init_comm();
+        void init_comm();
     protected:
     private:
         string send_to_server(string message);

@@ -47,6 +47,9 @@ wx_password_list::wx_password_list(wxWindow* parent,wxWindowID id)
 	Connect(ID_BTN_REFRESH_PWD_LIST,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&wx_password_list::OnbtnRefreshPasswordListClick);
 	Connect(wxID_ANY,wxEVT_CLOSE_WINDOW,(wxObjectEventFunction)&wx_password_list::OnClose);
 	//*)
+
+    comm = new wx_password_communicator();
+    comm->set_server_ipv4_address("localhost");
 }
 
 wx_password_list::~wx_password_list()
@@ -63,11 +66,5 @@ void wx_password_list::OnClose(wxCloseEvent& event)
 
 void wx_password_list::OnbtnRefreshPasswordListClick(wxCommandEvent& event)
 {
-    if(comm == nullptr)
-    {
-        comm = new wx_password_communicator();
-        comm->set_server_ipv4_address("localhost");
-    }
-
     comm->init_comm();
 }
