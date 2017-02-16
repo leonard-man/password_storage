@@ -110,4 +110,6 @@ void wx_passwordDialog::OnAbout(wxCommandEvent& event)
 void wx_passwordDialog::OnbtnOpenPasswordListClick(wxCommandEvent& event)
 {
 // TODO (developer_1 #1 #2017-02-15): open password list in modal mode
+    wx_password_list* list_window = new wx_password_list(this, wxID_ANY);
+    list_window->ShowModal();
 }

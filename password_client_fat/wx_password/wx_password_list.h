@@ -1,6 +1,8 @@
 #ifndef WX_PASSWORD_LIST_H
 #define WX_PASSWORD_LIST_H
 
+#include "wx_password_communicator.h"
+
 //(*Headers(wx_password_list)
 #include <wx/dialog.h>
 #include <wx/sizer.h>
@@ -38,7 +40,11 @@ class wx_password_list: public wxDialog
 	private:
 
 		//(*Handlers(wx_password_list)
+		void OnClose(wxCloseEvent& event);
+		void OnbtnRefreshPasswordListClick(wxCommandEvent& event);
 		//*)
+
+		wx_password_communicator* comm;
 
 		DECLARE_EVENT_TABLE()
 };

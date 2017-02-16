@@ -18,6 +18,8 @@
 #include <wx/stattext.h>
 //*)
 
+#include "wx_password_list.h"
+
 class wx_passwordDialog: public wxDialog
 {
     public:
