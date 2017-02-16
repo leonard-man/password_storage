@@ -1,5 +1,7 @@
 #include "wx_password_list.h"
 
+LoggerPtr password_list_log(Logger::getLogger("wx_password_list"));
+
 //(*InternalHeaders(wx_password_list)
 #include <wx/string.h>
 #include <wx/intl.h>
@@ -47,9 +49,23 @@ wx_password_list::wx_password_list(wxWindow* parent,wxWindowID id)
 	Connect(ID_BTN_REFRESH_PWD_LIST,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&wx_password_list::OnbtnRefreshPasswordListClick);
 	Connect(wxID_ANY,wxEVT_CLOSE_WINDOW,(wxObjectEventFunction)&wx_password_list::OnClose);
 	//*)
+    utils = new utility();
+    string configuration_path = utils->get_config_path();
+
+    // Load XML configuration file using DOMConfigurator
+    DOMConfigurator::configure(configuration_path + "Log4cxxConfig.xml");
+
+    LOG4CXX_INFO(password_list_log, "-- program start --");
+    LOG4CXX_INFO(password_list_log, "password storage project - fat client component");
+    LOG4CXX_INFO(password_list_log, "-------------------------------------------");
+    LOG4CXX_INFO(password_list_log, "wxWidgets fat client where target server is deployed at VPS which is online all the time");
+    LOG4CXX_INFO(password_list_log, "client needs to show stored passwords and enable CRUD of password information");
+    LOG4CXX_INFO(password_list_log, "");
+
+    LOG4CXX_INFO(password_list_log, "log4cxx configuration successfully parsed");
 
     comm = new wx_password_communicator();
-    comm->set_server_ipv4_address("localhost");
+    comm->set_server_ipv4_address(utils->get_server_ip());
 }
 
 wx_password_list::~wx_password_list()

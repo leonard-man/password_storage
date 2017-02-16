@@ -26,11 +26,13 @@ class utility
         sqlite3* get_database_instance();
         bool read_configuration();
         string get_config_path();
+        string get_server_ip();
     protected:
     private:
         bool m_configParsed;
         sqlite3* m_database = nullptr;
         string root_path;
+        string server_ip_v4;
 };
 
 #endif // UTILITY_H

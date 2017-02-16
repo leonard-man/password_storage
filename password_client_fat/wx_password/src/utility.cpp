@@ -21,6 +21,15 @@ string utility::get_config_path()
     return root_path;
 }
 
+string utility::get_server_ip()
+{
+    if (server_ip_v4.empty())
+    {
+        read_configuration();
+    }
+    return server_ip_v4;
+}
+
 sqlite3* utility::get_database_instance()
 {
     return nullptr;
@@ -32,7 +41,7 @@ bool utility::read_configuration()
 
     try
     {
-        cfg.readFile("password_storage_server_configuration.cfg");
+        cfg.readFile("password_storage_fat_client_configuration.cfg");
     }
     catch(const FileIOException &fioex)
     {
@@ -58,13 +67,17 @@ bool utility::read_configuration()
         string name = cfg.lookup("root_path");
         // at this point log4cxx is not initialized, as config file has not been read
         LOG4CXX_INFO(UtilityLogger, "root_path: " + name);
-
         root_path = name;
+
+        string server_ip = cfg.lookup("server_ip_v4");
+        LOG4CXX_INFO(UtilityLogger, "server_ip_v4: " + server_ip);
+        server_ip_v4 = server_ip;
+
     }
     catch(const SettingNotFoundException &nfex)
     {
         // at this point log4cxx is not initialized, as config file has not been read
-        LOG4CXX_ERROR(UtilityLogger, "No 'root_path' setting in configuration file.");
+        LOG4CXX_ERROR(UtilityLogger, "Error reading configuration file.");
 
         return(EXIT_FAILURE);
     }

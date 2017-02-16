@@ -2,6 +2,11 @@
 #define WX_PASSWORD_LIST_H
 
 #include "wx_password_communicator.h"
+#include "utility.h"
+#include <log4cxx/logger.h>
+
+using namespace log4cxx;
+using namespace std;
 
 //(*Headers(wx_password_list)
 #include <wx/dialog.h>
@@ -37,13 +42,14 @@ class wx_password_list: public wxDialog
 		static const long ID_BTN_PWD_ENTRY_DELETE;
 		//*)
 
-	private:
+    private:
 
 		//(*Handlers(wx_password_list)
 		void OnClose(wxCloseEvent& event);
 		void OnbtnRefreshPasswordListClick(wxCommandEvent& event);
 		//*)
 
+        utility* utils = nullptr;
 		wx_password_communicator* comm;
 
 		DECLARE_EVENT_TABLE()
