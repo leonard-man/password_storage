@@ -42,23 +42,32 @@ int main()
 
     SendPackage* sendPackage = new SendPackage();
     sendPackage->set_is_sent(false);
-    sendPackage->set_payload("I think this is good exercise!");
+    sendPackage->set_payload("Welcome to password_storage server!");
 
 
     CommunicationLayer* comm = new CommunicationLayer();
     comm->set_send_package(sendPackage);
 
     controller->set_communication_layer(comm);
-    int something = comm->start_server();
 
     // CommunicationLayer* comm_layer = controller->get_communication_layer();
     // comm_layer->start_server();
 
-    /*
     DatabaseLayer* db = new DatabaseLayer();
     db->set_database(controller->get_utils()->get_database_instance());
     controller->set_database_layer(db);
     db = nullptr;
+
+    vector<PasswordEntry*> result = controller-> get_database_layer()->get_all_password_entries();
+
+    int something = comm->start_server();
+
+    delete(controller);
+
+
+    LOG4CXX_INFO(main_cpp, "-- program end --\n");
+
+    return 0;
 
     /*
     // for testing purposes, only
@@ -118,7 +127,6 @@ int main()
     */
 
     /*
-    vector<PasswordEntry*> result = controller-> get_database_layer()->get_all_password_entries();
 
     for(auto &it : result)
     {
@@ -140,14 +148,14 @@ int main()
     result.clear();
     */
 
-    delete(controller);
-
-
-    LOG4CXX_INFO(main_cpp, "-- program end --\n");
-
-    return 0;
 }
 
-// TODO (developer_1 #5 #2016-04-12): next steps - from password storage main.cpp:
-// TODO (developer_1 #8 #2016-04-12): * move to thick client - make sure it enables basic CRUD
-// TODO (developer_1 #8 #2016-04-12): * when thick client with basic CRUD is in place, implement encryption
+// TODO (developer_1 #5 #2017-02-19): next steps - from password storage main.cpp:
+// TODO (developer_1 #8 #2017-02-19): * integrate database and communication
+// TODO (developer_1 #8 #2017-02-19): * - implement get all password entities
+// TODO (developer_1 #8 #2017-02-19): * - implement get password entity (by id)
+// TODO (developer_1 #8 #2017-02-19): * - implement create password entity
+// TODO (developer_1 #8 #2017-02-19): * - implement edit password entity
+// TODO (developer_1 #8 #2017-02-19): * - implement delete password entity
+// TODO (developer_1 #8 #2017-02-19): * implement basic CRUD with fat client
+// TODO (developer_1 #8 #2017-02-19): * when thick client with basic CRUD is in place, implement encryption
