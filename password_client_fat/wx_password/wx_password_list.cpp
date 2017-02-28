@@ -47,6 +47,7 @@ wx_password_list::wx_password_list(wxWindow* parent,wxWindowID id)
 	Center();
 
 	Connect(ID_BTN_REFRESH_PWD_LIST,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&wx_password_list::OnbtnRefreshPasswordListClick);
+	Connect(ID_BTN_ADD_PWD_ENTRY,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&wx_password_list::OnbtnAddPasswordEntryClick);
 	Connect(wxID_ANY,wxEVT_CLOSE_WINDOW,(wxObjectEventFunction)&wx_password_list::OnClose);
 	//*)
     utils = new utility();
@@ -82,5 +83,11 @@ void wx_password_list::OnClose(wxCloseEvent& event)
 
 void wx_password_list::OnbtnRefreshPasswordListClick(wxCommandEvent& event)
 {
+    comm->init_comm();
+}
+
+void wx_password_list::OnbtnAddPasswordEntryClick(wxCommandEvent& event)
+{
+    // here set another payload to be sent to server
     comm->init_comm();
 }

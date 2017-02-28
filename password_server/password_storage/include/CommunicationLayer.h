@@ -13,14 +13,16 @@
 #include <arpa/inet.h>
 #include <sys/wait.h>
 #include <signal.h>
-#define PORT "3490"  // the port users will be connecting to
-#define BACKLOG 10     // how many pending connections queue will hold
+
+#include "SendPackage.h"
+#include "ReceivePackage.h"
 
 #include <log4cxx/logger.h>
 #include <log4cxx/xml/domconfigurator.h>
 
-#include <SendPackage.h>
-#include <ReceivePackage.h>
+#define PORT "3490"  // the port users will be connecting to
+#define BACKLOG 10     // how many pending connections queue will hold
+
 
 using namespace std;
 using namespace log4cxx;
@@ -43,8 +45,8 @@ class CommunicationLayer
         bool remove_send_package();
     protected:
     private:
-        ReceivePackage* receive_package;
-        SendPackage* send_package;
+        ReceivePackage* receive_package = nullptr;
+        SendPackage* send_package = nullptr;
 };
 
 #endif // COMMUNICATIONLAYER_H

@@ -40,30 +40,30 @@ int main()
 
     LOG4CXX_INFO(main_cpp, "log4cxx configuration successfully parsed");
 
+    LOG4CXX_INFO(main_cpp, "xml_template_single: " + controller->get_utils()->get_single_password_template());
+    LOG4CXX_INFO(main_cpp, "xml_template_bracket_all: " + controller->get_utils()->get_all_passwords_bracket_template());
+
     SendPackage* sendPackage = new SendPackage();
     sendPackage->set_is_sent(false);
     sendPackage->set_payload("Welcome to password_storage server!");
-
 
     CommunicationLayer* comm = new CommunicationLayer();
     comm->set_send_package(sendPackage);
 
     controller->set_communication_layer(comm);
 
-    // CommunicationLayer* comm_layer = controller->get_communication_layer();
-    // comm_layer->start_server();
-
     DatabaseLayer* db = new DatabaseLayer();
     db->set_database(controller->get_utils()->get_database_instance());
     controller->set_database_layer(db);
     db = nullptr;
 
+    // make payload  - xml with all password entries
+    // send it to fat client for unmarshalling and rendering into GUI
     vector<PasswordEntry*> result = controller-> get_database_layer()->get_all_password_entries();
 
-    int something = comm->start_server();
+    int something = controller->get_communication_layer()->start_server();
 
     delete(controller);
-
 
     LOG4CXX_INFO(main_cpp, "-- program end --\n");
 

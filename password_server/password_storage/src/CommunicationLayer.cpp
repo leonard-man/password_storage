@@ -9,34 +9,57 @@ CommunicationLayer::CommunicationLayer()
 
 CommunicationLayer::~CommunicationLayer()
 {
-    delete send_package;
-    delete receive_package;
+    if(receive_package != nullptr)
+    {
+        delete receive_package;
+    }
+
+    if(send_package != nullptr)
+    {
+        delete send_package;
+    }
 }
 
 bool CommunicationLayer::set_receive_package(ReceivePackage* new_receive_package)
 {
-    delete receive_package;
+    if(receive_package != nullptr)
+    {
+        delete receive_package;
+    }
+
     receive_package = new_receive_package;
     return true;
 }
 
 bool CommunicationLayer::remove_receive_package()
 {
-    delete receive_package;
+    if(receive_package != nullptr)
+    {
+        delete receive_package;
+    }
+
     receive_package = nullptr;
     return true;
 }
 
 bool CommunicationLayer::set_send_package(SendPackage* new_send_package)
 {
-    delete send_package;
+    if(send_package != nullptr)
+    {
+        delete send_package;
+    }
+
     send_package = new_send_package;
     return true;
 }
 
 bool CommunicationLayer::remove_send_package()
 {
-    delete send_package;
+    if(send_package != nullptr)
+    {
+        delete send_package;
+    }
+
     send_package = nullptr;
     return true;
 }
@@ -158,9 +181,14 @@ int CommunicationLayer::start_server()
             LOG4CXX_INFO(CommLogger, "payload being sent: " + send_package->get_payload());
             LOG4CXX_INFO(CommLogger, "payload buffer size: " + to_string(send_package->get_payload_length()));
 
-
             if (send(new_fd, (send_package->get_payload()).c_str(), send_package->get_payload_length() , 0) == -1)
+            {
                 perror("send");
+            }
+
+            delete send_package;
+
+            send_package = nullptr;
         }
 
         if (recv(new_fd, buf, 1000000, 0) == -1)
@@ -174,11 +202,6 @@ int CommunicationLayer::start_server()
 
             printf("server: got string from %s - %s\n", s, rec_pack->get_payload().c_str());
         }
-
-            // close(new_fd);
-            // exit(0);
-        //}
-        //close(new_fd);  // parent doesn't need this
     }
 
     return 0;

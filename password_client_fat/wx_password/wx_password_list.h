@@ -47,6 +47,7 @@ class wx_password_list: public wxDialog
 		//(*Handlers(wx_password_list)
 		void OnClose(wxCloseEvent& event);
 		void OnbtnRefreshPasswordListClick(wxCommandEvent& event);
+		void OnbtnAddPasswordEntryClick(wxCommandEvent& event);
 		//*)
 
         utility* utils = nullptr;

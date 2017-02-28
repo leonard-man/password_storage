@@ -26,11 +26,15 @@ class Utility
         sqlite3* get_database_instance();
         bool read_configuration();
         string get_config_path();
+        string get_single_password_template();
+        string get_all_passwords_bracket_template();
     protected:
     private:
         bool m_configParsed;
         sqlite3* m_database = nullptr;
         string root_path;
+        string single_password_template;
+        string all_passwords_bracket_template;
 };
 
 #endif // UTILITY_H

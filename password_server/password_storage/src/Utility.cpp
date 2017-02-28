@@ -18,7 +18,28 @@ string Utility::get_config_path()
     {
         read_configuration();
     }
+
     return root_path;
+}
+
+string Utility::get_all_passwords_bracket_template()
+{
+    if (all_passwords_bracket_template.empty())
+    {
+        read_configuration();
+    }
+
+    return all_passwords_bracket_template;
+}
+
+string Utility::get_single_password_template()
+{
+    if (single_password_template.empty())
+    {
+        read_configuration();
+    }
+
+    return single_password_template;
 }
 
 sqlite3* Utility::get_database_instance()
@@ -80,11 +101,15 @@ bool Utility::read_configuration()
 
     try
     {
-        string name = cfg.lookup("root_path");
-        // at this point log4cxx is not initialized, as config file has not been read
-        LOG4CXX_INFO(UtilityLogger, "root_path: " + name);
+        string temp_1 = cfg.lookup("root_path");
+        root_path =  temp_1;
 
-        root_path = name;
+        string temp_2 = cfg.lookup("all_passwords__bracket_template");
+        all_passwords_bracket_template = temp_2;
+
+        string temp_3 = cfg.lookup("single_password_template");
+        single_password_template =  temp_3;
+
     }
     catch(const SettingNotFoundException &nfex)
     {
