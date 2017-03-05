@@ -186,9 +186,9 @@ int CommunicationLayer::start_server()
                 perror("send");
             }
 
-            delete send_package;
+            // delete send_package;
 
-            send_package = nullptr;
+            // send_package = nullptr;
         }
 
         if (recv(new_fd, buf, 1000000, 0) == -1)

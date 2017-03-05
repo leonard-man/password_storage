@@ -2023,3 +2023,227 @@ INFO   (/home/sgnjidic/devel/cplusplus/password_storage/password_server/password
 2017-02-28 16:00:43,195 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
 2017-02-28 16:00:57,436 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
 2017-02-28 16:00:57,437 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 17:39:20,816 INFO   - -- program start --
+2017-03-05 17:39:20,844 INFO   - password storage project - server component
+2017-03-05 17:39:20,844 INFO   - -------------------------------------------
+2017-03-05 17:39:20,844 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-03-05 17:39:20,844 INFO   - server needs to store passwords and communicate password information
+2017-03-05 17:39:20,844 INFO   - to clients, rich and thin
+2017-03-05 17:39:20,844 INFO   - 
+2017-03-05 17:39:20,844 INFO   - log4cxx configuration successfully parsed
+2017-03-05 17:39:20,844 INFO   - xml_template_single: <password_entry>
+				<id>%s</id>
+				<name>%s</name>
+				<description>%s</description>
+				<email>%s</email>
+				<login_url>%s</login_url>
+				<username>%s</username>
+				<password>%s</password>
+				<password_hint>%s</password_hint>
+			   </password_entry>
+2017-03-05 17:39:20,845 INFO   - xml_template_bracket_all: <all_password_entriess>%s</all_password_entries>
+2017-03-05 17:39:20,845 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2017-03-05 17:39:20,845 DEBUG Utility - Opened database successfully
+2017-03-05 17:39:20,845 INFO  DatabaseLayer - set_database function
+2017-03-05 17:39:20,845 INFO  std - get_all_password_entries function
+2017-03-05 17:39:20,845 INFO  DatabaseLayer - get_database function
+2017-03-05 17:39:20,846 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2017-03-05 17:43:37,472 INFO   - -- program start --
+2017-03-05 17:43:37,472 INFO   - password storage project - server component
+2017-03-05 17:43:37,472 INFO   - -------------------------------------------
+2017-03-05 17:43:37,472 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-03-05 17:43:37,472 INFO   - server needs to store passwords and communicate password information
+2017-03-05 17:43:37,472 INFO   - to clients, rich and thin
+2017-03-05 17:43:37,472 INFO   - 
+2017-03-05 17:43:37,472 INFO   - log4cxx configuration successfully parsed
+2017-03-05 17:43:37,472 INFO   - xml_template_single: <password_entry>
+				<id>%s</id>
+				<name>%s</name>
+				<description>%s</description>
+				<email>%s</email>
+				<login_url>%s</login_url>
+				<username>%s</username>
+				<password>%s</password>
+				<password_hint>%s</password_hint>
+			   </password_entry>
+2017-03-05 17:43:37,472 INFO   - xml_template_bracket_all: <all_password_entriess>%s</all_password_entries>
+2017-03-05 17:43:37,472 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2017-03-05 17:43:37,472 DEBUG Utility - Opened database successfully
+2017-03-05 17:43:37,472 INFO  DatabaseLayer - set_database function
+2017-03-05 17:43:37,472 INFO  std - get_all_password_entries function
+2017-03-05 17:43:37,472 INFO  DatabaseLayer - get_database function
+2017-03-05 17:43:37,472 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2017-03-05 17:44:03,844 INFO   - -- program start --
+2017-03-05 17:44:03,845 INFO   - password storage project - server component
+2017-03-05 17:44:03,845 INFO   - -------------------------------------------
+2017-03-05 17:44:03,846 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-03-05 17:44:03,847 INFO   - server needs to store passwords and communicate password information
+2017-03-05 17:44:03,848 INFO   - to clients, rich and thin
+2017-03-05 17:44:03,848 INFO   - 
+2017-03-05 17:44:03,849 INFO   - log4cxx configuration successfully parsed
+2017-03-05 17:44:03,849 INFO   - xml_template_single: <password_entry>
+				<id>%s</id>
+				<name>%s</name>
+				<description>%s</description>
+				<email>%s</email>
+				<login_url>%s</login_url>
+				<username>%s</username>
+				<password>%s</password>
+				<password_hint>%s</password_hint>
+			   </password_entry>
+2017-03-05 17:44:03,850 INFO   - xml_template_bracket_all: <all_password_entriess>%s</all_password_entries>
+2017-03-05 17:44:03,851 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2017-03-05 17:44:03,851 DEBUG Utility - Opened database successfully
+2017-03-05 17:44:03,852 INFO  DatabaseLayer - set_database function
+2017-03-05 17:44:03,852 INFO  std - get_all_password_entries function
+2017-03-05 17:44:03,852 INFO  DatabaseLayer - get_database function
+2017-03-05 17:44:03,852 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2017-03-05 17:44:12,920 INFO   - -- program start --
+2017-03-05 17:44:12,920 INFO   - password storage project - server component
+2017-03-05 17:44:12,920 INFO   - -------------------------------------------
+2017-03-05 17:44:12,920 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-03-05 17:44:12,920 INFO   - server needs to store passwords and communicate password information
+2017-03-05 17:44:12,920 INFO   - to clients, rich and thin
+2017-03-05 17:44:12,920 INFO   - 
+2017-03-05 17:44:12,920 INFO   - log4cxx configuration successfully parsed
+2017-03-05 17:44:12,920 INFO   - xml_template_single: <password_entry>
+				<id>%s</id>
+				<name>%s</name>
+				<description>%s</description>
+				<email>%s</email>
+				<login_url>%s</login_url>
+				<username>%s</username>
+				<password>%s</password>
+				<password_hint>%s</password_hint>
+			   </password_entry>
+2017-03-05 17:44:12,920 INFO   - xml_template_bracket_all: <all_password_entriess>%s</all_password_entries>
+2017-03-05 17:44:30,283 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2017-03-05 17:44:30,283 DEBUG Utility - Opened database successfully
+2017-03-05 17:44:30,292 INFO  DatabaseLayer - set_database function
+2017-03-05 17:44:34,271 INFO  std - get_all_password_entries function
+2017-03-05 17:44:34,271 INFO  DatabaseLayer - get_database function
+2017-03-05 17:44:34,271 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2017-03-05 18:11:21,021 INFO   - -- program start --
+2017-03-05 18:11:21,021 INFO   - password storage project - server component
+2017-03-05 18:11:21,029 INFO   - -------------------------------------------
+2017-03-05 18:11:21,029 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-03-05 18:11:21,029 INFO   - server needs to store passwords and communicate password information
+2017-03-05 18:11:21,029 INFO   - to clients, rich and thin
+2017-03-05 18:11:21,029 INFO   - 
+2017-03-05 18:11:21,029 INFO   - log4cxx configuration successfully parsed
+2017-03-05 18:11:21,029 INFO   - xml_template_single: <password_entry>
+				<id>%s</id>
+				<name>%s</name>
+				<description>%s</description>
+				<email>%s</email>
+				<login_url>%s</login_url>
+				<username>%s</username>
+				<password>%s</password>
+				<password_hint>%s</password_hint>
+			   </password_entry>
+2017-03-05 18:11:21,029 INFO   - xml_template_bracket_all: <all_password_entriess>%s</all_password_entries>
+2017-03-05 18:11:21,029 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2017-03-05 18:11:21,029 DEBUG Utility - Opened database successfully
+2017-03-05 18:11:21,029 INFO  DatabaseLayer - set_database function
+2017-03-05 18:11:21,029 INFO  std - get_all_password_entries function
+2017-03-05 18:11:21,029 INFO  DatabaseLayer - get_database function
+2017-03-05 18:11:21,029 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2017-03-05 18:11:25,156 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 18:11:25,156 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 18:14:23,235 INFO   - -- program start --
+2017-03-05 18:14:23,239 INFO   - password storage project - server component
+2017-03-05 18:14:23,239 INFO   - -------------------------------------------
+2017-03-05 18:14:23,239 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-03-05 18:14:23,241 INFO   - server needs to store passwords and communicate password information
+2017-03-05 18:14:23,241 INFO   - to clients, rich and thin
+2017-03-05 18:14:23,241 INFO   - 
+2017-03-05 18:14:23,241 INFO   - log4cxx configuration successfully parsed
+2017-03-05 18:14:23,241 INFO   - xml_template_single: <password_entry>
+				<id>%s</id>
+				<name>%s</name>
+				<description>%s</description>
+				<email>%s</email>
+				<login_url>%s</login_url>
+				<username>%s</username>
+				<password>%s</password>
+				<password_hint>%s</password_hint>
+			   </password_entry>
+2017-03-05 18:14:23,242 INFO   - xml_template_bracket_all: <all_password_entriess>%s</all_password_entries>
+2017-03-05 18:14:23,242 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2017-03-05 18:14:23,242 DEBUG Utility - Opened database successfully
+2017-03-05 18:14:23,243 INFO  DatabaseLayer - set_database function
+2017-03-05 18:14:23,243 INFO  std - get_all_password_entries function
+2017-03-05 18:14:23,243 INFO  DatabaseLayer - get_database function
+2017-03-05 18:14:23,252 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2017-03-05 18:14:40,551 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 18:14:40,551 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 18:14:41,272 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 18:14:41,272 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 18:14:41,847 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 18:14:41,847 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 18:14:42,295 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 18:14:42,295 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 18:15:43,014 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 18:15:43,014 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 19:13:11,827 INFO   - -- program start --
+2017-03-05 19:13:11,828 INFO   - password storage project - server component
+2017-03-05 19:13:11,829 INFO   - -------------------------------------------
+2017-03-05 19:13:11,830 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-03-05 19:13:11,830 INFO   - server needs to store passwords and communicate password information
+2017-03-05 19:13:11,831 INFO   - to clients, rich and thin
+2017-03-05 19:13:11,831 INFO   - 
+2017-03-05 19:13:11,832 INFO   - log4cxx configuration successfully parsed
+2017-03-05 19:13:11,832 INFO   - xml_template_single: <password_entry>
+				<id>%s</id>
+				<name>%s</name>
+				<description>%s</description>
+				<email>%s</email>
+				<login_url>%s</login_url>
+				<username>%s</username>
+				<password>%s</password>
+				<password_hint>%s</password_hint>
+			   </password_entry>
+2017-03-05 19:13:11,836 INFO   - xml_template_bracket_all: <all_password_entriess>%s</all_password_entries>
+2017-03-05 19:13:11,836 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2017-03-05 19:13:11,836 DEBUG Utility - Opened database successfully
+2017-03-05 19:13:11,837 INFO  DatabaseLayer - set_database function
+2017-03-05 19:13:11,837 INFO  std - get_all_password_entries function
+2017-03-05 19:13:11,837 INFO  DatabaseLayer - get_database function
+2017-03-05 19:13:11,838 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2017-03-05 19:13:30,618 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 19:13:30,618 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 19:19:43,676 INFO   - -- program start --
+2017-03-05 19:19:43,676 INFO   - password storage project - server component
+2017-03-05 19:19:43,676 INFO   - -------------------------------------------
+2017-03-05 19:19:43,676 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2017-03-05 19:19:43,676 INFO   - server needs to store passwords and communicate password information
+2017-03-05 19:19:43,676 INFO   - to clients, rich and thin
+2017-03-05 19:19:43,676 INFO   - 
+2017-03-05 19:19:43,676 INFO   - log4cxx configuration successfully parsed
+2017-03-05 19:19:43,676 INFO   - xml_template_single: <password_entry>
+				<id>%s</id>
+				<name>%s</name>
+				<description>%s</description>
+				<email>%s</email>
+				<login_url>%s</login_url>
+				<username>%s</username>
+				<password>%s</password>
+				<password_hint>%s</password_hint>
+			   </password_entry>
+2017-03-05 19:19:43,676 INFO   - xml_template_bracket_all: <all_password_entriess>%s</all_password_entries>
+2017-03-05 19:19:43,676 INFO  Utility - opening sqlite database: /home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3
+2017-03-05 19:19:43,676 DEBUG Utility - Opened database successfully
+2017-03-05 19:19:43,676 INFO  DatabaseLayer - set_database function
+2017-03-05 19:19:43,676 INFO  std - get_all_password_entries function
+2017-03-05 19:19:43,676 INFO  DatabaseLayer - get_database function
+2017-03-05 19:19:43,676 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2017-03-05 19:19:57,007 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 19:19:57,007 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 19:19:59,063 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 19:19:59,063 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 19:19:59,967 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 19:19:59,967 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 19:20:00,680 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 19:20:00,680 INFO  CommunicationLayer - payload buffer size: 35
+2017-03-05 19:20:18,439 INFO  CommunicationLayer - payload being sent: Welcome to password_storage server!
+2017-03-05 19:20:18,439 INFO  CommunicationLayer - payload buffer size: 35
