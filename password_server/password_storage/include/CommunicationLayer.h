@@ -16,6 +16,7 @@
 
 #include "SendPackage.h"
 #include "ReceivePackage.h"
+#include "Controller.h"
 
 #include <log4cxx/logger.h>
 #include <log4cxx/xml/domconfigurator.h>
@@ -40,6 +41,8 @@ class CommunicationLayer
         int start_server();
         bool set_receive_package(ReceivePackage* new_receive_package);
         ReceivePackage* create_receive_package();
+        void set_controller(Controller* ctrl);
+        Controller* get_controller();
         bool remove_receive_package();
         bool set_send_package(SendPackage* new_send_package);
         bool remove_send_package();
@@ -47,6 +50,7 @@ class CommunicationLayer
     private:
         ReceivePackage* receive_package = nullptr;
         SendPackage* send_package = nullptr;
+        Controller* controller = nullptr;
 };
 
 #endif // COMMUNICATIONLAYER_H

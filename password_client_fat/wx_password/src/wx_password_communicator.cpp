@@ -114,6 +114,9 @@ void wx_password_communicator::init_comm()
 
     freeaddrinfo(servinfo); // all done with this structure
 
+    if (send(sockfd, "wx_password connected", 22, 0) == -1)
+        perror("send");
+
     if ((numbytes = recv(sockfd, buf, MAXDATASIZE-1, 0)) == -1)
     {
         perror("recv");
@@ -125,9 +128,6 @@ void wx_password_communicator::init_comm()
     printf("client: received '%s'\n", buf);
 
     LOG4CXX_INFO(DbLogger, "client - password_storage sent: " + string(buf));
-
-    if (send(sockfd, "wx_password connected", 22, 0) == -1)
-        perror("send");
 
     close(sockfd);
 

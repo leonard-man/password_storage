@@ -406,3 +406,21 @@
 2017-03-05 19:20:18,439 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
 2017-03-05 19:20:18,439 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
 2017-03-05 19:20:18,439 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-09 09:44:09,034 INFO  wx_password_list - -- program start --
+2017-03-09 09:44:09,047 INFO  wx_password_list - password storage project - fat client component
+2017-03-09 09:44:09,047 INFO  wx_password_list - -------------------------------------------
+2017-03-09 09:44:09,047 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-09 09:44:09,047 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-09 09:44:09,047 INFO  wx_password_list - 
+2017-03-09 09:44:09,047 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-09 09:44:09,047 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-09 09:44:12,589 INFO  wx_password_communicator - entered function init_comm()
+2017-03-09 09:44:12,589 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-09 09:44:12,590 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-09 09:44:12,590 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-09 09:44:12,590 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-09 09:45:13,583 INFO  wx_password_communicator - entered function init_comm()
+2017-03-09 09:45:13,583 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-09 09:45:13,584 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-09 09:45:13,584 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-09 09:45:13,585 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!

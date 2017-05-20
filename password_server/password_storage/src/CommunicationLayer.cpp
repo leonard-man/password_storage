@@ -18,6 +18,21 @@ CommunicationLayer::~CommunicationLayer()
     {
         delete send_package;
     }
+
+    if(controller != nullptr)
+    {
+        delete controller;
+    }
+}
+
+void CommunicationLayer::set_controller(Controller* ctrl)
+{
+    controller = ctrl;
+}
+
+Controller* CommunicationLayer::get_controller()
+{
+    return controller;
 }
 
 bool CommunicationLayer::set_receive_package(ReceivePackage* new_receive_package)
@@ -67,7 +82,17 @@ bool CommunicationLayer::remove_send_package()
 ReceivePackage* CommunicationLayer::create_receive_package()
 {
     ReceivePackage* receive_pack = new ReceivePackage();
-    return receive_pack;
+    receive_package = receive_pack;
+    return receive_package;
+}
+
+void process_received_package()
+{
+    // push received package to controller
+    // controller should parse received package
+    // controller should interpret if any commands are received
+    // based on commands, action should be taken, return package prepared
+    // return package should be sent back to caller
 }
 
 void *CommunicationLayer::sigchld_handler(int s)
@@ -176,6 +201,18 @@ int CommunicationLayer::start_server()
         // if (!fork()) { // this is the child process
             //close(sockfd); // child doesn't need the listener
 
+        if (recv(new_fd, buf, 1000000, 0) == -1)
+        {
+            perror("receive");
+        }
+        else
+        {
+            ReceivePackage* rec_pack = this->create_receive_package();
+            rec_pack->set_payload(string(buf));
+
+            printf("server: got string from %s - %s\n", s, rec_pack->get_payload().c_str());
+        }
+
         if ((send_package != nullptr) && (send_package->is_sent() == false))
         {
             LOG4CXX_INFO(CommLogger, "payload being sent: " + send_package->get_payload());
@@ -189,18 +226,6 @@ int CommunicationLayer::start_server()
             // delete send_package;
 
             // send_package = nullptr;
-        }
-
-        if (recv(new_fd, buf, 1000000, 0) == -1)
-        {
-            perror("receive");
-        }
-        else
-        {
-            ReceivePackage* rec_pack = this->create_receive_package();
-            rec_pack->set_payload(string(buf));
-
-            printf("server: got string from %s - %s\n", s, rec_pack->get_payload().c_str());
         }
     }
 

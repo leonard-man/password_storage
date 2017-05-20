@@ -19,13 +19,16 @@ int main()
     cout << "" << endl;
     cout << "" << endl;
 
+    CommunicationLayer* comm = new CommunicationLayer();
+
     Controller* controller = new Controller();
+    comm->set_controller(controller);
 
     Utility* util = new Utility();
-    controller->set_utils(util);
+    comm->get_controller()->set_utils(util);
     util = nullptr;
 
-    string configuration_path = controller->get_utils()->get_config_path();
+    string configuration_path = comm->get_controller()->get_utils()->get_config_path();
 
     // Load XML configuration file using DOMConfigurator
     DOMConfigurator::configure(configuration_path + "Log4cxxConfig.xml");
@@ -43,27 +46,28 @@ int main()
     LOG4CXX_INFO(main_cpp, "xml_template_single: " + controller->get_utils()->get_single_password_template());
     LOG4CXX_INFO(main_cpp, "xml_template_bracket_all: " + controller->get_utils()->get_all_passwords_bracket_template());
 
+
+
     SendPackage* sendPackage = new SendPackage();
     sendPackage->set_is_sent(false);
     sendPackage->set_payload("Welcome to password_storage server!");
 
-    CommunicationLayer* comm = new CommunicationLayer();
     comm->set_send_package(sendPackage);
 
-    controller->set_communication_layer(comm);
+    // controller->set_communication_layer(comm);
 
     DatabaseLayer* db = new DatabaseLayer();
     db->set_database(controller->get_utils()->get_database_instance());
-    controller->set_database_layer(db);
+    comm->get_controller()->set_database_layer(db);
     db = nullptr;
 
     // make payload  - xml with all password entries
     // send it to fat client for unmarshalling and rendering into GUI
     vector<PasswordEntry*> result = controller-> get_database_layer()->get_all_password_entries();
 
-    int something = controller->get_communication_layer()->start_server();
+    int something = comm->start_server();
 
-    delete(controller);
+    delete(comm);
 
     LOG4CXX_INFO(main_cpp, "-- program end --\n");
 
@@ -151,6 +155,11 @@ int main()
 }
 
 // TODO (developer_1 #5 #2017-02-19): next steps - from password storage main.cpp:
+// TODO (developer_1 #8 #2017-03-09): push received package to controller
+// TODO (developer_1 #8 #2017-03-09): controller should parse received package
+// TODO (developer_1 #8 #2017-03-09): controller should interpret if any commands are received
+// TODO (developer_1 #8 #2017-03-09): based on commands, action should be taken, return package prepared
+// TODO (developer_1 #8 #2017-03-09): return package should be sent back to caller
 // TODO (developer_1 #8 #2017-02-19): * integrate database and communication
 // TODO (developer_1 #8 #2017-02-19): * - implement get all password entities
 // TODO (developer_1 #8 #2017-02-19): * - implement get password entity (by id)
