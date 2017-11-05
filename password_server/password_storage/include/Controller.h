@@ -15,7 +15,6 @@ using namespace log4cxx;
 using namespace log4cxx::xml;
 using namespace log4cxx::helpers;
 
-/* class which binds everything together */
 class Controller
 {
     public:
@@ -25,6 +24,7 @@ class Controller
         Utility* get_utils();
         void set_database_layer(DatabaseLayer* data_layer);
         DatabaseLayer* get_database_layer();
+
 
     protected:
     private:

@@ -211,6 +211,8 @@ int CommunicationLayer::start_server()
             rec_pack->set_payload(string(buf));
 
             printf("server: got string from %s - %s\n", s, rec_pack->get_payload().c_str());
+
+            // TODO (developer_1 #2 #2017-08-22): interesting execrise would be to fill send_package immediately and push results to back to client.
         }
 
         if ((send_package != nullptr) && (send_package->is_sent() == false))
