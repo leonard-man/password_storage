@@ -155,9 +155,6 @@ int main()
 }
 
 // TODO (developer_1 #5 #2017-02-19): next steps - from password storage main.cpp:
-// TODO (developer_1 #8 #2017-03-09): push received package to controller
-// TODO (developer_1 #8 #2017-03-09): controller should parse received package
-// TODO (developer_1 #8 #2017-03-09): controller should interpret if any commands are received
 // TODO (developer_1 #8 #2017-03-09): based on commands, action should be taken, return package prepared
 // TODO (developer_1 #8 #2017-03-09): return package should be sent back to caller
 // TODO (developer_1 #8 #2017-02-19): * integrate database and communication

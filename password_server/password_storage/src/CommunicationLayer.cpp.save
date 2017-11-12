@@ -89,13 +89,13 @@ ReceivePackage* CommunicationLayer::create_receive_package()
     return receive_package;
 }
 
-void CommunicationLayer::process_received_package()
+void process_received_package()
 {
-    if((controller != nullptr) && (receive_package != nullptr))
+    if((controller != nullptr)  (receive_package != nullptr))
     {
-        // controller->
+    
     }
-
+    
     // push received package to controller
     // controller should parse received package
     // controller should interpret if any commands are received
@@ -220,14 +220,7 @@ int CommunicationLayer::start_server()
 
             printf("server: got string from %s - %s\n", s, rec_pack->get_payload().c_str());
 
-            LOG4CXX_INFO(CommLogger, "payload being recieved: " + rec_pack->get_payload());
-            LOG4CXX_INFO(CommLogger, "payload received buffer size: " + to_string(rec_pack->get_payload_length()));
-
-            SendPackage* sendPackage = new SendPackage();
-            sendPackage->set_is_sent(false);
-            sendPackage->set_payload(rec_pack->get_payload() + " received by password_server");
-
-            this->set_send_package(sendPackage);
+            // TODO (developer_1 #2 #2017-08-22): interesting execrise would be to fill send_package immediately and push results to back to client.
 
         }
 

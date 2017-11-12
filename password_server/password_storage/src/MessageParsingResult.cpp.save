@@ -1,0 +1,21 @@
+#include "MessageParsingResult.h"
+
+MessageParsingResult::MessageParsingResult()
+{
+    //ctor
+}
+
+MessageParsingResult::~MessageParsingResult()
+{
+    //dtor
+}
+
+string MessageParsingResult::get_parsing_result_message()
+{
+    return nullptr;
+}
+
+void MessageParsingResult::set_parsing_result_message()
+{
+
+}

@@ -21,7 +21,6 @@ Controller::~Controller()
 void Controller::set_utils(Utility* utils)
 {
     m_utils = utils;
-    //
 }
 
 Utility* Controller::get_utils()
@@ -47,7 +46,6 @@ bool Controller::set_received_package(ReceivePackage* package_received)
     }
 
     received_package = package_received;
-    // TODO (developer_1 #3 #2017-11-12): log entry here
 }
 
 SendPackage* Controller::get_send_package()
@@ -58,14 +56,10 @@ SendPackage* Controller::get_send_package()
     }
 
     MessageParsingResult* result = parse_package_received();
-    // TODO (developer_1 #3 #2017-11-12): log entry here
-
-    // TODO (developer_1 #3 #2017-11-05): interpret result
+    // 
 }
 
 MessageParsingResult* Controller::parse_package_received()
 {
-    // TODO (developer_1 #3 #2017-11-12): log entry here
-
     return nullptr;
 }

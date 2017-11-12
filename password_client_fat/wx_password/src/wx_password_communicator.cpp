@@ -60,6 +60,7 @@ void wx_password_communicator::init_comm()
     int sockfd;
     int numbytes;
     char buf[MAXDATASIZE];
+    string payload;
     struct addrinfo hints, *servinfo, *p;
     int rv;
     char s[INET6_ADDRSTRLEN];
@@ -114,8 +115,12 @@ void wx_password_communicator::init_comm()
 
     freeaddrinfo(servinfo); // all done with this structure
 
-    if (send(sockfd, "wx_password connected", 22, 0) == -1)
+    payload = "wx_password connected";
+
+    if (send(sockfd, payload.c_str(), payload.length(), 0) == -1)
         perror("send");
+
+    LOG4CXX_INFO(DbLogger, "client - sent to password_storage server: " + payload);
 
     if ((numbytes = recv(sockfd, buf, MAXDATASIZE-1, 0)) == -1)
     {
@@ -127,7 +132,9 @@ void wx_password_communicator::init_comm()
 
     printf("client: received '%s'\n", buf);
 
-    LOG4CXX_INFO(DbLogger, "client - password_storage sent: " + string(buf));
+    payload = string(buf);
+
+    LOG4CXX_INFO(DbLogger, "client - received from password_storage server: " + payload);
 
     close(sockfd);
 

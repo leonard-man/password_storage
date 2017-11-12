@@ -37,11 +37,10 @@ class CommunicationLayer
         // constructor and destructor
         CommunicationLayer();
         virtual ~CommunicationLayer();
-        // functions
+        
         int start_server();
         void set_controller(Controller* ctrl);
         Controller* get_controller();
-        bool set_send_package(SendPackage* new_send_package);
     protected:
     private:
         // fields
@@ -55,6 +54,7 @@ class CommunicationLayer
         bool set_receive_package(ReceivePackage* new_receive_package);
         ReceivePackage* create_receive_package();
         bool remove_receive_package();
+        bool set_send_package(SendPackage* new_send_package);
         bool remove_send_package();
 };
 
