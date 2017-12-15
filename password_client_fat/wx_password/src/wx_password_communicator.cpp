@@ -115,7 +115,7 @@ void wx_password_communicator::init_comm()
 
     freeaddrinfo(servinfo); // all done with this structure
 
-    payload = "wx_password connected";
+    payload = "<list_all_passwords>";
 
     if (send(sockfd, payload.c_str(), payload.length(), 0) == -1)
         perror("send");

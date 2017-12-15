@@ -1,0 +1,834 @@
+2017-02-16 12:02:58,640 INFO  wx_passwordApp - -- program start --
+2017-02-16 12:02:58,641 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 12:02:58,641 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 12:02:58,641 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 12:02:58,641 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 12:02:58,641 INFO  wx_passwordApp - 
+2017-02-16 12:02:58,641 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 12:03:01,692 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:18:00,016 INFO  wx_passwordApp - -- program start --
+2017-02-16 12:18:00,018 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 12:18:00,018 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 12:18:00,018 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 12:18:00,018 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 12:18:00,018 INFO  wx_passwordApp - 
+2017-02-16 12:18:00,018 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 12:18:05,184 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:20:42,525 INFO  wx_passwordApp - -- program start --
+2017-02-16 12:20:42,525 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 12:20:42,525 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 12:20:42,525 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 12:20:42,525 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 12:20:42,525 INFO  wx_passwordApp - 
+2017-02-16 12:20:42,525 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 12:23:10,567 INFO  wx_passwordApp - -- program start --
+2017-02-16 12:23:10,567 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 12:23:10,567 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 12:23:10,567 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 12:23:10,567 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 12:23:10,567 INFO  wx_passwordApp - 
+2017-02-16 12:23:10,567 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 12:23:24,868 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:23:24,869 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:23:24,869 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:23:24,869 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:23:24,869 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:23:24,869 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:24:12,795 INFO  wx_passwordApp - -- program start --
+2017-02-16 12:24:12,796 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 12:24:12,796 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 12:24:12,796 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 12:24:12,796 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 12:24:12,796 INFO  wx_passwordApp - 
+2017-02-16 12:24:12,796 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 12:32:56,590 INFO  wx_passwordApp - -- program start --
+2017-02-16 12:32:56,591 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 12:32:56,591 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 12:32:56,591 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 12:32:56,591 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 12:32:56,591 INFO  wx_passwordApp - 
+2017-02-16 12:32:56,591 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 12:33:00,492 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:33:00,492 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:33:00,493 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:33:00,493 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:33:00,493 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:33:00,493 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:33:04,156 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:33:04,157 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:33:04,157 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:33:04,157 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:33:04,157 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:33:04,157 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:33:04,596 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:33:04,596 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:33:04,596 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:33:04,597 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:33:04,597 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:33:04,597 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:33:04,772 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:33:04,772 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:33:04,773 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:33:04,773 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:33:04,773 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:33:04,773 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:33:04,972 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:33:04,972 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:33:04,973 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:33:04,973 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:33:04,973 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:33:04,973 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:33:44,083 INFO  wx_passwordApp - -- program start --
+2017-02-16 12:33:44,083 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 12:33:44,083 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 12:33:44,083 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 12:33:44,083 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 12:33:44,083 INFO  wx_passwordApp - 
+2017-02-16 12:33:44,083 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 12:33:54,139 INFO  wx_passwordApp - -- program start --
+2017-02-16 12:33:54,139 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 12:33:54,139 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 12:33:54,139 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 12:33:54,139 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 12:33:54,139 INFO  wx_passwordApp - 
+2017-02-16 12:33:54,139 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 12:33:59,117 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:33:59,117 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:33:59,117 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:33:59,117 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:33:59,117 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:33:59,118 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:33:59,908 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:33:59,908 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:33:59,908 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:33:59,908 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:33:59,908 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:33:59,908 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:34:00,356 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:34:00,356 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:34:00,356 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:34:00,356 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:34:00,356 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:34:00,356 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:34:00,588 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:34:00,588 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:34:00,588 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:34:00,588 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:34:00,588 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:34:00,588 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:34:01,620 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:34:01,620 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:34:01,620 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:34:01,620 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:34:01,620 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:34:01,620 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 12:34:01,836 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 12:34:01,836 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 12:34:01,836 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 12:34:01,836 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 12:34:01,836 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 12:34:01,836 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 14:33:00,235 INFO  wx_passwordApp - -- program start --
+2017-02-16 14:33:00,235 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 14:33:00,235 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 14:33:00,235 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 14:33:00,235 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 14:33:00,235 INFO  wx_passwordApp - 
+2017-02-16 14:33:00,235 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 14:33:04,262 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 14:33:04,262 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 14:33:04,263 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 14:33:04,263 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 14:33:04,263 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 14:33:04,263 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 14:33:10,812 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 14:33:10,812 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 14:33:10,812 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 14:33:10,813 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 14:33:10,813 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 14:33:10,813 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 14:33:11,244 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 14:33:11,244 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 14:33:11,244 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 14:33:11,245 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 14:33:11,245 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 14:33:11,245 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 14:33:11,740 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 14:33:11,740 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 14:33:11,740 INFO  wx_password_communicator - connecting to password_storage server at: localhost
+2017-02-16 14:33:11,740 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 14:33:11,741 INFO  wx_password_communicator - client - connecting to password_storage server at: localhost
+2017-02-16 14:33:11,741 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 14:38:07,801 INFO  wx_passwordApp - -- program start --
+2017-02-16 14:38:07,801 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 14:38:07,801 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 14:38:07,801 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 14:38:07,801 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 14:38:07,801 INFO  wx_passwordApp - 
+2017-02-16 14:38:07,801 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 14:38:20,375 INFO  wx_passwordApp - -- program start --
+2017-02-16 14:38:20,375 INFO  wx_passwordApp - password storage project - fat client component
+2017-02-16 14:38:20,375 INFO  wx_passwordApp - -------------------------------------------
+2017-02-16 14:38:20,375 INFO  wx_passwordApp - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 14:38:20,375 INFO  wx_passwordApp - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 14:38:20,375 INFO  wx_passwordApp - 
+2017-02-16 14:38:20,375 INFO  wx_passwordApp - log4cxx configuration successfully parsed
+2017-02-16 15:37:52,371 INFO  wx_password_list - -- program start --
+2017-02-16 15:37:52,372 INFO  wx_password_list - password storage project - fat client component
+2017-02-16 15:37:52,372 INFO  wx_password_list - -------------------------------------------
+2017-02-16 15:37:52,372 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-02-16 15:37:52,372 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-02-16 15:37:52,372 INFO  wx_password_list - 
+2017-02-16 15:37:52,372 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-02-16 15:37:52,372 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-02-16 15:38:46,866 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 15:38:46,866 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:38:46,866 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 15:38:46,866 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:38:46,866 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 15:38:47,745 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 15:38:47,746 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:38:47,746 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 15:38:47,746 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:38:47,746 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 15:38:48,136 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 15:38:48,136 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:38:48,136 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 15:38:48,136 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:38:48,136 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 15:38:48,336 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 15:38:48,336 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:38:48,336 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 15:38:48,336 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:38:48,336 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 15:39:45,269 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 15:39:45,269 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:39:45,270 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 15:39:45,270 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:39:45,270 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-02-16 15:39:45,504 INFO  wx_password_communicator - entered function init_comm()
+2017-02-16 15:39:45,505 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:39:45,505 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-02-16 15:39:45,505 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-02-16 15:39:45,505 INFO  wx_password_communicator - client - password_storage sent: I think this is good exercise!
+2017-03-05 17:54:51,185 INFO  wx_password_list - -- program start --
+2017-03-05 17:54:51,186 INFO  wx_password_list - password storage project - fat client component
+2017-03-05 17:54:51,186 INFO  wx_password_list - -------------------------------------------
+2017-03-05 17:54:51,186 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-05 17:54:51,186 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-05 17:54:51,186 INFO  wx_password_list - 
+2017-03-05 17:54:51,186 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-05 17:54:51,186 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-05 17:54:52,940 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 17:54:52,940 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-03-05 17:54:55,938 INFO  wx_password_communicator - client - failed to connect to password_storage server at: 192.168.88.129
+2017-03-05 18:11:08,408 INFO  wx_password_list - -- program start --
+2017-03-05 18:11:08,408 INFO  wx_password_list - password storage project - fat client component
+2017-03-05 18:11:08,408 INFO  wx_password_list - -------------------------------------------
+2017-03-05 18:11:08,408 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-05 18:11:08,408 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-05 18:11:08,408 INFO  wx_password_list - 
+2017-03-05 18:11:08,408 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-05 18:11:08,408 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-05 18:11:25,156 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 18:11:25,156 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:11:25,158 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 18:11:25,158 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:11:25,158 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 18:11:42,307 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 18:11:42,307 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:11:42,308 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 18:11:42,308 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:14:06,732 INFO  wx_password_communicator - client - password_storage sent: 
+2017-03-05 18:14:06,735 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 18:14:06,736 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:14:06,740 INFO  wx_password_communicator - client - failed to connect to password_storage server at: 192.168.88.134
+2017-03-05 18:14:40,551 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 18:14:40,551 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:14:40,552 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 18:14:40,552 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:14:40,552 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 18:14:41,271 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 18:14:41,271 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:14:41,272 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 18:14:41,272 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:14:41,272 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 18:14:41,847 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 18:14:41,847 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:14:41,847 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 18:14:41,847 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:14:41,847 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 18:14:42,295 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 18:14:42,295 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:14:42,295 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 18:14:42,295 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:14:42,295 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 18:15:43,014 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 18:15:43,014 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:15:43,015 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 18:15:43,015 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 18:15:43,015 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 19:13:29,454 INFO  wx_password_list - -- program start --
+2017-03-05 19:13:29,455 INFO  wx_password_list - password storage project - fat client component
+2017-03-05 19:13:29,455 INFO  wx_password_list - -------------------------------------------
+2017-03-05 19:13:29,455 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-05 19:13:29,455 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-05 19:13:29,455 INFO  wx_password_list - 
+2017-03-05 19:13:29,455 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-05 19:13:29,455 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-05 19:13:30,617 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:13:30,617 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:13:30,618 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:13:30,618 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:13:30,618 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 19:13:40,040 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:13:40,041 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:13:40,042 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:13:40,042 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:16:01,408 INFO  wx_password_list - -- program start --
+2017-03-05 19:16:01,409 INFO  wx_password_list - password storage project - fat client component
+2017-03-05 19:16:01,409 INFO  wx_password_list - -------------------------------------------
+2017-03-05 19:16:01,409 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-05 19:16:01,409 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-05 19:16:01,409 INFO  wx_password_list - 
+2017-03-05 19:16:01,409 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-05 19:16:01,409 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-05 19:16:05,245 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:16:05,245 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:16:05,246 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:16:05,246 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:17:54,702 INFO  wx_password_list - -- program start --
+2017-03-05 19:17:54,702 INFO  wx_password_list - password storage project - fat client component
+2017-03-05 19:17:54,702 INFO  wx_password_list - -------------------------------------------
+2017-03-05 19:17:54,702 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-05 19:17:54,702 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-05 19:17:54,702 INFO  wx_password_list - 
+2017-03-05 19:17:54,702 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-05 19:17:54,702 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-05 19:17:57,586 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:17:57,586 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:17:57,588 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:17:57,588 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:27,957 INFO  wx_password_list - -- program start --
+2017-03-05 19:18:27,957 INFO  wx_password_list - password storage project - fat client component
+2017-03-05 19:18:27,957 INFO  wx_password_list - -------------------------------------------
+2017-03-05 19:18:27,957 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-05 19:18:27,957 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-05 19:18:27,957 INFO  wx_password_list - 
+2017-03-05 19:18:27,957 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-05 19:18:27,957 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-05 19:18:29,633 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:18:29,633 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:29,634 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:18:29,634 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:30,937 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:18:30,937 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:30,938 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:18:30,938 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:31,665 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:18:31,665 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:31,666 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:18:31,666 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:32,265 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:18:32,265 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:32,265 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:18:32,265 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:32,977 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:18:32,977 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:32,978 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:18:32,980 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:34,073 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:18:34,073 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:34,074 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:18:34,074 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:39,185 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:18:39,185 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:39,187 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:18:39,187 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:41,617 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:18:41,617 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:41,617 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:18:41,617 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:42,497 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:18:42,497 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:18:42,499 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:18:42,499 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:19:05,255 INFO  wx_password_list - -- program start --
+2017-03-05 19:19:05,255 INFO  wx_password_list - password storage project - fat client component
+2017-03-05 19:19:05,255 INFO  wx_password_list - -------------------------------------------
+2017-03-05 19:19:05,255 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-05 19:19:05,255 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-05 19:19:05,255 INFO  wx_password_list - 
+2017-03-05 19:19:05,255 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-05 19:19:05,255 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-05 19:19:06,888 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:19:06,888 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:19:06,889 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:19:06,889 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:19:55,818 INFO  wx_password_list - -- program start --
+2017-03-05 19:19:55,818 INFO  wx_password_list - password storage project - fat client component
+2017-03-05 19:19:55,818 INFO  wx_password_list - -------------------------------------------
+2017-03-05 19:19:55,818 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-05 19:19:55,818 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-05 19:19:55,818 INFO  wx_password_list - 
+2017-03-05 19:19:55,818 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-05 19:19:55,818 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-05 19:19:57,007 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:19:57,007 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:19:57,007 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:19:57,007 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:19:57,007 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 19:19:59,063 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:19:59,063 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:19:59,063 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:19:59,063 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:19:59,063 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 19:19:59,967 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:19:59,967 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:19:59,968 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:19:59,968 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:19:59,968 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 19:20:00,679 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:20:00,680 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:20:00,680 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:20:00,680 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:20:00,680 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-05 19:20:16,018 INFO  wx_password_list - -- program start --
+2017-03-05 19:20:16,018 INFO  wx_password_list - password storage project - fat client component
+2017-03-05 19:20:16,018 INFO  wx_password_list - -------------------------------------------
+2017-03-05 19:20:16,018 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-05 19:20:16,018 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-05 19:20:16,018 INFO  wx_password_list - 
+2017-03-05 19:20:16,018 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-05 19:20:16,018 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-05 19:20:18,439 INFO  wx_password_communicator - entered function init_comm()
+2017-03-05 19:20:18,439 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:20:18,439 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-05 19:20:18,439 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-05 19:20:18,439 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-09 09:44:09,034 INFO  wx_password_list - -- program start --
+2017-03-09 09:44:09,047 INFO  wx_password_list - password storage project - fat client component
+2017-03-09 09:44:09,047 INFO  wx_password_list - -------------------------------------------
+2017-03-09 09:44:09,047 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-03-09 09:44:09,047 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-03-09 09:44:09,047 INFO  wx_password_list - 
+2017-03-09 09:44:09,047 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-03-09 09:44:09,047 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-03-09 09:44:12,589 INFO  wx_password_communicator - entered function init_comm()
+2017-03-09 09:44:12,589 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-09 09:44:12,590 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-09 09:44:12,590 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-09 09:44:12,590 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-03-09 09:45:13,583 INFO  wx_password_communicator - entered function init_comm()
+2017-03-09 09:45:13,583 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.134
+2017-03-09 09:45:13,584 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-03-09 09:45:13,584 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.134
+2017-03-09 09:45:13,585 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-07-02 16:32:04,570 INFO  wx_password_list - -- program start --
+2017-07-02 16:32:04,604 INFO  wx_password_list - password storage project - fat client component
+2017-07-02 16:32:04,604 INFO  wx_password_list - -------------------------------------------
+2017-07-02 16:32:04,604 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-07-02 16:32:04,604 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-07-02 16:32:04,604 INFO  wx_password_list - 
+2017-07-02 16:32:04,604 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-07-02 16:32:04,604 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-07-02 16:32:09,244 INFO  wx_password_communicator - entered function init_comm()
+2017-07-02 16:32:09,245 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.131
+2017-07-02 16:32:09,247 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-07-02 16:32:09,247 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.131
+2017-07-02 16:32:09,249 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-07-02 16:32:21,916 INFO  wx_password_communicator - entered function init_comm()
+2017-07-02 16:32:21,916 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.131
+2017-07-02 16:32:21,918 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-07-02 16:32:21,918 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.131
+2017-07-02 16:32:21,920 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-11-12 19:04:10,422 INFO  wx_password_list - -- program start --
+2017-11-12 19:04:10,423 INFO  wx_password_list - password storage project - fat client component
+2017-11-12 19:04:10,423 INFO  wx_password_list - -------------------------------------------
+2017-11-12 19:04:10,423 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-11-12 19:04:10,423 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-11-12 19:04:10,423 INFO  wx_password_list - 
+2017-11-12 19:04:10,423 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-11-12 19:04:10,423 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-11-12 19:04:35,358 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:04:35,358 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:04:35,360 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:04:35,360 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:04:35,363 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-11-12 19:05:01,382 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:05:01,382 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:05:01,383 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:05:01,383 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:05:01,383 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-11-12 19:05:10,726 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:05:10,726 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:05:10,728 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:05:10,728 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:05:10,729 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-11-12 19:05:36,071 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:05:36,071 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:05:36,073 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:05:36,073 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:08:54,604 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-11-12 19:10:15,271 INFO  wx_password_list - -- program start --
+2017-11-12 19:10:15,271 INFO  wx_password_list - password storage project - fat client component
+2017-11-12 19:10:15,271 INFO  wx_password_list - -------------------------------------------
+2017-11-12 19:10:15,271 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-11-12 19:10:15,271 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-11-12 19:10:15,271 INFO  wx_password_list - 
+2017-11-12 19:10:15,271 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-11-12 19:10:15,271 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-11-12 19:10:18,623 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:10:18,623 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:10:18,625 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:10:18,625 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:11:45,018 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-11-12 19:11:45,020 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:11:45,020 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:11:45,022 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:11:45,022 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:12:06,066 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-11-12 19:12:06,083 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:12:06,083 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:12:06,085 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:12:06,085 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:12:06,086 INFO  wx_password_communicator - client - password_storage sent: Welcome to password_storage server!
+2017-11-12 19:20:37,043 INFO  wx_password_list - -- program start --
+2017-11-12 19:20:37,043 INFO  wx_password_list - password storage project - fat client component
+2017-11-12 19:20:37,043 INFO  wx_password_list - -------------------------------------------
+2017-11-12 19:20:37,043 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-11-12 19:20:37,043 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-11-12 19:20:37,043 INFO  wx_password_list - 
+2017-11-12 19:20:37,043 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-11-12 19:20:37,043 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-11-12 19:20:41,727 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:20:41,728 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:20:41,730 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:20:41,730 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:20:41,731 INFO  wx_password_communicator - client - password_storage sent: password_storage server received: wx_password connected
+2017-11-12 19:40:14,098 INFO  wx_password_list - -- program start --
+2017-11-12 19:40:14,101 INFO  wx_password_list - password storage project - fat client component
+2017-11-12 19:40:14,101 INFO  wx_password_list - -------------------------------------------
+2017-11-12 19:40:14,101 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-11-12 19:40:14,101 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-11-12 19:40:14,101 INFO  wx_password_list - 
+2017-11-12 19:40:14,101 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-11-12 19:40:14,101 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-11-12 19:40:15,424 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:40:15,425 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:40:15,425 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:40:15,425 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:40:15,425 INFO  wx_password_communicator - client - sent to password_storage server: wx_password connected
+2017-11-12 19:40:15,453 INFO  wx_password_communicator - client - received from password_storage server: password_storage server received: wx_password connected
+2017-11-12 19:40:40,689 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:40:40,689 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:40:40,689 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:40:40,689 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:40:40,690 INFO  wx_password_communicator - client - sent to password_storage server: wx_password connected
+2017-11-12 19:40:40,690 INFO  wx_password_communicator - client - received from password_storage server: password_storage server received: wx_password connected
+2017-11-12 19:43:38,532 INFO  wx_password_list - -- program start --
+2017-11-12 19:43:38,533 INFO  wx_password_list - password storage project - fat client component
+2017-11-12 19:43:38,533 INFO  wx_password_list - -------------------------------------------
+2017-11-12 19:43:38,533 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-11-12 19:43:38,533 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-11-12 19:43:38,533 INFO  wx_password_list - 
+2017-11-12 19:43:38,533 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-11-12 19:43:38,533 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-11-12 19:43:43,457 INFO  wx_password_communicator - entered function init_comm()
+2017-11-12 19:43:43,457 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:43:43,459 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-12 19:43:43,459 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.142
+2017-11-12 19:43:43,459 INFO  wx_password_communicator - client - sent to password_storage server: wx_password connected
+2017-11-12 19:43:43,459 INFO  wx_password_communicator - client - received from password_storage server: wx_password connected received by password_server
+2017-11-25 18:06:44,881 INFO  wx_password_list - -- program start --
+2017-11-25 18:06:44,897 INFO  wx_password_list - password storage project - fat client component
+2017-11-25 18:06:44,897 INFO  wx_password_list - -------------------------------------------
+2017-11-25 18:06:44,897 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-11-25 18:06:44,897 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-11-25 18:06:44,897 INFO  wx_password_list - 
+2017-11-25 18:06:44,897 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-11-25 18:06:44,898 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-11-25 18:06:56,947 INFO  wx_password_communicator - entered function init_comm()
+2017-11-25 18:06:56,948 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-11-25 18:06:56,952 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-11-25 18:06:56,952 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-11-25 18:06:56,954 INFO  wx_password_communicator - client - sent to password_storage server: wx_password connected
+2017-11-25 18:06:56,954 INFO  wx_password_communicator - client - received from password_storage server: wx_password connected received by password_server
+2017-12-09 10:51:21,713 INFO  wx_password_list - -- program start --
+2017-12-09 10:51:21,714 INFO  wx_password_list - password storage project - fat client component
+2017-12-09 10:51:21,714 INFO  wx_password_list - -------------------------------------------
+2017-12-09 10:51:21,714 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-09 10:51:21,714 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-09 10:51:21,714 INFO  wx_password_list - 
+2017-12-09 10:51:21,714 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-09 10:51:21,714 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-09 10:51:23,611 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 10:51:23,613 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 10:51:23,615 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 10:51:23,615 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 10:51:23,618 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 10:51:23,618 INFO  wx_password_communicator - client - received from password_storage server: <list_all_passwords> received by password_server
+2017-12-09 10:51:40,331 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 10:51:40,331 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 10:51:40,333 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 10:51:40,333 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 10:51:40,335 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 10:51:40,336 INFO  wx_password_communicator - client - received from password_storage server: <list_all_passwords> received by password_server
+2017-12-09 10:51:52,931 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 10:51:52,931 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 10:51:52,933 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 10:51:52,933 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 10:51:52,935 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 10:51:52,936 INFO  wx_password_communicator - client - received from password_storage server: <list_all_passwords> received by password_server
+2017-12-09 10:52:16,347 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 10:52:16,347 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 10:52:16,348 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 10:52:16,349 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 10:52:16,350 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 10:52:16,350 INFO  wx_password_communicator - client - received from password_storage server: <list_all_passwords> received by password_server
+2017-12-09 11:01:06,854 INFO  wx_password_list - -- program start --
+2017-12-09 11:01:06,854 INFO  wx_password_list - password storage project - fat client component
+2017-12-09 11:01:06,854 INFO  wx_password_list - -------------------------------------------
+2017-12-09 11:01:06,854 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-09 11:01:06,854 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-09 11:01:06,854 INFO  wx_password_list - 
+2017-12-09 11:01:06,854 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-09 11:01:06,854 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-09 11:01:08,315 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:01:08,315 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:01:08,317 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:01:08,317 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:01:08,319 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:01:08,319 INFO  wx_password_communicator - client - received from password_storage server: Welcome to password_storage server!
+2017-12-09 11:01:58,948 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:01:58,948 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:01:58,951 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:01:58,952 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:01:58,958 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:03:30,372 INFO  wx_password_communicator - client - received from password_storage server: Welcome to password_storage server!
+2017-12-09 11:03:30,377 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:03:30,377 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:03:30,380 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:03:30,380 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:03:30,385 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:05:03,837 INFO  wx_password_communicator - client - received from password_storage server: Welcome to password_storage server!
+2017-12-09 11:05:03,849 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:05:03,849 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:05:03,854 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:05:03,854 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:05:03,856 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:05:41,484 INFO  wx_password_communicator - client - received from password_storage server: Welcome to password_storage server!
+2017-12-09 11:05:41,487 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:05:41,487 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:05:41,493 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:05:41,493 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:05:41,497 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:06:56,517 INFO  wx_password_communicator - client - received from password_storage server: Welcome to password_storage server!
+2017-12-09 11:09:14,323 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:09:14,323 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:09:14,325 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:09:14,326 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:09:14,332 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:10:02,576 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-09 11:10:02,581 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:10:02,581 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:10:02,582 INFO  wx_password_communicator - client - failed to connect to password_storage server at: 192.168.88.129
+2017-12-09 11:10:08,107 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:10:08,107 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:10:08,108 INFO  wx_password_communicator - client - failed to connect to password_storage server at: 192.168.88.129
+2017-12-09 11:10:34,635 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:10:34,636 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:10:34,638 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:10:34,638 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:10:34,640 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:11:09,522 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-09 11:11:13,835 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:11:13,835 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:11:13,835 INFO  wx_password_communicator - client - failed to connect to password_storage server at: 192.168.88.129
+2017-12-09 11:11:36,844 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:11:36,844 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:11:36,848 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:11:36,848 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:11:36,851 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:12:39,765 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-09 11:13:36,963 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:13:36,964 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:13:36,965 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:13:36,966 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:13:36,968 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:14:55,103 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-09 11:15:43,635 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:15:43,635 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:15:43,637 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:15:43,637 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:15:43,641 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:15:59,424 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-09 11:17:15,111 INFO  wx_password_list - -- program start --
+2017-12-09 11:17:15,111 INFO  wx_password_list - password storage project - fat client component
+2017-12-09 11:17:15,111 INFO  wx_password_list - -------------------------------------------
+2017-12-09 11:17:15,111 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-09 11:17:15,111 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-09 11:17:15,111 INFO  wx_password_list - 
+2017-12-09 11:17:15,111 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-09 11:17:15,111 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-09 11:17:16,492 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:17:16,492 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:17:16,494 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:17:16,494 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:17:16,497 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:17:30,443 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-09 11:17:43,556 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:17:43,556 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:17:43,559 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:17:43,559 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:17:43,561 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:18:25,939 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-09 11:18:36,124 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:18:36,124 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:18:36,124 INFO  wx_password_communicator - client - failed to connect to password_storage server at: 192.168.88.129
+2017-12-09 11:18:45,660 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:18:45,660 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:18:45,662 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:18:45,662 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:18:45,665 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:21:18,654 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-09 11:26:42,743 INFO  wx_password_list - -- program start --
+2017-12-09 11:26:42,743 INFO  wx_password_list - password storage project - fat client component
+2017-12-09 11:26:42,743 INFO  wx_password_list - -------------------------------------------
+2017-12-09 11:26:42,743 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-09 11:26:42,743 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-09 11:26:42,743 INFO  wx_password_list - 
+2017-12-09 11:26:42,743 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-09 11:26:42,743 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-09 11:26:44,004 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:26:44,004 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:26:44,006 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:26:44,006 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:26:44,009 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:27:11,736 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-09 11:27:21,468 INFO  wx_password_communicator - entered function init_comm()
+2017-12-09 11:27:21,468 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:27:21,470 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-09 11:27:21,470 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-09 11:27:21,473 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-09 11:28:33,509 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-15 09:50:09,464 INFO  wx_password_list - -- program start --
+2017-12-15 09:50:09,506 INFO  wx_password_list - password storage project - fat client component
+2017-12-15 09:50:09,506 INFO  wx_password_list - -------------------------------------------
+2017-12-15 09:50:09,506 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-15 09:50:09,506 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-15 09:50:09,506 INFO  wx_password_list - 
+2017-12-15 09:50:09,506 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-15 09:50:09,506 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-15 09:51:20,042 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 09:51:20,043 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 09:51:20,045 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-15 09:51:20,045 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-15 09:51:20,048 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-15 09:53:15,507 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-15 09:53:22,755 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 09:53:22,755 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 09:53:22,757 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-15 09:53:22,757 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-15 09:53:22,761 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-15 09:54:54,673 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-15 09:58:48,797 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 09:58:48,800 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 09:58:48,802 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-15 09:58:48,802 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-15 09:58:48,805 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-15 09:59:14,204 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-15 12:58:25,929 INFO  wx_password_list - -- program start --
+2017-12-15 12:58:25,930 INFO  wx_password_list - password storage project - fat client component
+2017-12-15 12:58:25,930 INFO  wx_password_list - -------------------------------------------
+2017-12-15 12:58:25,930 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-15 12:58:25,930 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-15 12:58:25,930 INFO  wx_password_list - 
+2017-12-15 12:58:25,930 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-15 12:58:25,930 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-15 12:58:27,219 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 12:58:27,219 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 12:58:27,220 INFO  wx_password_communicator - client - failed to connect to password_storage server at: 192.168.88.129
+2017-12-15 13:27:03,149 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 13:27:03,149 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:27:03,151 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-15 13:27:03,151 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:27:03,152 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-15 13:39:06,750 INFO  wx_password_list - -- program start --
+2017-12-15 13:39:06,751 INFO  wx_password_list - password storage project - fat client component
+2017-12-15 13:39:06,751 INFO  wx_password_list - -------------------------------------------
+2017-12-15 13:39:06,751 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-15 13:39:06,751 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-15 13:39:06,751 INFO  wx_password_list - 
+2017-12-15 13:39:06,751 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-15 13:39:06,751 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-15 13:39:08,546 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 13:39:08,546 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:39:08,547 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-15 13:39:08,547 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:39:08,549 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-15 13:39:43,224 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-15 13:43:24,682 INFO  wx_password_list - -- program start --
+2017-12-15 13:43:24,682 INFO  wx_password_list - password storage project - fat client component
+2017-12-15 13:43:24,682 INFO  wx_password_list - -------------------------------------------
+2017-12-15 13:43:24,682 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-15 13:43:24,682 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-15 13:43:24,682 INFO  wx_password_list - 
+2017-12-15 13:43:24,682 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-15 13:43:24,682 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-15 13:43:26,103 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 13:43:26,103 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:43:26,103 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-15 13:43:26,103 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:43:26,104 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-15 13:43:27,822 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-15 13:45:06,949 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 13:45:06,949 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:45:06,949 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-15 13:45:06,949 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:45:06,950 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-15 13:45:07,058 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-15 13:48:12,195 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 13:48:12,195 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:48:12,195 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-15 13:48:12,195 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:48:12,196 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-15 13:49:27,887 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-15 13:58:23,224 INFO  utility - root_path: /home/sgnjidic/devel/cplusplus/password_storage/password_client_fat/wx_password/
+2017-12-15 13:58:23,224 INFO  utility - server_ip_v4: 192.168.88.129
+2017-12-15 13:58:23,225 INFO  wx_password_list - -- program start --
+2017-12-15 13:58:23,225 INFO  wx_password_list - password storage project - fat client component
+2017-12-15 13:58:23,225 INFO  wx_password_list - -------------------------------------------
+2017-12-15 13:58:23,225 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-15 13:58:23,225 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-15 13:58:23,225 INFO  wx_password_list - 
+2017-12-15 13:58:23,225 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-15 13:58:23,225 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-15 13:58:32,402 INFO  wx_password_list - -- program start --
+2017-12-15 13:58:32,402 INFO  wx_password_list - password storage project - fat client component
+2017-12-15 13:58:32,402 INFO  wx_password_list - -------------------------------------------
+2017-12-15 13:58:32,402 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-15 13:58:32,402 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-15 13:58:32,402 INFO  wx_password_list - 
+2017-12-15 13:58:32,402 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-15 13:58:32,402 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-15 13:58:33,919 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 13:58:33,919 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:58:33,920 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-15 13:58:33,920 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-15 13:58:33,922 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-15 13:59:06,688 INFO  wx_password_communicator - client - received from password_storage server: 
+2017-12-15 14:09:19,827 INFO  wx_password_list - -- program start --
+2017-12-15 14:09:19,827 INFO  wx_password_list - password storage project - fat client component
+2017-12-15 14:09:19,827 INFO  wx_password_list - -------------------------------------------
+2017-12-15 14:09:19,827 INFO  wx_password_list - wxWidgets fat client where target server is deployed at VPS which is online all the time
+2017-12-15 14:09:19,827 INFO  wx_password_list - client needs to show stored passwords and enable CRUD of password information
+2017-12-15 14:09:19,827 INFO  wx_password_list - 
+2017-12-15 14:09:19,827 INFO  wx_password_list - log4cxx configuration successfully parsed
+2017-12-15 14:09:19,827 INFO  wx_password_communicator - entered function set_server_ipv4_address()
+2017-12-15 14:09:20,975 INFO  wx_password_communicator - entered function init_comm()
+2017-12-15 14:09:20,975 INFO  wx_password_communicator - connecting to password_storage server at: 192.168.88.129
+2017-12-15 14:09:20,975 INFO  wx_password_communicator - entered function get_in_addr(struct sockaddr *sa)
+2017-12-15 14:09:20,975 INFO  wx_password_communicator - client - connecting to password_storage server at: 192.168.88.129
+2017-12-15 14:09:20,977 INFO  wx_password_communicator - client - sent to password_storage server: <list_all_passwords>
+2017-12-15 14:10:36,544 INFO  wx_password_communicator - client - received from password_storage server: <password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>

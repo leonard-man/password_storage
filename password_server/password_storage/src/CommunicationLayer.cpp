@@ -23,11 +23,15 @@ CommunicationLayer::~CommunicationLayer()
     {
         delete controller;
     }
+
+    LOG4CXX_INFO(CommLogger, "Communication layer destrutor end.");
+
 }
 
 void CommunicationLayer::set_controller(Controller* ctrl)
 {
     controller = ctrl;
+    LOG4CXX_INFO(CommLogger, "Controller set.");
 }
 
 Controller* CommunicationLayer::get_controller()
@@ -37,12 +41,12 @@ Controller* CommunicationLayer::get_controller()
 
 bool CommunicationLayer::set_receive_package(ReceivePackage* new_receive_package)
 {
-    if(receive_package != nullptr)
-    {
-        delete receive_package;
-    }
+    remove_receive_package();
 
     receive_package = new_receive_package;
+
+    LOG4CXX_INFO(CommLogger, "New receive package received: " + new_receive_package->get_payload());
+
     return true;
 }
 
@@ -54,17 +58,20 @@ bool CommunicationLayer::remove_receive_package()
     }
 
     receive_package = nullptr;
+
+    LOG4CXX_INFO(CommLogger, "Clearing receive package.");
+
     return true;
 }
 
 bool CommunicationLayer::set_send_package(SendPackage* new_send_package)
 {
-    if(send_package != nullptr)
-    {
-        delete send_package;
-    }
+    remove_send_package();
 
     send_package = new_send_package;
+
+    LOG4CXX_INFO(CommLogger, "New send package created: " + new_send_package->get_payload());
+
     return true;
 }
 
@@ -76,6 +83,9 @@ bool CommunicationLayer::remove_send_package()
     }
 
     send_package = nullptr;
+
+    LOG4CXX_INFO(CommLogger, "Clearing send package.");
+
     return true;
 }
 
@@ -86,6 +96,8 @@ ReceivePackage* CommunicationLayer::create_receive_package()
     ReceivePackage* receive_pack = new ReceivePackage();
     receive_package = receive_pack;
 
+    LOG4CXX_INFO(CommLogger, "Receive package created.");
+
     return receive_package;
 }
 
@@ -93,9 +105,11 @@ void CommunicationLayer::process_received_package()
 {
     if((controller != nullptr) && (receive_package != nullptr))
     {
-        // controller->
+        controller->set_received_package(receive_package);
     }
 
+    set_send_package(controller->get_send_package());
+    this->send_package->set_is_sent(false);
     // push received package to controller
     // controller should parse received package
     // controller should interpret if any commands are received
@@ -223,12 +237,7 @@ int CommunicationLayer::start_server()
             LOG4CXX_INFO(CommLogger, "payload being recieved: " + rec_pack->get_payload());
             LOG4CXX_INFO(CommLogger, "payload received buffer size: " + to_string(rec_pack->get_payload_length()));
 
-            SendPackage* sendPackage = new SendPackage();
-            sendPackage->set_is_sent(false);
-            sendPackage->set_payload(rec_pack->get_payload() + " received by password_server");
-
-            this->set_send_package(sendPackage);
-
+            this->process_received_package();
         }
 
         if ((send_package != nullptr) && (send_package->is_sent() == false))
@@ -241,6 +250,7 @@ int CommunicationLayer::start_server()
                 perror("send");
             }
 
+            this->send_package->set_is_sent(true);
             // delete send_package;
 
             // send_package = nullptr;

@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <sqlite3.h>
 
+#include "PasswordEntry.h"
 #include "Utility.h"
 #include "DatabaseLayer.h"
 #include "SendPackage.h"
@@ -14,6 +15,7 @@
 #include <log4cxx/logger.h>
 #include <log4cxx/xml/domconfigurator.h>
 
+using namespace std;
 using namespace log4cxx;
 using namespace log4cxx::xml;
 using namespace log4cxx::helpers;
@@ -40,6 +42,7 @@ class Controller
         SendPackage* send_package = nullptr;
         // functions
         MessageParsingResult* parse_package_received();
+        string list_all_passwords();
 };
 
 #endif // CONTROLLER_H

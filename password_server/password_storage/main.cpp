@@ -63,15 +63,13 @@ int main()
 
     // make payload  - xml with all password entries
     // send it to fat client for unmarshalling and rendering into GUI
-    vector<PasswordEntry*> result = controller-> get_database_layer()->get_all_password_entries();
+
+    // vector<PasswordEntry*> result = controller-> get_database_layer()->get_all_password_entries();
 
     int something = comm->start_server();
 
     delete(comm);
 
-    LOG4CXX_INFO(main_cpp, "-- program end --\n");
-
-    return 0;
 
     /*
     // for testing purposes, only
@@ -150,8 +148,12 @@ int main()
     }
 
     result.clear();
+
     */
 
+    LOG4CXX_INFO(main_cpp, "-- program end --\n");
+
+    return 0;
 }
 
 // TODO (developer_1 #5 #2017-02-19): next steps - from password storage main.cpp:
