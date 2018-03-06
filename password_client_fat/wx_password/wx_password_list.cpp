@@ -67,6 +67,7 @@ wx_password_list::wx_password_list(wxWindow* parent,wxWindowID id)
 
     comm = new wx_password_communicator();
     comm->set_server_ipv4_address(utils->get_server_ip());
+    comm->set_utility(utils);
 }
 
 wx_password_list::~wx_password_list()

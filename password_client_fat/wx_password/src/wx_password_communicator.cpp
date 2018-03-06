@@ -17,7 +17,13 @@ wx_password_communicator::wx_password_communicator()
 
 wx_password_communicator::~wx_password_communicator()
 {
-    //dtor
+    delete(this->utils);
+    this->utils = nullptr;
+}
+
+void wx_password_communicator::set_utility(utility* utils)
+{
+    this->utils = utils;
 }
 
 string wx_password_communicator::get_password_entries()
@@ -45,6 +51,11 @@ string wx_password_communicator::edit_password_entry()
 {
     LOG4CXX_INFO(DbLogger, "entered function edit_password_entry()");
 
+    return nullptr;
+}
+
+string wx_password_communicator::send_to_server(string message)
+{
     return nullptr;
 }
 
@@ -136,12 +147,9 @@ void wx_password_communicator::init_comm()
 
     LOG4CXX_INFO(DbLogger, "client - received from password_storage server: " + payload);
 
+    utils->read_message(payload);
+
     close(sockfd);
 
     return;
-}
-
-string wx_password_communicator::send_to_server(string message)
-{
-    return nullptr;
 }

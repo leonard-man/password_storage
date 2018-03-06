@@ -78,8 +78,7 @@ MessageParsingResult* Controller::parse_package_received()
     MessageParsingResult* mp_result = new MessageParsingResult();
     string string_message;
 
-    // TODO (developer_1 #1 #2017-12-09): hardcode implementation of <list_all_passwords> to see the code flow
-    if(received_package->get_payload() == "<list_all_passwords>")
+    if(received_package->get_payload() == "﻿<?xml version=\"1.0\" encoding=\"UTF-8\"?><list_all_passwords>")
     {
         string_message = list_all_passwords();
         mp_result->set_parsing_result_message(string_message);
@@ -92,7 +91,7 @@ MessageParsingResult* Controller::parse_package_received()
 
 string Controller::list_all_passwords()
 {
-    string result = "<password_list>";
+    string result = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><password_list>";
 
     vector<PasswordEntry*> all_passwords = m_data_layer->get_all_password_entries();
 

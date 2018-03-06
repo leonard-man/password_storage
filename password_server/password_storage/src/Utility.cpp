@@ -104,12 +104,14 @@ bool Utility::read_configuration()
         string temp_1 = cfg.lookup("root_path");
         root_path =  temp_1;
 
-        string temp_2 = cfg.lookup("all_passwords__bracket_template");
+        string temp_2 = cfg.lookup("all_passwords_bracket_template");
         all_passwords_bracket_template = temp_2;
 
         string temp_3 = cfg.lookup("single_password_template");
         single_password_template =  temp_3;
 
+        string temp_4 = cfg.lookup("xml_encoding");
+        xml_encoding =  temp_3;
     }
     catch(const SettingNotFoundException &nfex)
     {

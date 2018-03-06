@@ -84,3 +84,18 @@ bool utility::read_configuration()
 
     return EXIT_SUCCESS;
 }
+
+bool utility::read_message(string message)
+{
+    // TODO (developer_1 #3 #2018-01-07): parse xml using tinyxml
+    XMLDocument* xml_doc = new XMLDocument();
+    xml_doc->Parse(message.c_str());
+
+    return false;
+}
+
+bool utility::parse_xml_string()
+{
+
+    return false;
+}

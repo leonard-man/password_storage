@@ -14,6 +14,7 @@
 #include <cstdlib>
 #include <log4cxx/logger.h>
 #include <log4cxx/xml/domconfigurator.h>
+#include <utility.h>
 
 #define PORT "3490" // the port client will be connecting to
 #define MAXDATASIZE 1000000 // max number of bytes we can get at once
@@ -33,9 +34,11 @@ class wx_password_communicator
         string delete_password_entry();
         string edit_password_entry();
         void set_server_ipv4_address(string address);
+        void set_utility(utility* utils);
         void init_comm();
     protected:
     private:
+        utility* utils = nullptr;
         string send_to_server(string message);
         in_addr* get_in_addr(struct sockaddr *sa);
         string server_ipv4_address;

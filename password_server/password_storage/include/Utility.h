@@ -28,6 +28,7 @@ class Utility
         string get_config_path();
         string get_single_password_template();
         string get_all_passwords_bracket_template();
+        string get_xml_encoding();
     protected:
     private:
         bool m_configParsed;
@@ -35,6 +36,7 @@ class Utility
         string root_path;
         string single_password_template;
         string all_passwords_bracket_template;
+        string xml_encoding;
 };
 
 #endif // UTILITY_H
