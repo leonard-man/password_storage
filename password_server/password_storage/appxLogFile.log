@@ -1,0 +1,86 @@
+2018-03-06 20:32:51,310 INFO   - -- program start --
+2018-03-06 20:32:51,310 INFO   - password storage project - server component
+2018-03-06 20:32:51,310 INFO   - -------------------------------------------
+2018-03-06 20:32:51,310 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-03-06 20:32:51,310 INFO   - server needs to store passwords and communicate password information
+2018-03-06 20:32:51,310 INFO   - to clients, rich and thin
+2018-03-06 20:32:51,310 INFO   - 
+2018-03-06 20:32:51,310 INFO   - log4cxx configuration successfully parsed
+2018-03-06 20:32:51,310 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-06 20:32:51,310 INFO   - xml_template_single: 
+2018-03-06 20:32:51,310 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-06 20:32:51,310 INFO   - xml_template_bracket_all: 
+2018-03-06 20:32:51,310 INFO  CommunicationLayer - Clearing send package.
+2018-03-06 20:32:51,310 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-03-06 20:32:51,311 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-06 20:32:51,311 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-03-06 20:32:51,311 DEBUG Utility - Opened database successfully
+2018-03-06 20:32:51,311 INFO  DatabaseLayer - set_database function
+2018-03-06 20:34:10,876 INFO  CommunicationLayer - Clearing receive package.
+2018-03-06 20:34:10,876 INFO  CommunicationLayer - Receive package created.
+2018-03-06 20:34:10,876 INFO  CommunicationLayer - payload being recieved: <list_all_passwords>
+2018-03-06 20:34:10,876 INFO  CommunicationLayer - payload received buffer size: 20
+2018-03-06 20:34:10,876 INFO  Controller - Controller::package_received
+2018-03-06 20:34:10,876 INFO  Controller - Controller: parsing received package
+2018-03-06 20:34:10,876 INFO  Controller - Controller: parsing received package
+2018-03-06 20:34:10,876 INFO  Controller - Controller::send_package_ready: 
+2018-03-06 20:34:10,876 INFO  CommunicationLayer - Clearing send package.
+2018-03-06 20:34:10,876 INFO  CommunicationLayer - New send package created: 
+2018-03-06 20:34:10,876 INFO  CommunicationLayer - payload being sent: 
+2018-03-06 20:34:10,876 INFO  CommunicationLayer - payload buffer size: 0
+2018-03-06 20:37:36,067 INFO   - -- program start --
+2018-03-06 20:37:36,070 INFO   - password storage project - server component
+2018-03-06 20:37:36,070 INFO   - -------------------------------------------
+2018-03-06 20:37:36,070 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-03-06 20:37:36,070 INFO   - server needs to store passwords and communicate password information
+2018-03-06 20:37:36,070 INFO   - to clients, rich and thin
+2018-03-06 20:37:36,070 INFO   - 
+2018-03-06 20:37:36,070 INFO   - log4cxx configuration successfully parsed
+2018-03-06 20:37:36,070 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-06 20:37:36,070 INFO   - xml_template_single: 
+2018-03-06 20:37:36,070 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-06 20:37:36,070 INFO   - xml_template_bracket_all: 
+2018-03-06 20:37:36,070 INFO  CommunicationLayer - Clearing send package.
+2018-03-06 20:37:36,070 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-03-06 20:37:36,070 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-06 20:37:36,070 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-03-06 20:37:36,071 DEBUG Utility - Opened database successfully
+2018-03-06 20:37:36,071 INFO  DatabaseLayer - set_database function
+2018-03-06 20:41:39,982 INFO   - -- program start --
+2018-03-06 20:41:39,984 INFO   - password storage project - server component
+2018-03-06 20:41:39,984 INFO   - -------------------------------------------
+2018-03-06 20:41:39,984 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-03-06 20:41:39,984 INFO   - server needs to store passwords and communicate password information
+2018-03-06 20:41:39,984 INFO   - to clients, rich and thin
+2018-03-06 20:41:39,984 INFO   - 
+2018-03-06 20:41:39,984 INFO   - log4cxx configuration successfully parsed
+2018-03-06 20:41:39,984 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-06 20:41:39,984 INFO   - xml_template_single: 
+2018-03-06 20:41:39,984 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-06 20:41:39,984 INFO   - xml_template_bracket_all: 
+2018-03-06 20:41:39,984 INFO  CommunicationLayer - Clearing send package.
+2018-03-06 20:41:39,984 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-03-06 20:41:39,984 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-06 20:41:39,984 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-03-06 20:41:39,984 DEBUG Utility - Opened database successfully
+2018-03-06 20:41:39,985 INFO  DatabaseLayer - set_database function
+2018-03-06 20:42:20,612 INFO  CommunicationLayer - Clearing receive package.
+2018-03-06 20:42:20,612 INFO  CommunicationLayer - Receive package created.
+2018-03-06 20:42:20,612 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-03-06 20:42:20,612 INFO  CommunicationLayer - payload received buffer size: 61
+2018-03-06 20:42:20,612 INFO  Controller - Controller::package_received
+2018-03-06 20:42:20,613 INFO  Controller - Controller: parsing received package
+2018-03-06 20:42:20,613 INFO  std - get_all_password_entries function
+2018-03-06 20:42:20,613 INFO  DatabaseLayer - get_database function
+2018-03-06 20:42:20,613 ERROR std - SQL error: 
+2018-03-06 20:42:20,613 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-03-06 20:42:20,613 INFO  Controller - Controller: parsing received package
+2018-03-06 20:42:20,613 INFO  std - get_all_password_entries function
+2018-03-06 20:42:20,613 INFO  DatabaseLayer - get_database function
+2018-03-06 20:42:20,613 ERROR std - SQL error: 
+2018-03-06 20:42:20,613 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-03-06 20:42:20,613 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-03-06 20:42:20,613 INFO  CommunicationLayer - Clearing send package.
+2018-03-06 20:42:20,613 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-03-06 20:42:20,613 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-03-06 20:42:20,613 INFO  CommunicationLayer - payload buffer size: 69

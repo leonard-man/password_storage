@@ -95,7 +95,7 @@ string Controller::list_all_passwords()
 
     vector<PasswordEntry*> all_passwords = m_data_layer->get_all_password_entries();
 
-    for(int i=0; i<all_passwords.size(); i++)
+    for(int i = 0; i < all_passwords.size(); i++)
     {
         result = result + "<password_entry>";
         result = result + "<password_id>";
