@@ -84,3 +84,191 @@
 2018-03-06 20:42:20,613 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
 2018-03-06 20:42:20,613 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
 2018-03-06 20:42:20,613 INFO  CommunicationLayer - payload buffer size: 69
+2018-03-17 13:55:41,611 INFO   - -- program start --
+2018-03-17 13:55:41,613 INFO   - password storage project - server component
+2018-03-17 13:55:41,613 INFO   - -------------------------------------------
+2018-03-17 13:55:41,613 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-03-17 13:55:41,613 INFO   - server needs to store passwords and communicate password information
+2018-03-17 13:55:41,613 INFO   - to clients, rich and thin
+2018-03-17 13:55:41,613 INFO   - 
+2018-03-17 13:55:41,613 INFO   - log4cxx configuration successfully parsed
+2018-03-17 13:55:43,853 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-17 13:55:43,853 INFO   - xml_template_single: 
+2018-03-17 13:55:45,797 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-17 13:55:45,797 INFO   - xml_template_bracket_all: 
+2018-03-17 13:55:45,797 INFO  CommunicationLayer - Clearing send package.
+2018-03-17 13:55:45,797 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-03-17 13:55:50,118 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-17 13:55:50,118 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-03-17 13:55:50,118 DEBUG Utility - Opened database successfully
+2018-03-17 13:55:50,118 INFO  DatabaseLayer - set_database function
+2018-03-17 14:00:03,024 INFO  CommunicationLayer - Clearing receive package.
+2018-03-17 14:00:03,024 INFO  CommunicationLayer - Receive package created.
+2018-03-17 14:00:03,024 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-03-17 14:00:03,024 INFO  CommunicationLayer - payload received buffer size: 61
+2018-03-17 14:00:03,024 INFO  Controller - Controller::package_received
+2018-03-17 14:00:03,024 INFO  Controller - Controller: parsing received package
+2018-03-17 14:00:03,024 INFO  std - get_all_password_entries function
+2018-03-17 14:00:03,025 INFO  DatabaseLayer - get_database function
+2018-03-17 14:00:03,025 ERROR std - SQL error: 
+2018-03-17 14:00:03,025 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-03-17 14:00:03,025 INFO  Controller - Controller: parsing received package
+2018-03-17 14:00:03,025 INFO  std - get_all_password_entries function
+2018-03-17 14:00:03,025 INFO  DatabaseLayer - get_database function
+2018-03-17 14:00:03,025 ERROR std - SQL error: 
+2018-03-17 14:00:03,025 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-03-17 14:00:03,025 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-03-17 14:00:03,025 INFO  CommunicationLayer - Clearing send package.
+2018-03-17 14:00:03,025 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-03-17 14:00:03,025 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-03-17 14:00:03,025 INFO  CommunicationLayer - payload buffer size: 69
+2018-03-17 14:00:40,632 INFO  CommunicationLayer - Clearing receive package.
+2018-03-17 14:00:40,632 INFO  CommunicationLayer - Receive package created.
+2018-03-17 14:00:40,632 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-03-17 14:00:40,632 INFO  CommunicationLayer - payload received buffer size: 61
+2018-03-17 14:00:40,632 INFO  Controller - Controller::package_received
+2018-03-17 14:00:40,632 INFO  Controller - Controller: parsing received package
+2018-03-17 14:00:40,632 INFO  Controller - Controller: parsing received package
+2018-03-17 14:00:40,632 INFO  Controller - Controller::send_package_ready: 
+2018-03-17 14:00:40,632 INFO  CommunicationLayer - Clearing send package.
+2018-03-17 14:00:40,632 INFO  CommunicationLayer - New send package created: 
+2018-03-17 14:00:40,632 INFO  CommunicationLayer - payload being sent: 
+2018-03-17 14:00:40,632 INFO  CommunicationLayer - payload buffer size: 0
+2018-03-17 14:01:54,112 INFO   - -- program start --
+2018-03-17 14:01:54,112 INFO   - password storage project - server component
+2018-03-17 14:01:54,112 INFO   - -------------------------------------------
+2018-03-17 14:01:54,112 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-03-17 14:01:54,112 INFO   - server needs to store passwords and communicate password information
+2018-03-17 14:01:54,112 INFO   - to clients, rich and thin
+2018-03-17 14:01:54,112 INFO   - 
+2018-03-17 14:01:54,112 INFO   - log4cxx configuration successfully parsed
+2018-03-17 14:01:55,439 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-17 14:01:55,439 INFO   - xml_template_single: 
+2018-03-17 14:01:56,199 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-17 14:01:56,199 INFO   - xml_template_bracket_all: 
+2018-03-17 14:01:56,199 INFO  CommunicationLayer - Clearing send package.
+2018-03-17 14:01:56,199 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-03-17 14:01:56,823 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-03-17 14:01:56,823 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-03-17 14:01:56,823 DEBUG Utility - Opened database successfully
+2018-03-17 14:01:56,823 INFO  DatabaseLayer - set_database function
+2018-03-17 14:02:02,878 INFO  CommunicationLayer - Clearing receive package.
+2018-03-17 14:02:02,878 INFO  CommunicationLayer - Receive package created.
+2018-03-17 14:02:02,878 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-03-17 14:02:02,878 INFO  CommunicationLayer - payload received buffer size: 61
+2018-03-17 14:02:02,878 INFO  Controller - Controller::package_received
+2018-03-17 14:02:02,878 INFO  Controller - Controller: parsing received package
+2018-03-17 14:04:01,079 INFO  std - get_all_password_entries function
+2018-03-17 14:04:01,079 INFO  DatabaseLayer - get_database function
+2018-03-17 14:04:01,079 ERROR std - SQL error: 
+2018-03-17 14:04:34,230 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-03-17 14:04:48,166 INFO  Controller - Controller: parsing received package
+2018-03-17 14:05:07,892 INFO  std - get_all_password_entries function
+2018-03-17 14:05:07,892 INFO  DatabaseLayer - get_database function
+2018-03-17 14:05:07,892 ERROR std - SQL error: 
+2018-03-17 14:06:01,223 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-03-17 14:06:01,223 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-03-17 14:06:01,223 INFO  CommunicationLayer - Clearing send package.
+2018-03-17 14:06:01,223 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-03-17 14:06:01,223 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-03-17 14:06:01,223 INFO  CommunicationLayer - payload buffer size: 69
+2018-04-14 21:30:36,955 INFO   - -- program start --
+2018-04-14 21:30:36,956 INFO   - password storage project - server component
+2018-04-14 21:30:36,959 INFO   - -------------------------------------------
+2018-04-14 21:30:36,959 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-14 21:30:36,959 INFO   - server needs to store passwords and communicate password information
+2018-04-14 21:30:36,959 INFO   - to clients, rich and thin
+2018-04-14 21:30:36,959 INFO   - 
+2018-04-14 21:30:36,959 INFO   - log4cxx configuration successfully parsed
+2018-04-14 21:30:38,448 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-14 21:30:38,448 INFO   - xml_template_single: 
+2018-04-14 21:30:39,535 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-14 21:30:39,536 INFO   - xml_template_bracket_all: 
+2018-04-14 21:30:39,536 INFO  CommunicationLayer - Clearing send package.
+2018-04-14 21:30:39,536 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-04-14 21:30:41,004 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-14 21:30:41,004 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-14 21:30:41,013 DEBUG Utility - Opened database successfully
+2018-04-14 21:30:41,014 INFO  DatabaseLayer - set_database function
+2018-04-14 21:33:06,584 INFO  CommunicationLayer - Clearing receive package.
+2018-04-14 21:33:06,584 INFO  CommunicationLayer - Receive package created.
+2018-04-14 21:33:06,584 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-14 21:33:06,584 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-14 21:33:06,584 INFO  Controller - Controller::package_received
+2018-04-14 21:33:06,584 INFO  Controller - Controller: parsing received package
+2018-04-14 21:33:06,584 INFO  std - get_all_password_entries function
+2018-04-14 21:33:06,584 INFO  DatabaseLayer - get_database function
+2018-04-14 21:33:06,585 ERROR std - SQL error: 
+2018-04-14 21:33:06,585 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-14 21:33:06,585 INFO  Controller - Controller: parsing received package
+2018-04-14 21:33:06,585 INFO  std - get_all_password_entries function
+2018-04-14 21:33:06,585 INFO  DatabaseLayer - get_database function
+2018-04-14 21:33:06,585 ERROR std - SQL error: 
+2018-04-14 21:33:06,585 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-14 21:33:06,585 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-14 21:33:06,585 INFO  CommunicationLayer - Clearing send package.
+2018-04-14 21:33:06,585 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-14 21:33:06,585 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-14 21:33:06,585 INFO  CommunicationLayer - payload buffer size: 69
+2018-04-14 21:33:29,642 INFO  CommunicationLayer - Clearing receive package.
+2018-04-14 21:33:29,642 INFO  CommunicationLayer - Receive package created.
+2018-04-14 21:33:29,642 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-14 21:33:29,642 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-14 21:33:29,642 INFO  Controller - Controller::package_received
+2018-04-14 21:33:29,642 INFO  Controller - Controller: parsing received package
+2018-04-14 21:33:29,642 INFO  Controller - Controller: parsing received package
+2018-04-14 21:33:29,642 INFO  Controller - Controller::send_package_ready: 
+2018-04-14 21:33:29,642 INFO  CommunicationLayer - Clearing send package.
+2018-04-14 21:33:29,642 INFO  CommunicationLayer - New send package created: 
+2018-04-14 21:33:29,642 INFO  CommunicationLayer - payload being sent: 
+2018-04-14 21:33:29,642 INFO  CommunicationLayer - payload buffer size: 0
+2018-04-14 21:54:02,598 INFO   - -- program start --
+2018-04-14 21:54:02,598 INFO   - password storage project - server component
+2018-04-14 21:54:02,598 INFO   - -------------------------------------------
+2018-04-14 21:54:02,598 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-14 21:54:02,598 INFO   - server needs to store passwords and communicate password information
+2018-04-14 21:54:02,598 INFO   - to clients, rich and thin
+2018-04-14 21:54:02,598 INFO   - 
+2018-04-14 21:54:02,598 INFO   - log4cxx configuration successfully parsed
+2018-04-14 21:54:03,610 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-14 21:54:03,610 INFO   - xml_template_single: 
+2018-04-14 21:54:04,682 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-14 21:54:04,682 INFO   - xml_template_bracket_all: 
+2018-04-14 21:54:04,682 INFO  CommunicationLayer - Clearing send package.
+2018-04-14 21:54:04,682 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-04-14 21:54:05,610 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-14 21:54:05,610 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-14 21:54:05,610 DEBUG Utility - Opened database successfully
+2018-04-14 21:54:05,610 INFO  DatabaseLayer - set_database function
+2018-04-14 21:54:30,145 INFO  CommunicationLayer - Clearing receive package.
+2018-04-14 21:54:30,145 INFO  CommunicationLayer - Receive package created.
+2018-04-14 21:54:30,145 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-14 21:54:30,145 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-14 21:54:30,145 INFO  Controller - Controller::package_received
+2018-04-14 21:54:30,145 INFO  Controller - Controller: parsing received package
+2018-04-14 21:54:30,145 INFO  std - get_all_password_entries function
+2018-04-14 21:54:30,145 INFO  DatabaseLayer - get_database function
+2018-04-14 21:54:30,145 ERROR std - SQL error: 
+2018-04-14 21:54:30,145 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-14 21:54:30,145 INFO  Controller - Controller: parsing received package
+2018-04-14 21:54:30,145 INFO  std - get_all_password_entries function
+2018-04-14 21:54:30,145 INFO  DatabaseLayer - get_database function
+2018-04-14 21:54:30,145 ERROR std - SQL error: 
+2018-04-14 21:54:30,146 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-14 21:54:30,146 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-14 21:54:30,146 INFO  CommunicationLayer - Clearing send package.
+2018-04-14 21:54:30,146 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-14 21:54:30,146 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-14 21:54:30,146 INFO  CommunicationLayer - payload buffer size: 69
+2018-04-14 21:55:10,235 INFO  CommunicationLayer - Clearing receive package.
+2018-04-14 21:55:10,235 INFO  CommunicationLayer - Receive package created.
+2018-04-14 21:55:10,235 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-14 21:55:10,235 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-14 21:55:10,235 INFO  Controller - Controller::package_received
+2018-04-14 21:55:10,236 INFO  Controller - Controller: parsing received package
+2018-04-14 21:55:10,236 INFO  Controller - Controller: parsing received package
+2018-04-14 21:55:10,236 INFO  Controller - Controller::send_package_ready: 
+2018-04-14 21:55:10,236 INFO  CommunicationLayer - Clearing send package.
+2018-04-14 21:55:10,236 INFO  CommunicationLayer - New send package created: 
+2018-04-14 21:55:10,236 INFO  CommunicationLayer - payload being sent: 
+2018-04-14 21:55:10,236 INFO  CommunicationLayer - payload buffer size: 0

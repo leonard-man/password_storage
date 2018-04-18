@@ -59,7 +59,7 @@ int main()
     DatabaseLayer* db = new DatabaseLayer();
     db->set_database(controller->get_utils()->get_database_instance());
     comm->get_controller()->set_database_layer(db);
-    db = nullptr;
+    // db = nullptr;
 
     // make payload  - xml with all password entries
     // send it to fat client for unmarshalling and rendering into GUI
