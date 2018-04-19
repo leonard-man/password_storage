@@ -272,3 +272,737 @@
 2018-04-14 21:55:10,236 INFO  CommunicationLayer - New send package created: 
 2018-04-14 21:55:10,236 INFO  CommunicationLayer - payload being sent: 
 2018-04-14 21:55:10,236 INFO  CommunicationLayer - payload buffer size: 0
+2018-04-18 18:40:22,886 INFO   - -- program start --
+2018-04-18 18:40:22,887 INFO   - password storage project - server component
+2018-04-18 18:40:22,888 INFO   - -------------------------------------------
+2018-04-18 18:40:22,888 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 18:40:22,888 INFO   - server needs to store passwords and communicate password information
+2018-04-18 18:40:22,888 INFO   - to clients, rich and thin
+2018-04-18 18:40:22,888 INFO   - 
+2018-04-18 18:40:22,891 INFO   - log4cxx configuration successfully parsed
+2018-04-18 18:40:22,891 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 18:40:22,891 INFO   - xml_template_single: 
+2018-04-18 18:40:22,891 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 18:40:22,891 INFO   - xml_template_bracket_all: 
+2018-04-18 18:40:22,891 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 18:40:22,891 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-04-18 18:40:22,891 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 18:40:22,891 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 18:40:22,891 DEBUG Utility - Opened database successfully
+2018-04-18 18:40:22,891 INFO  DatabaseLayer - set_database function
+2018-04-18 18:40:54,077 INFO  CommunicationLayer - Clearing receive package.
+2018-04-18 18:40:54,077 INFO  CommunicationLayer - Receive package created.
+2018-04-18 18:40:54,077 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-18 18:40:54,082 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-18 18:40:54,082 INFO  Controller - Controller::package_received
+2018-04-18 18:40:54,082 INFO  Controller - Controller: parsing received package
+2018-04-18 18:40:54,082 INFO  std - get_all_password_entries function
+2018-04-18 18:40:54,082 INFO  DatabaseLayer - get_database function
+2018-04-18 18:40:54,082 ERROR std - SQL error: 
+2018-04-18 18:40:54,082 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-18 18:40:54,082 INFO  Controller - Controller: parsing received package
+2018-04-18 18:40:54,082 INFO  std - get_all_password_entries function
+2018-04-18 18:40:54,082 INFO  DatabaseLayer - get_database function
+2018-04-18 18:40:54,082 ERROR std - SQL error: 
+2018-04-18 18:40:54,082 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-18 18:40:54,082 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 18:40:54,082 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 18:40:54,082 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 18:40:54,082 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 18:40:54,082 INFO  CommunicationLayer - payload buffer size: 69
+2018-04-18 18:41:02,630 INFO  CommunicationLayer - Clearing receive package.
+2018-04-18 18:41:02,630 INFO  CommunicationLayer - Receive package created.
+2018-04-18 18:41:02,630 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-18 18:41:02,630 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-18 18:41:02,630 INFO  Controller - Controller::package_received
+2018-04-18 18:41:02,630 INFO  Controller - Controller: parsing received package
+2018-04-18 18:41:02,630 INFO  Controller - Controller: parsing received package
+2018-04-18 18:41:02,630 INFO  Controller - Controller::send_package_ready: 
+2018-04-18 18:41:02,630 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 18:41:02,630 INFO  CommunicationLayer - New send package created: 
+2018-04-18 18:41:02,630 INFO  CommunicationLayer - payload being sent: 
+2018-04-18 18:41:02,630 INFO  CommunicationLayer - payload buffer size: 0
+2018-04-18 18:42:52,237 INFO   - -- program start --
+2018-04-18 18:42:52,237 INFO   - password storage project - server component
+2018-04-18 18:42:52,237 INFO   - -------------------------------------------
+2018-04-18 18:42:52,237 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 18:42:52,237 INFO   - server needs to store passwords and communicate password information
+2018-04-18 18:42:52,237 INFO   - to clients, rich and thin
+2018-04-18 18:42:52,237 INFO   - 
+2018-04-18 18:42:52,237 INFO   - log4cxx configuration successfully parsed
+2018-04-18 18:42:54,731 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 18:42:54,731 INFO   - xml_template_single: 
+2018-04-18 18:42:57,718 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 18:42:57,718 INFO   - xml_template_bracket_all: 
+2018-04-18 18:42:57,718 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 18:42:57,718 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-04-18 18:42:58,872 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 18:42:58,872 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 18:42:58,872 DEBUG Utility - Opened database successfully
+2018-04-18 18:42:58,872 INFO  DatabaseLayer - set_database function
+2018-04-18 18:46:13,413 INFO  CommunicationLayer - Clearing receive package.
+2018-04-18 18:46:13,413 INFO  CommunicationLayer - Receive package created.
+2018-04-18 18:46:13,413 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-18 18:46:13,413 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-18 18:46:13,413 INFO  Controller - Controller::package_received
+2018-04-18 18:46:13,413 INFO  Controller - Controller: parsing received package
+2018-04-18 18:48:18,493 INFO  std - get_all_password_entries function
+2018-04-18 18:48:22,102 INFO  DatabaseLayer - get_database function
+2018-04-18 18:48:51,974 ERROR std - SQL error: 
+2018-04-18 18:48:51,974 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-18 18:48:51,974 INFO  Controller - Controller: parsing received package
+2018-04-18 18:48:54,342 INFO  std - get_all_password_entries function
+2018-04-18 18:48:54,342 INFO  DatabaseLayer - get_database function
+2018-04-18 18:48:54,342 ERROR std - SQL error: 
+2018-04-18 18:48:54,343 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-18 18:48:54,343 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 18:48:54,343 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 18:48:54,343 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 18:48:54,343 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 18:48:54,343 INFO  CommunicationLayer - payload buffer size: 69
+2018-04-18 18:49:24,014 INFO  CommunicationLayer - Clearing receive package.
+2018-04-18 18:49:24,014 INFO  CommunicationLayer - Receive package created.
+2018-04-18 18:49:24,014 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-18 18:49:24,014 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-18 18:49:24,014 INFO  Controller - Controller::package_received
+2018-04-18 18:49:24,014 INFO  Controller - Controller: parsing received package
+2018-04-18 18:50:28,927 INFO  Controller - Controller: parsing received package
+2018-04-18 18:50:31,103 INFO  Controller - Controller::send_package_ready: 
+2018-04-18 18:50:31,103 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 18:50:31,103 INFO  CommunicationLayer - New send package created: 
+2018-04-18 18:50:31,103 INFO  CommunicationLayer - payload being sent: 
+2018-04-18 18:50:31,103 INFO  CommunicationLayer - payload buffer size: 0
+2018-04-18 18:57:46,159 INFO   - -- program start --
+2018-04-18 18:57:46,159 INFO   - password storage project - server component
+2018-04-18 18:57:46,159 INFO   - -------------------------------------------
+2018-04-18 18:57:46,159 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 18:57:46,159 INFO   - server needs to store passwords and communicate password information
+2018-04-18 18:57:46,159 INFO   - to clients, rich and thin
+2018-04-18 18:57:46,159 INFO   - 
+2018-04-18 18:57:46,159 INFO   - log4cxx configuration successfully parsed
+2018-04-18 18:57:47,231 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 18:57:47,231 INFO   - xml_template_single: 
+2018-04-18 18:57:48,127 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 18:57:48,127 INFO   - xml_template_bracket_all: 
+2018-04-18 18:57:48,127 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 18:57:48,127 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-04-18 18:57:49,047 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 18:57:49,047 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 18:57:49,047 DEBUG Utility - Opened database successfully
+2018-04-18 18:57:49,047 INFO  DatabaseLayer - set_database function
+2018-04-18 18:58:26,344 INFO  CommunicationLayer - Clearing receive package.
+2018-04-18 18:58:26,344 INFO  CommunicationLayer - Receive package created.
+2018-04-18 18:58:26,344 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-18 18:58:26,344 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-18 18:58:26,344 INFO  Controller - Controller::package_received
+2018-04-18 18:58:26,344 INFO  Controller - Controller: parsing received package
+2018-04-18 18:59:24,096 INFO  std - get_all_password_entries function
+2018-04-18 18:59:43,680 INFO  DatabaseLayer - get_database function
+2018-04-18 18:59:55,420 ERROR std - SQL error: 
+2018-04-18 19:00:30,290 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-18 19:00:30,290 INFO  Controller - Controller: parsing received package
+2018-04-18 19:00:33,272 INFO  std - get_all_password_entries function
+2018-04-18 19:00:33,272 INFO  DatabaseLayer - get_database function
+2018-04-18 19:00:45,967 ERROR std - SQL error: 
+2018-04-18 19:00:45,967 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-18 19:00:45,967 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 19:00:45,967 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 19:00:45,967 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 19:00:45,967 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 19:00:45,967 INFO  CommunicationLayer - payload buffer size: 69
+2018-04-18 19:00:59,110 INFO  CommunicationLayer - Clearing receive package.
+2018-04-18 19:00:59,110 INFO  CommunicationLayer - Receive package created.
+2018-04-18 19:00:59,110 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-18 19:00:59,110 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-18 19:00:59,110 INFO  Controller - Controller::package_received
+2018-04-18 19:00:59,110 INFO  Controller - Controller: parsing received package
+2018-04-18 19:03:59,546 INFO  Controller - Controller: parsing received package
+2018-04-18 19:24:08,707 INFO   - -- program start --
+2018-04-18 19:24:08,707 INFO   - password storage project - server component
+2018-04-18 19:24:08,707 INFO   - -------------------------------------------
+2018-04-18 19:24:08,707 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 19:24:08,707 INFO   - server needs to store passwords and communicate password information
+2018-04-18 19:24:08,707 INFO   - to clients, rich and thin
+2018-04-18 19:24:08,707 INFO   - 
+2018-04-18 19:24:08,707 INFO   - log4cxx configuration successfully parsed
+2018-04-18 19:24:15,769 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:24:15,769 INFO   - xml_template_single: 
+2018-04-18 19:24:17,242 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:24:17,242 INFO   - xml_template_bracket_all: 
+2018-04-18 19:24:17,242 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 19:24:17,242 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-04-18 19:24:18,207 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:24:18,208 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 19:24:18,208 DEBUG Utility - Opened database successfully
+2018-04-18 19:24:18,208 INFO  DatabaseLayer - set_database function
+2018-04-18 19:24:49,063 INFO  CommunicationLayer - Clearing receive package.
+2018-04-18 19:24:49,063 INFO  CommunicationLayer - Receive package created.
+2018-04-18 19:24:49,063 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-18 19:24:49,063 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-18 19:24:49,063 INFO  Controller - Controller::package_received
+2018-04-18 19:24:49,063 INFO  Controller - Controller: parsing received package
+2018-04-18 19:24:49,066 INFO  std - get_all_password_entries function
+2018-04-18 19:24:49,066 INFO  DatabaseLayer - get_database function
+2018-04-18 19:25:47,645 INFO   - -- program start --
+2018-04-18 19:25:47,645 INFO   - password storage project - server component
+2018-04-18 19:25:47,645 INFO   - -------------------------------------------
+2018-04-18 19:25:47,645 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 19:25:47,645 INFO   - server needs to store passwords and communicate password information
+2018-04-18 19:25:47,645 INFO   - to clients, rich and thin
+2018-04-18 19:25:47,645 INFO   - 
+2018-04-18 19:25:47,645 INFO   - log4cxx configuration successfully parsed
+2018-04-18 19:25:48,607 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:25:48,607 INFO   - xml_template_single: 
+2018-04-18 19:25:49,589 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:25:49,589 INFO   - xml_template_bracket_all: 
+2018-04-18 19:25:49,590 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 19:25:49,590 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-04-18 19:25:50,454 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:25:50,454 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 19:25:50,454 DEBUG Utility - Opened database successfully
+2018-04-18 19:25:50,454 INFO  DatabaseLayer - set_database function
+2018-04-18 19:26:04,999 INFO  CommunicationLayer - Clearing receive package.
+2018-04-18 19:26:04,999 INFO  CommunicationLayer - Receive package created.
+2018-04-18 19:26:04,999 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-18 19:26:04,999 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-18 19:26:04,999 INFO  Controller - Controller::package_received
+2018-04-18 19:26:04,999 INFO  Controller - Controller: parsing received package
+2018-04-18 19:26:44,189 INFO  std - get_all_password_entries function
+2018-04-18 19:26:44,189 INFO  DatabaseLayer - get_database function
+2018-04-18 19:27:27,073 ERROR std - SQL error: 
+2018-04-18 19:27:27,073 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-18 19:27:27,073 INFO  Controller - Controller: parsing received package
+2018-04-18 19:27:30,496 INFO  std - get_all_password_entries function
+2018-04-18 19:27:30,496 INFO  DatabaseLayer - get_database function
+2018-04-18 19:27:33,710 ERROR std - SQL error: 
+2018-04-18 19:27:33,710 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-18 19:27:33,710 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 19:27:33,710 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 19:27:33,710 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 19:27:33,710 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 19:27:33,711 INFO  CommunicationLayer - payload buffer size: 69
+2018-04-18 19:30:14,062 INFO   - -- program start --
+2018-04-18 19:30:14,062 INFO   - password storage project - server component
+2018-04-18 19:30:14,062 INFO   - -------------------------------------------
+2018-04-18 19:30:14,062 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 19:30:14,062 INFO   - server needs to store passwords and communicate password information
+2018-04-18 19:30:14,062 INFO   - to clients, rich and thin
+2018-04-18 19:30:14,062 INFO   - 
+2018-04-18 19:30:14,062 INFO   - log4cxx configuration successfully parsed
+2018-04-18 19:30:14,094 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:30:14,094 INFO   - xml_template_single: 
+2018-04-18 19:30:15,508 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:30:15,509 INFO   - xml_template_bracket_all: 
+2018-04-18 19:30:15,509 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 19:30:15,509 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-04-18 19:30:15,513 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:30:15,513 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 19:30:15,515 DEBUG Utility - Opened database successfully
+2018-04-18 19:30:15,515 INFO  DatabaseLayer - set_database function
+2018-04-18 19:30:46,551 INFO  CommunicationLayer - Clearing receive package.
+2018-04-18 19:30:46,551 INFO  CommunicationLayer - Receive package created.
+2018-04-18 19:30:46,551 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-04-18 19:30:46,551 INFO  CommunicationLayer - payload received buffer size: 61
+2018-04-18 19:30:46,551 INFO  Controller - Controller::package_received
+2018-04-18 19:30:46,551 INFO  Controller - Controller: parsing received package
+2018-04-18 19:31:21,648 INFO  std - get_all_password_entries function
+2018-04-18 19:31:21,648 INFO  DatabaseLayer - get_database function
+2018-04-18 19:31:21,805 ERROR std - SQL error: 
+2018-04-18 19:31:21,805 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-18 19:31:21,805 INFO  Controller - Controller: parsing received package
+2018-04-18 19:31:22,110 INFO  std - get_all_password_entries function
+2018-04-18 19:31:22,111 INFO  DatabaseLayer - get_database function
+2018-04-18 19:31:22,411 ERROR std - SQL error: 
+2018-04-18 19:31:22,411 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-04-18 19:31:22,411 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 19:31:22,411 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 19:31:22,411 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 19:31:22,411 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list></password_list>
+2018-04-18 19:31:22,411 INFO  CommunicationLayer - payload buffer size: 69
+2018-04-18 19:33:02,281 INFO   - -- program start --
+2018-04-18 19:33:02,283 INFO   - password storage project - server component
+2018-04-18 19:33:02,283 INFO   - -------------------------------------------
+2018-04-18 19:33:02,284 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 19:33:02,284 INFO   - server needs to store passwords and communicate password information
+2018-04-18 19:33:02,285 INFO   - to clients, rich and thin
+2018-04-18 19:33:02,285 INFO   - 
+2018-04-18 19:33:02,285 INFO   - log4cxx configuration successfully parsed
+2018-04-18 19:33:02,286 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:33:02,287 INFO   - xml_template_single: 
+2018-04-18 19:33:02,288 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:33:02,289 INFO   - xml_template_bracket_all: 
+2018-04-18 19:33:02,289 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 19:33:02,289 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-04-18 19:33:02,289 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:33:02,290 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 19:33:02,290 DEBUG Utility - Opened database successfully
+2018-04-18 19:33:02,290 INFO  DatabaseLayer - set_database function
+2018-04-18 19:33:26,685 INFO   - -- program start --
+2018-04-18 19:33:26,689 INFO   - password storage project - server component
+2018-04-18 19:33:26,689 INFO   - -------------------------------------------
+2018-04-18 19:33:26,689 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 19:33:26,689 INFO   - server needs to store passwords and communicate password information
+2018-04-18 19:33:26,689 INFO   - to clients, rich and thin
+2018-04-18 19:33:26,689 INFO   - 
+2018-04-18 19:33:26,689 INFO   - log4cxx configuration successfully parsed
+2018-04-18 19:33:29,613 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:33:29,613 INFO   - xml_template_single: 
+2018-04-18 19:33:33,075 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:33:33,075 INFO   - xml_template_bracket_all: 
+2018-04-18 19:33:33,075 INFO  CommunicationLayer - Clearing send package.
+2018-04-18 19:33:33,075 INFO  CommunicationLayer - New send package created: Welcome to password_storage server!
+2018-04-18 19:33:34,587 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 19:33:34,588 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 19:33:34,588 DEBUG Utility - Opened database successfully
+2018-04-18 19:33:34,589 INFO  DatabaseLayer - set_database function
+2018-04-18 19:33:34,591 INFO  std - get_all_password_entries function
+2018-04-18 19:33:34,591 INFO  DatabaseLayer - get_database function
+2018-04-18 19:33:34,591 ERROR std - SQL error: 
+2018-04-18 20:01:49,562 INFO   - -- program start --
+2018-04-18 20:01:49,562 INFO   - password storage project - server component
+2018-04-18 20:01:49,562 INFO   - -------------------------------------------
+2018-04-18 20:01:49,562 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 20:01:49,562 INFO   - server needs to store passwords and communicate password information
+2018-04-18 20:01:49,562 INFO   - to clients, rich and thin
+2018-04-18 20:01:49,563 INFO   - 
+2018-04-18 20:01:49,563 INFO   - log4cxx configuration successfully parsed
+2018-04-18 20:01:51,290 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:01:51,290 INFO   - xml_template_single: 
+2018-04-18 20:01:52,066 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:01:52,066 INFO   - xml_template_bracket_all: 
+2018-04-18 20:01:52,898 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:01:52,898 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 20:01:52,898 DEBUG Utility - Opened database successfully
+2018-04-18 20:01:52,898 INFO  DatabaseLayer - set_database function
+2018-04-18 20:01:52,898 INFO  std - get_all_password_entries function
+2018-04-18 20:01:52,898 INFO  DatabaseLayer - get_database function
+2018-04-18 20:01:52,898 ERROR std - SQL error: 
+2018-04-18 20:02:17,457 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 20:02:17,457 INFO   - -- program end --
+
+2018-04-18 20:02:28,026 INFO   - -- program start --
+2018-04-18 20:02:28,026 INFO   - password storage project - server component
+2018-04-18 20:02:28,026 INFO   - -------------------------------------------
+2018-04-18 20:02:28,026 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 20:02:28,026 INFO   - server needs to store passwords and communicate password information
+2018-04-18 20:02:28,026 INFO   - to clients, rich and thin
+2018-04-18 20:02:28,026 INFO   - 
+2018-04-18 20:02:28,026 INFO   - log4cxx configuration successfully parsed
+2018-04-18 20:02:29,402 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:02:29,402 INFO   - xml_template_single: 
+2018-04-18 20:02:30,402 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:02:30,402 INFO   - xml_template_bracket_all: 
+2018-04-18 20:02:36,330 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:02:36,330 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 20:02:36,330 DEBUG Utility - Opened database successfully
+2018-04-18 20:02:36,330 INFO  DatabaseLayer - set_database function
+2018-04-18 20:03:19,795 INFO  std - get_all_password_entries function
+2018-04-18 20:03:21,452 INFO  DatabaseLayer - get_database function
+2018-04-18 20:03:37,146 ERROR std - SQL error: 
+2018-04-18 20:03:39,450 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 20:03:39,450 INFO   - -- program end --
+
+2018-04-18 20:41:53,742 INFO   - -- program start --
+2018-04-18 20:41:53,742 INFO   - password storage project - server component
+2018-04-18 20:41:53,742 INFO   - -------------------------------------------
+2018-04-18 20:41:53,742 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 20:41:53,742 INFO   - server needs to store passwords and communicate password information
+2018-04-18 20:41:53,742 INFO   - to clients, rich and thin
+2018-04-18 20:41:53,742 INFO   - 
+2018-04-18 20:41:53,742 INFO   - log4cxx configuration successfully parsed
+2018-04-18 20:41:53,742 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:41:53,742 INFO   - xml_template_single: 
+2018-04-18 20:41:53,742 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:41:53,742 INFO   - xml_template_bracket_all: 
+2018-04-18 20:41:53,743 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:41:53,743 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 20:41:53,743 DEBUG Utility - Opened database successfully
+2018-04-18 20:41:53,743 INFO  DatabaseLayer - set_database function
+2018-04-18 20:41:53,743 INFO  std - get_all_password_entries function
+2018-04-18 20:41:53,743 INFO  DatabaseLayer - get_database function
+2018-04-18 20:41:53,743 ERROR std - SQL error: 
+2018-04-18 20:41:53,745 ERROR std - result: 1
+2018-04-18 20:41:53,745 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 20:41:53,745 INFO   - -- program end --
+
+2018-04-18 20:43:21,111 INFO   - -- program start --
+2018-04-18 20:43:21,111 INFO   - password storage project - server component
+2018-04-18 20:43:21,125 INFO   - -------------------------------------------
+2018-04-18 20:43:21,125 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 20:43:21,125 INFO   - server needs to store passwords and communicate password information
+2018-04-18 20:43:21,125 INFO   - to clients, rich and thin
+2018-04-18 20:43:21,125 INFO   - 
+2018-04-18 20:43:21,125 INFO   - log4cxx configuration successfully parsed
+2018-04-18 20:43:21,125 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:43:21,125 INFO   - xml_template_single: 
+2018-04-18 20:43:21,125 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:43:21,125 INFO   - xml_template_bracket_all: 
+2018-04-18 20:43:21,125 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:43:21,125 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 20:43:21,125 DEBUG Utility - Opened database successfully
+2018-04-18 20:43:21,125 INFO  DatabaseLayer - set_database function
+2018-04-18 20:43:21,125 INFO  std - get_all_password_entries function
+2018-04-18 20:43:21,125 INFO  DatabaseLayer - get_database function
+2018-04-18 20:43:21,125 ERROR std - SQL error: 
+2018-04-18 20:43:21,125 ERROR std - result: 1
+2018-04-18 20:43:21,125 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 20:43:21,125 INFO   - -- program end --
+
+2018-04-18 20:44:09,727 INFO   - -- program start --
+2018-04-18 20:44:09,727 INFO   - password storage project - server component
+2018-04-18 20:44:09,727 INFO   - -------------------------------------------
+2018-04-18 20:44:09,727 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 20:44:09,727 INFO   - server needs to store passwords and communicate password information
+2018-04-18 20:44:09,727 INFO   - to clients, rich and thin
+2018-04-18 20:44:09,727 INFO   - 
+2018-04-18 20:44:09,727 INFO   - log4cxx configuration successfully parsed
+2018-04-18 20:44:09,727 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:44:09,727 INFO   - xml_template_single: 
+2018-04-18 20:44:09,727 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:44:09,727 INFO   - xml_template_bracket_all: 
+2018-04-18 20:44:09,727 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:44:09,727 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 20:44:09,727 DEBUG Utility - Opened database successfully
+2018-04-18 20:44:09,727 INFO  DatabaseLayer - set_database function
+2018-04-18 20:44:09,727 INFO  std - get_all_password_entries function
+2018-04-18 20:44:09,727 INFO  DatabaseLayer - get_database function
+2018-04-18 20:44:09,728 ERROR std - SQL error: 
+2018-04-18 20:44:09,728 ERROR std - result: 1
+2018-04-18 20:44:09,728 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 20:44:09,728 INFO   - -- program end --
+
+2018-04-18 20:44:36,294 INFO   - -- program start --
+2018-04-18 20:44:36,295 INFO   - password storage project - server component
+2018-04-18 20:44:36,295 INFO   - -------------------------------------------
+2018-04-18 20:44:36,295 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 20:44:36,295 INFO   - server needs to store passwords and communicate password information
+2018-04-18 20:44:36,295 INFO   - to clients, rich and thin
+2018-04-18 20:44:36,295 INFO   - 
+2018-04-18 20:44:36,295 INFO   - log4cxx configuration successfully parsed
+2018-04-18 20:44:36,295 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:44:36,295 INFO   - xml_template_single: 
+2018-04-18 20:44:36,295 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:44:36,295 INFO   - xml_template_bracket_all: 
+2018-04-18 20:44:36,295 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:44:36,295 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 20:44:36,295 DEBUG Utility - Opened database successfully
+2018-04-18 20:44:36,295 INFO  DatabaseLayer - set_database function
+2018-04-18 20:44:36,295 INFO  std - get_all_password_entries function
+2018-04-18 20:44:36,295 INFO  DatabaseLayer - get_database function
+2018-04-18 20:44:36,295 ERROR std - SQL error: 
+2018-04-18 20:44:36,295 ERROR std - result: 1
+2018-04-18 20:44:36,295 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 20:44:36,295 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 20:44:36,295 INFO   - -- program end --
+
+2018-04-18 20:57:30,942 INFO   - -- program start --
+2018-04-18 20:57:30,943 INFO   - password storage project - server component
+2018-04-18 20:57:30,943 INFO   - -------------------------------------------
+2018-04-18 20:57:30,943 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 20:57:30,943 INFO   - server needs to store passwords and communicate password information
+2018-04-18 20:57:30,943 INFO   - to clients, rich and thin
+2018-04-18 20:57:30,943 INFO   - 
+2018-04-18 20:57:30,943 INFO   - log4cxx configuration successfully parsed
+2018-04-18 20:57:30,943 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:57:30,943 INFO   - xml_template_single: 
+2018-04-18 20:57:30,943 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:57:30,943 INFO   - xml_template_bracket_all: 
+2018-04-18 20:57:30,943 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:57:30,943 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 20:57:30,943 DEBUG Utility - Opened database successfully
+2018-04-18 20:57:30,943 INFO  DatabaseLayer - set_database function
+2018-04-18 20:57:30,943 INFO  std - get_all_password_entries function
+2018-04-18 20:57:30,943 INFO  DatabaseLayer - get_database function
+2018-04-18 20:57:30,943 ERROR std - SQL error: 
+2018-04-18 20:57:30,943 ERROR std - result: 1
+2018-04-18 20:57:30,943 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 20:57:30,943 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 20:57:30,943 INFO   - -- program end --
+
+2018-04-18 20:58:14,603 INFO   - -- program start --
+2018-04-18 20:58:14,605 INFO   - password storage project - server component
+2018-04-18 20:58:14,605 INFO   - -------------------------------------------
+2018-04-18 20:58:14,605 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 20:58:14,605 INFO   - server needs to store passwords and communicate password information
+2018-04-18 20:58:14,605 INFO   - to clients, rich and thin
+2018-04-18 20:58:14,605 INFO   - 
+2018-04-18 20:58:14,605 INFO   - log4cxx configuration successfully parsed
+2018-04-18 20:58:14,605 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:58:14,605 INFO   - xml_template_single: 
+2018-04-18 20:58:14,605 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:58:14,605 INFO   - xml_template_bracket_all: 
+2018-04-18 20:58:14,605 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 20:58:14,605 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 20:58:14,605 DEBUG Utility - Opened database successfully
+2018-04-18 20:58:14,605 INFO  DatabaseLayer - set_database function
+2018-04-18 20:58:14,605 INFO  std - get_all_password_entries function
+2018-04-18 20:58:14,605 INFO  DatabaseLayer - get_database function
+2018-04-18 20:58:14,605 ERROR std - SQL error: 
+2018-04-18 20:58:14,606 ERROR std - result: 1
+2018-04-18 20:58:14,606 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password
+2018-04-18 20:58:14,606 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 20:58:14,606 INFO   - -- program end --
+
+2018-04-18 21:05:37,375 INFO   - -- program start --
+2018-04-18 21:05:37,375 INFO   - password storage project - server component
+2018-04-18 21:05:37,375 INFO   - -------------------------------------------
+2018-04-18 21:05:37,375 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:05:37,375 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:05:37,375 INFO   - to clients, rich and thin
+2018-04-18 21:05:37,375 INFO   - 
+2018-04-18 21:05:37,375 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:05:37,375 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:05:37,375 INFO   - xml_template_single: 
+2018-04-18 21:05:37,375 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:05:37,375 INFO   - xml_template_bracket_all: 
+2018-04-18 21:05:37,375 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:05:37,375 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:05:37,375 DEBUG Utility - Opened database successfully
+2018-04-18 21:05:37,375 INFO  DatabaseLayer - set_database function
+2018-04-18 21:05:37,375 INFO  std - get_all_password_entries function
+2018-04-18 21:05:37,375 INFO  DatabaseLayer - get_database function
+2018-04-18 21:05:37,376 ERROR std - SQL error: 
+2018-04-18 21:05:37,376 ERROR std - result: 1
+2018-04-18 21:05:37,376 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:05:37,376 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 21:05:37,376 INFO   - -- program end --
+
+2018-04-18 21:06:36,373 INFO   - -- program start --
+2018-04-18 21:06:36,374 INFO   - password storage project - server component
+2018-04-18 21:06:36,374 INFO   - -------------------------------------------
+2018-04-18 21:06:36,374 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:06:36,374 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:06:36,374 INFO   - to clients, rich and thin
+2018-04-18 21:06:36,374 INFO   - 
+2018-04-18 21:06:36,374 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:06:36,374 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:06:36,374 INFO   - xml_template_single: 
+2018-04-18 21:06:36,374 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:06:36,374 INFO   - xml_template_bracket_all: 
+2018-04-18 21:06:36,374 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:06:36,374 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:06:36,375 DEBUG Utility - Opened database successfully
+2018-04-18 21:06:36,375 INFO  DatabaseLayer - set_database function
+2018-04-18 21:06:36,375 INFO  std - get_all_password_entries function
+2018-04-18 21:06:36,375 INFO  DatabaseLayer - get_database function
+2018-04-18 21:06:36,375 ERROR std - SQL error: 
+2018-04-18 21:06:36,375 ERROR std - result: 1
+2018-04-18 21:06:36,375 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:06:36,375 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 21:06:36,375 INFO   - -- program end --
+
+2018-04-18 21:08:08,684 INFO   - -- program start --
+2018-04-18 21:08:08,684 INFO   - password storage project - server component
+2018-04-18 21:08:08,684 INFO   - -------------------------------------------
+2018-04-18 21:08:08,684 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:08:08,684 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:08:08,684 INFO   - to clients, rich and thin
+2018-04-18 21:08:08,684 INFO   - 
+2018-04-18 21:08:08,684 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:08:08,685 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:08:08,685 INFO   - xml_template_single: 
+2018-04-18 21:08:08,685 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:08:08,685 INFO   - xml_template_bracket_all: 
+2018-04-18 21:08:08,685 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:08:08,685 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:08:08,685 DEBUG Utility - Opened database successfully
+2018-04-18 21:08:08,685 INFO  DatabaseLayer - set_database function
+2018-04-18 21:08:08,685 INFO  std - get_all_password_entries function
+2018-04-18 21:08:08,685 INFO  DatabaseLayer - get_database function
+2018-04-18 21:08:08,685 ERROR std - SQL error: 
+2018-04-18 21:08:08,685 ERROR std - result: 1
+2018-04-18 21:08:08,685 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:08:08,685 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 21:08:08,685 INFO   - -- program end --
+
+2018-04-18 21:08:34,735 INFO   - -- program start --
+2018-04-18 21:08:34,735 INFO   - password storage project - server component
+2018-04-18 21:08:34,735 INFO   - -------------------------------------------
+2018-04-18 21:08:34,735 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:08:34,735 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:08:34,735 INFO   - to clients, rich and thin
+2018-04-18 21:08:34,735 INFO   - 
+2018-04-18 21:08:34,735 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:08:35,782 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:08:35,782 INFO   - xml_template_single: 
+2018-04-18 21:08:36,613 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:08:36,613 INFO   - xml_template_bracket_all: 
+2018-04-18 21:08:37,637 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:08:37,637 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:08:37,637 DEBUG Utility - Opened database successfully
+2018-04-18 21:08:37,637 INFO  DatabaseLayer - set_database function
+2018-04-18 21:08:43,557 INFO  std - get_all_password_entries function
+2018-04-18 21:08:50,265 INFO  DatabaseLayer - get_database function
+2018-04-18 21:09:01,941 ERROR std - SQL error: 
+2018-04-18 21:09:01,941 ERROR std - result: 1
+2018-04-18 21:09:01,941 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:09:04,230 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 21:09:04,230 INFO   - -- program end --
+
+2018-04-18 21:10:08,681 INFO   - -- program start --
+2018-04-18 21:10:08,681 INFO   - password storage project - server component
+2018-04-18 21:10:08,681 INFO   - -------------------------------------------
+2018-04-18 21:10:08,681 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:10:08,681 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:10:08,681 INFO   - to clients, rich and thin
+2018-04-18 21:10:08,681 INFO   - 
+2018-04-18 21:10:08,681 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:10:08,681 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:10:08,681 INFO   - xml_template_single: 
+2018-04-18 21:10:08,681 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:10:08,681 INFO   - xml_template_bracket_all: 
+2018-04-18 21:10:08,681 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:10:08,681 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:10:08,682 DEBUG Utility - Opened database successfully
+2018-04-18 21:10:08,682 INFO  DatabaseLayer - set_database function
+2018-04-18 21:10:08,682 INFO  std - get_all_password_entries function
+2018-04-18 21:10:08,682 INFO  DatabaseLayer - get_database function
+2018-04-18 21:10:08,682 ERROR std - SQL error: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:10:08,682 ERROR std - result: 1
+2018-04-18 21:10:08,682 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:10:08,682 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 21:10:08,682 INFO   - -- program end --
+
+2018-04-18 21:10:40,314 INFO   - -- program start --
+2018-04-18 21:10:40,314 INFO   - password storage project - server component
+2018-04-18 21:10:40,314 INFO   - -------------------------------------------
+2018-04-18 21:10:40,314 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:10:40,314 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:10:40,314 INFO   - to clients, rich and thin
+2018-04-18 21:10:40,314 INFO   - 
+2018-04-18 21:10:40,314 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:10:40,314 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:10:40,314 INFO   - xml_template_single: 
+2018-04-18 21:10:40,314 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:10:40,314 INFO   - xml_template_bracket_all: 
+2018-04-18 21:10:40,314 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:10:40,314 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:10:40,314 DEBUG Utility - Opened database successfully
+2018-04-18 21:10:40,314 INFO  DatabaseLayer - set_database function
+2018-04-18 21:10:40,314 INFO  std - get_all_password_entries function
+2018-04-18 21:10:40,314 INFO  DatabaseLayer - get_database function
+2018-04-18 21:10:40,314 ERROR std - SQL error: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:10:40,314 ERROR std - result: 1
+2018-04-18 21:10:40,314 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:10:40,314 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 21:10:40,314 INFO   - -- program end --
+
+2018-04-18 21:11:17,883 INFO   - -- program start --
+2018-04-18 21:11:17,883 INFO   - password storage project - server component
+2018-04-18 21:11:17,883 INFO   - -------------------------------------------
+2018-04-18 21:11:17,883 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:11:17,883 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:11:17,883 INFO   - to clients, rich and thin
+2018-04-18 21:11:17,883 INFO   - 
+2018-04-18 21:11:17,883 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:11:17,884 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:11:17,884 INFO   - xml_template_single: 
+2018-04-18 21:11:17,884 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:11:17,884 INFO   - xml_template_bracket_all: 
+2018-04-18 21:11:17,884 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:11:17,884 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:11:17,884 DEBUG Utility - Opened database successfully
+2018-04-18 21:11:17,884 INFO  DatabaseLayer - set_database function
+2018-04-18 21:11:17,884 INFO  std - get_all_password_entries function
+2018-04-18 21:11:17,884 INFO  DatabaseLayer - get_database function
+2018-04-18 21:11:17,884 ERROR std - SQL error: 
+2018-04-18 21:11:17,884 ERROR std - result: 1
+2018-04-18 21:11:17,884 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:11:17,884 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 21:11:17,884 INFO   - -- program end --
+
+2018-04-18 21:11:46,854 INFO   - -- program start --
+2018-04-18 21:11:46,854 INFO   - password storage project - server component
+2018-04-18 21:11:46,854 INFO   - -------------------------------------------
+2018-04-18 21:11:46,854 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:11:46,854 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:11:46,854 INFO   - to clients, rich and thin
+2018-04-18 21:11:46,854 INFO   - 
+2018-04-18 21:11:46,854 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:11:46,854 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:11:46,854 INFO   - xml_template_single: 
+2018-04-18 21:11:46,854 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:11:46,854 INFO   - xml_template_bracket_all: 
+2018-04-18 21:11:46,854 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:11:46,854 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:11:46,854 DEBUG Utility - Opened database successfully
+2018-04-18 21:11:46,854 INFO  DatabaseLayer - set_database function
+2018-04-18 21:11:46,854 INFO  std - get_all_password_entries function
+2018-04-18 21:11:46,854 INFO  DatabaseLayer - get_database function
+2018-04-18 21:11:46,855 ERROR std - SQL error: 
+2018-04-18 21:11:46,855 ERROR std - result: 1
+2018-04-18 21:11:46,855 ERROR std - select statement: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:11:46,855 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 21:11:46,855 INFO   - -- program end --
+
+2018-04-18 21:21:52,112 INFO   - -- program start --
+2018-04-18 21:21:52,121 INFO   - password storage project - server component
+2018-04-18 21:21:52,121 INFO   - -------------------------------------------
+2018-04-18 21:21:52,121 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:21:52,121 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:21:52,121 INFO   - to clients, rich and thin
+2018-04-18 21:21:52,121 INFO   - 
+2018-04-18 21:21:52,121 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:21:52,121 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:21:52,125 INFO   - xml_template_single: 
+2018-04-18 21:21:52,126 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:21:52,126 INFO   - xml_template_bracket_all: 
+2018-04-18 21:21:52,126 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:21:52,126 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:21:52,126 DEBUG Utility - Opened database successfully
+2018-04-18 21:21:52,126 INFO  DatabaseLayer - set_database function
+2018-04-18 21:21:52,126 INFO  std - get_all_password_entries function
+2018-04-18 21:21:52,126 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:21:52,126 INFO  CommunicationLayer - Communication layer destrutor end.
+2018-04-18 21:21:52,126 INFO   - -- program end --
+
+2018-04-18 21:23:50,275 INFO   - -- program start --
+2018-04-18 21:23:50,275 INFO   - password storage project - server component
+2018-04-18 21:23:50,275 INFO   - -------------------------------------------
+2018-04-18 21:23:50,275 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:23:50,275 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:23:50,275 INFO   - to clients, rich and thin
+2018-04-18 21:23:50,275 INFO   - 
+2018-04-18 21:23:50,275 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:23:50,275 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:23:50,275 INFO   - xml_template_single: 
+2018-04-18 21:23:50,275 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:23:50,275 INFO   - xml_template_bracket_all: 
+2018-04-18 21:23:50,275 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:23:50,275 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:23:50,276 DEBUG Utility - Opened database successfully
+2018-04-18 21:23:50,276 INFO  DatabaseLayer - set_database function
+2018-04-18 21:23:50,276 INFO  std - get_all_password_entries function
+2018-04-18 21:23:50,276 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-04-18 21:24:40,089 INFO   - -- program start --
+2018-04-18 21:24:40,089 INFO   - password storage project - server component
+2018-04-18 21:24:40,089 INFO   - -------------------------------------------
+2018-04-18 21:24:40,089 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:24:40,089 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:24:40,089 INFO   - to clients, rich and thin
+2018-04-18 21:24:40,089 INFO   - 
+2018-04-18 21:24:40,089 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:24:40,089 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:24:40,089 INFO   - xml_template_single: 
+2018-04-18 21:24:40,089 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:24:40,089 INFO   - xml_template_bracket_all: 
+2018-04-18 21:24:40,089 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:24:40,089 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:24:40,089 DEBUG Utility - Opened database successfully
+2018-04-18 21:24:40,089 INFO  DatabaseLayer - set_database function
+2018-04-18 21:26:40,222 INFO   - -- program start --
+2018-04-18 21:26:40,227 INFO   - password storage project - server component
+2018-04-18 21:26:40,227 INFO   - -------------------------------------------
+2018-04-18 21:26:40,228 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-04-18 21:26:40,228 INFO   - server needs to store passwords and communicate password information
+2018-04-18 21:26:40,228 INFO   - to clients, rich and thin
+2018-04-18 21:26:40,228 INFO   - 
+2018-04-18 21:26:40,228 INFO   - log4cxx configuration successfully parsed
+2018-04-18 21:26:40,228 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:26:40,228 INFO   - xml_template_single: 
+2018-04-18 21:26:40,228 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:26:40,228 INFO   - xml_template_bracket_all: 
+2018-04-18 21:26:40,228 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-04-18 21:26:40,228 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-04-18 21:26:40,228 DEBUG Utility - Opened database successfully
+2018-04-18 21:26:40,228 INFO  DatabaseLayer - set_database function

@@ -42,6 +42,7 @@ vector<PasswordEntry*> DatabaseLayer::get_all_password_entries()
     const char *zErrMsg = 0;
     int rc;
     sqlite3_stmt* data = nullptr;
+    string sqlite_full_filename = "/home/sgnjidic/devel/cplusplus/password_storage/password_storage.sql3";
 
     LOG4CXX_INFO(DbLogger, "get_all_password_entries function");
 
@@ -50,11 +51,18 @@ vector<PasswordEntry*> DatabaseLayer::get_all_password_entries()
             "select ID, name, description,login_url, email, username, password, password_hint from password;"
            );
 
-    rc = sqlite3_prepare(get_database(), (const char*) select_char_buffer, -1, &data, &zErrMsg);
+    rc = sqlite3_open(sqlite_full_filename.c_str() , &m_database);
+    if( rc != SQLITE_OK )
+    {
+        LOG4CXX_ERROR(DbLogger, "Failed to open sqlite3 database " + sqlite_full_filename);
+    }
+    rc = sqlite3_prepare_v2(m_database, (const char *)select_char_buffer, -1, &data, &zErrMsg);
 
     if( rc != SQLITE_OK )
     {
         LOG4CXX_ERROR(DbLogger, "SQL error: " + string(zErrMsg));
+        LOG4CXX_ERROR(DbLogger, "result: " + std::to_string(rc));
+        LOG4CXX_ERROR(DbLogger, "select statement: " + string(select_char_buffer));
     }
     else
     {

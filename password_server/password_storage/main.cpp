@@ -47,25 +47,32 @@ int main()
     LOG4CXX_INFO(main_cpp, "xml_template_bracket_all: " + controller->get_utils()->get_all_passwords_bracket_template());
 
 
+    // SendPackage* sendPackage = new SendPackage();
+    // sendPackage->set_is_sent(false);
+    // sendPackage->set_payload("Welcome to password_storage server!");
 
-    SendPackage* sendPackage = new SendPackage();
-    sendPackage->set_is_sent(false);
-    sendPackage->set_payload("Welcome to password_storage server!");
-
-    comm->set_send_package(sendPackage);
+    // comm->set_send_package(sendPackage);
 
     // controller->set_communication_layer(comm);
 
     DatabaseLayer* db = new DatabaseLayer();
-    db->set_database(controller->get_utils()->get_database_instance());
+    util = controller->get_utils();
+    sqlite3* database_instance = util->get_database_instance();
+    db->set_database(database_instance);
+    // vector<PasswordEntry*> result = db->get_all_password_entries();
+
+
     comm->get_controller()->set_database_layer(db);
-    // db = nullptr;
+    db = nullptr;
+    util = nullptr;
+    database_instance = nullptr;
 
     // make payload  - xml with all password entries
     // send it to fat client for unmarshalling and rendering into GUI
 
-    // vector<PasswordEntry*> result = controller-> get_database_layer()->get_all_password_entries();
+    // xvector<PasswordEntry*> result = comm->get_controller()->get_database_layer()->get_all_password_entries();
 
+    // int i1=1;
     int something = comm->start_server();
 
     delete(comm);
