@@ -52,7 +52,6 @@ class CommunicationLayer
         void process_received_package();
         void *sigchld_handler(int s);
         void *get_in_addr(struct sockaddr *sa);
-        bool set_receive_package(ReceivePackage* new_receive_package);
         ReceivePackage* create_receive_package();
         bool remove_receive_package();
         bool remove_send_package();

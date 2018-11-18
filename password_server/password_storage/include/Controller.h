@@ -31,17 +31,20 @@ class Controller
         Utility* get_utils();
         void set_database_layer(DatabaseLayer* data_layer);
         DatabaseLayer* get_database_layer();
-        bool set_received_package(ReceivePackage* package_received);
+        ReceivePackage* create_receive_package();
+        void set_received_package(ReceivePackage* package_received);
         SendPackage* get_send_package();
+        void parse_package_received();
+        void create_message_parsing_result();
     protected:
     private:
         // fields
         Utility* m_utils = nullptr;
         DatabaseLayer* m_data_layer = nullptr;
-        ReceivePackage* received_package = nullptr;
-        SendPackage* send_package = nullptr;
+        ReceivePackage* m_receive_package = nullptr;
+        SendPackage* m_send_package = nullptr;
+        MessageParsingResult* m_message_parsing_result = nullptr;
         // functions
-        MessageParsingResult* parse_package_received();
         string list_all_passwords();
 };
 

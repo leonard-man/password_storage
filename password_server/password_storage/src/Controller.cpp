@@ -19,6 +19,15 @@ Controller::~Controller()
         delete(m_utils);
     }
 }
+void Controller::create_message_parsing_result()
+{
+    if (m_message_parsing_result != nullptr)
+    {
+        delete(m_message_parsing_result);
+    }
+
+    m_message_parsing_result = new MessageParsingResult();
+}
 
 void Controller::set_utils(Utility* utils)
 {
@@ -41,52 +50,61 @@ DatabaseLayer* Controller::get_database_layer()
     return m_data_layer;
 }
 
-bool Controller::set_received_package(ReceivePackage* package_received)
+ReceivePackage* Controller::create_receive_package()
 {
-    if(received_package != nullptr)
+    if(m_receive_package != nullptr)
     {
-        delete(received_package);
+        delete(m_receive_package);
     }
 
-    received_package = package_received;
+    m_receive_package = new ReceivePackage();
+
+    return m_receive_package;
+}
+
+void Controller::set_received_package(ReceivePackage* package_received)
+{
+    if(m_receive_package != nullptr)
+    {
+        delete(m_receive_package);
+    }
+
+    m_receive_package = package_received;
 
     LOG4CXX_INFO(ControllerLogger, "Controller::package_received");
-
-    return parse_package_received() == nullptr;
 }
 
 SendPackage* Controller::get_send_package()
 {
-    if(send_package != nullptr)
+    if(m_send_package != nullptr)
     {
-        delete(send_package);
+        delete(m_send_package);
     }
 
-    MessageParsingResult* result = parse_package_received();
     SendPackage* send_package = new SendPackage();
-    send_package->set_payload(result->get_parsing_result_message());
+    string parsing_result_message = m_message_parsing_result->get_parsing_result_message();
+    send_package->set_payload(parsing_result_message);
 
-    LOG4CXX_INFO(ControllerLogger, "Controller::send_package_ready: " + send_package->get_payload());
+    m_send_package = send_package;
+    LOG4CXX_INFO(ControllerLogger, "Controller::send_package_ready: " + m_send_package->get_payload());
 
-    return send_package;
+    return m_send_package;
 }
 
-MessageParsingResult* Controller::parse_package_received()
+void Controller::parse_package_received()
 {
     LOG4CXX_INFO(ControllerLogger, "Controller: parsing received package");
 
-    MessageParsingResult* mp_result = new MessageParsingResult();
+    create_message_parsing_result();
     string string_message;
 
-    if(received_package->get_payload() == "﻿<?xml version=\"1.0\" encoding=\"UTF-8\"?><list_all_passwords>")
+    if(m_receive_package->get_payload() == "﻿<?xml version=\"1.0\" encoding=\"UTF-8\"?><list_all_passwords>")
     {
         string_message = list_all_passwords();
-        mp_result->set_parsing_result_message(string_message);
+        m_message_parsing_result->set_parsing_result_message(string_message);
 
         LOG4CXX_INFO(ControllerLogger, "Controller: test implementation of <list_all_passwords>.");
     }
-
-    return mp_result;
 }
 
 string Controller::list_all_passwords()
@@ -95,7 +113,7 @@ string Controller::list_all_passwords()
 
     vector<PasswordEntry*> all_passwords = m_data_layer->get_all_password_entries();
 
-    for(int i = 0; i < all_passwords.size(); i++)
+    for(int i = 0; (unsigned)i < all_passwords.size(); i++)
     {
         result = result + "<password_entry>";
         result = result + "<password_id>";

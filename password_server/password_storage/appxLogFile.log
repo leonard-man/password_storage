@@ -1006,3 +1006,633 @@
 2018-04-18 21:26:40,228 INFO  Utility - opening sqlite database: password_storage.sql3
 2018-04-18 21:26:40,228 DEBUG Utility - Opened database successfully
 2018-04-18 21:26:40,228 INFO  DatabaseLayer - set_database function
+2018-09-02 11:36:34,315 INFO   - -- program start --
+2018-09-02 11:36:34,317 INFO   - password storage project - server component
+2018-09-02 11:36:34,317 INFO   - -------------------------------------------
+2018-09-02 11:36:34,317 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 11:36:34,317 INFO   - server needs to store passwords and communicate password information
+2018-09-02 11:36:34,317 INFO   - to clients, rich and thin
+2018-09-02 11:36:34,318 INFO   - 
+2018-09-02 11:36:34,318 INFO   - log4cxx configuration successfully parsed
+2018-09-02 11:36:34,318 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:36:34,318 INFO   - xml_template_single: 
+2018-09-02 11:36:34,319 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:36:34,319 INFO   - xml_template_bracket_all: 
+2018-09-02 11:36:34,319 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:36:34,319 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 11:36:34,320 DEBUG Utility - Opened database successfully
+2018-09-02 11:36:34,321 INFO  DatabaseLayer - set_database function
+2018-09-02 11:38:45,043 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 11:38:45,043 INFO  CommunicationLayer - Receive package created.
+2018-09-02 11:38:45,043 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 11:38:45,043 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 11:38:45,043 INFO  Controller - Controller::package_received
+2018-09-02 11:38:45,043 INFO  Controller - Controller: parsing received package
+2018-09-02 11:38:45,043 INFO  std - get_all_password_entries function
+2018-09-02 11:38:45,043 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 11:38:45,043 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 11:38:45,043 INFO  Controller - Controller: parsing received package
+2018-09-02 11:38:45,043 INFO  std - get_all_password_entries function
+2018-09-02 11:38:45,043 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 11:38:45,043 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 11:38:45,043 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:38:45,043 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 11:38:45,044 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:38:45,044 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:38:45,044 INFO  CommunicationLayer - payload buffer size: 949
+2018-09-02 11:39:22,781 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 11:39:22,781 INFO  CommunicationLayer - Receive package created.
+2018-09-02 11:39:22,781 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 11:39:22,781 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 11:44:03,805 INFO   - -- program start --
+2018-09-02 11:44:03,805 INFO   - password storage project - server component
+2018-09-02 11:44:03,805 INFO   - -------------------------------------------
+2018-09-02 11:44:03,805 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 11:44:03,805 INFO   - server needs to store passwords and communicate password information
+2018-09-02 11:44:03,805 INFO   - to clients, rich and thin
+2018-09-02 11:44:03,805 INFO   - 
+2018-09-02 11:44:03,805 INFO   - log4cxx configuration successfully parsed
+2018-09-02 11:44:03,805 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:44:03,806 INFO   - xml_template_single: 
+2018-09-02 11:44:03,806 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:44:03,806 INFO   - xml_template_bracket_all: 
+2018-09-02 11:44:03,806 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:44:03,806 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 11:44:03,806 DEBUG Utility - Opened database successfully
+2018-09-02 11:44:03,806 INFO  DatabaseLayer - set_database function
+2018-09-02 11:44:36,111 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 11:44:36,111 INFO  CommunicationLayer - Receive package created.
+2018-09-02 11:44:36,111 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 11:44:36,111 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 11:44:36,111 INFO  Controller - Controller::package_received
+2018-09-02 11:44:36,111 INFO  Controller - Controller: parsing received package
+2018-09-02 11:44:36,111 INFO  std - get_all_password_entries function
+2018-09-02 11:44:36,112 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 11:44:36,112 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 11:44:36,112 INFO  Controller - Controller: parsing received package
+2018-09-02 11:44:36,112 INFO  std - get_all_password_entries function
+2018-09-02 11:44:36,112 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 11:44:36,112 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 11:44:36,112 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:44:36,112 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 11:44:36,112 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:44:36,112 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:44:36,112 INFO  CommunicationLayer - payload buffer size: 949
+2018-09-02 11:44:54,462 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 11:44:54,462 INFO  CommunicationLayer - Receive package created.
+2018-09-02 11:44:54,462 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 11:44:54,462 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 11:45:09,770 INFO   - -- program start --
+2018-09-02 11:45:09,770 INFO   - password storage project - server component
+2018-09-02 11:45:09,770 INFO   - -------------------------------------------
+2018-09-02 11:45:09,770 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 11:45:09,770 INFO   - server needs to store passwords and communicate password information
+2018-09-02 11:45:09,770 INFO   - to clients, rich and thin
+2018-09-02 11:45:09,770 INFO   - 
+2018-09-02 11:45:09,770 INFO   - log4cxx configuration successfully parsed
+2018-09-02 11:45:09,770 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:45:09,770 INFO   - xml_template_single: 
+2018-09-02 11:45:09,770 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:45:09,770 INFO   - xml_template_bracket_all: 
+2018-09-02 11:45:09,770 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:45:09,770 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 11:45:09,771 DEBUG Utility - Opened database successfully
+2018-09-02 11:45:09,771 INFO  DatabaseLayer - set_database function
+2018-09-02 11:50:53,755 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 11:50:53,755 INFO  CommunicationLayer - Receive package created.
+2018-09-02 11:50:53,755 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 11:50:53,755 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 11:50:53,755 INFO  Controller - Controller::package_received
+2018-09-02 11:50:53,755 INFO  Controller - Controller: parsing received package
+2018-09-02 11:50:53,755 INFO  std - get_all_password_entries function
+2018-09-02 11:50:53,756 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 11:50:53,756 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 11:50:53,756 INFO  Controller - Controller: parsing received package
+2018-09-02 11:50:53,756 INFO  std - get_all_password_entries function
+2018-09-02 11:50:53,756 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 11:50:53,756 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 11:50:53,756 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:50:53,756 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 11:50:53,756 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:50:53,756 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:50:53,756 INFO  CommunicationLayer - payload buffer size: 949
+2018-09-02 11:52:11,631 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 11:52:11,632 INFO  CommunicationLayer - Receive package created.
+2018-09-02 11:52:11,632 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 11:52:11,632 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 11:52:41,161 INFO   - -- program start --
+2018-09-02 11:52:41,161 INFO   - password storage project - server component
+2018-09-02 11:52:41,161 INFO   - -------------------------------------------
+2018-09-02 11:52:41,161 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 11:52:41,161 INFO   - server needs to store passwords and communicate password information
+2018-09-02 11:52:41,161 INFO   - to clients, rich and thin
+2018-09-02 11:52:41,161 INFO   - 
+2018-09-02 11:52:41,161 INFO   - log4cxx configuration successfully parsed
+2018-09-02 11:52:41,161 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:52:41,161 INFO   - xml_template_single: 
+2018-09-02 11:52:41,161 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:52:41,161 INFO   - xml_template_bracket_all: 
+2018-09-02 11:52:41,161 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:52:41,161 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 11:52:41,161 DEBUG Utility - Opened database successfully
+2018-09-02 11:52:41,161 INFO  DatabaseLayer - set_database function
+2018-09-02 11:54:03,676 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 11:54:03,676 INFO  CommunicationLayer - Receive package created.
+2018-09-02 11:54:03,676 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 11:54:03,676 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 11:54:03,676 INFO  Controller - Controller::package_received
+2018-09-02 11:54:03,676 INFO  Controller - Controller: parsing received package
+2018-09-02 11:54:03,676 INFO  std - get_all_password_entries function
+2018-09-02 11:54:03,677 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 11:54:03,677 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 11:54:03,677 INFO  Controller - Controller: parsing received package
+2018-09-02 11:54:03,677 INFO  std - get_all_password_entries function
+2018-09-02 11:54:03,677 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 11:54:03,677 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 11:54:03,677 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:54:03,677 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 11:54:03,677 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:54:03,677 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:54:03,677 INFO  CommunicationLayer - payload buffer size: 949
+2018-09-02 11:57:56,492 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 11:57:56,492 INFO  CommunicationLayer - Receive package created.
+2018-09-02 11:57:56,492 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 11:57:56,492 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 11:58:44,015 INFO   - -- program start --
+2018-09-02 11:58:44,016 INFO   - password storage project - server component
+2018-09-02 11:58:44,016 INFO   - -------------------------------------------
+2018-09-02 11:58:44,016 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 11:58:44,016 INFO   - server needs to store passwords and communicate password information
+2018-09-02 11:58:44,016 INFO   - to clients, rich and thin
+2018-09-02 11:58:44,016 INFO   - 
+2018-09-02 11:58:44,016 INFO   - log4cxx configuration successfully parsed
+2018-09-02 11:58:44,016 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:58:44,016 INFO   - xml_template_single: 
+2018-09-02 11:58:44,016 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:58:44,016 INFO   - xml_template_bracket_all: 
+2018-09-02 11:58:44,016 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 11:58:44,016 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 11:58:44,028 DEBUG Utility - Opened database successfully
+2018-09-02 11:58:44,028 INFO  DatabaseLayer - set_database function
+2018-09-02 11:59:02,028 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 11:59:02,028 INFO  CommunicationLayer - Receive package created.
+2018-09-02 11:59:02,028 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 11:59:02,028 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 11:59:02,028 INFO  Controller - Controller::package_received
+2018-09-02 11:59:02,028 INFO  Controller - Controller: parsing received package
+2018-09-02 11:59:02,028 INFO  std - get_all_password_entries function
+2018-09-02 11:59:02,028 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 11:59:02,028 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 11:59:02,028 INFO  Controller - Controller: parsing received package
+2018-09-02 11:59:02,028 INFO  std - get_all_password_entries function
+2018-09-02 11:59:02,028 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 11:59:02,028 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 11:59:02,028 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:59:02,028 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 11:59:02,028 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:59:02,028 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 11:59:02,028 INFO  CommunicationLayer - payload buffer size: 949
+2018-09-02 11:59:11,469 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 11:59:11,469 INFO  CommunicationLayer - Receive package created.
+2018-09-02 11:59:11,470 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 11:59:11,470 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 12:00:37,679 INFO   - -- program start --
+2018-09-02 12:00:37,679 INFO   - password storage project - server component
+2018-09-02 12:00:37,679 INFO   - -------------------------------------------
+2018-09-02 12:00:37,679 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 12:00:37,679 INFO   - server needs to store passwords and communicate password information
+2018-09-02 12:00:37,679 INFO   - to clients, rich and thin
+2018-09-02 12:00:37,679 INFO   - 
+2018-09-02 12:00:37,679 INFO   - log4cxx configuration successfully parsed
+2018-09-02 12:00:43,645 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 12:00:43,645 INFO   - xml_template_single: 
+2018-09-02 12:00:49,893 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 12:00:49,893 INFO   - xml_template_bracket_all: 
+2018-09-02 12:00:56,380 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 12:00:56,381 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 12:00:56,381 DEBUG Utility - Opened database successfully
+2018-09-02 12:00:56,381 INFO  DatabaseLayer - set_database function
+2018-09-02 12:01:14,707 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 12:01:14,708 INFO  CommunicationLayer - Receive package created.
+2018-09-02 12:01:14,708 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 12:01:14,708 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 12:02:04,069 INFO  Controller - Controller::package_received
+2018-09-02 12:02:04,069 INFO  Controller - Controller: parsing received package
+2018-09-02 12:02:04,069 INFO  std - get_all_password_entries function
+2018-09-02 12:02:04,069 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 12:02:04,070 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 12:02:46,466 INFO  Controller - Controller: parsing received package
+2018-09-02 12:03:37,832 INFO  std - get_all_password_entries function
+2018-09-02 12:03:37,832 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 12:03:57,471 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 12:04:31,158 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 12:05:00,940 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 12:05:12,083 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 12:05:48,415 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 12:05:48,462 INFO  CommunicationLayer - payload buffer size: 949
+2018-09-02 12:15:12,894 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 12:15:12,894 INFO  CommunicationLayer - Receive package created.
+2018-09-02 12:15:12,894 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 12:15:12,894 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 12:16:21,311 INFO  Controller - Controller::package_received
+2018-09-02 12:16:21,311 INFO  Controller - Controller: parsing received package
+2018-09-02 12:16:21,311 INFO  Controller - Controller: parsing received package
+2018-09-02 12:16:21,311 INFO  Controller - Controller::send_package_ready: 
+2018-09-02 12:16:21,311 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 12:16:21,311 INFO  CommunicationLayer - New send package created: 
+2018-09-02 12:16:21,311 INFO  CommunicationLayer - payload being sent: 
+2018-09-02 12:16:21,311 INFO  CommunicationLayer - payload buffer size: 0
+2018-09-02 12:19:44,967 INFO   - -- program start --
+2018-09-02 12:19:44,967 INFO   - password storage project - server component
+2018-09-02 12:19:44,967 INFO   - -------------------------------------------
+2018-09-02 12:19:44,967 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 12:19:44,967 INFO   - server needs to store passwords and communicate password information
+2018-09-02 12:19:44,967 INFO   - to clients, rich and thin
+2018-09-02 12:19:44,967 INFO   - 
+2018-09-02 12:19:44,967 INFO   - log4cxx configuration successfully parsed
+2018-09-02 12:19:49,871 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 12:19:49,871 INFO   - xml_template_single: 
+2018-09-02 12:20:07,639 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 12:20:07,639 INFO   - xml_template_bracket_all: 
+2018-09-02 12:20:09,751 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 12:20:09,751 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 12:20:09,751 DEBUG Utility - Opened database successfully
+2018-09-02 12:20:09,751 INFO  DatabaseLayer - set_database function
+2018-09-02 12:20:19,493 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 12:20:19,493 INFO  CommunicationLayer - Receive package created.
+2018-09-02 12:20:19,493 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 12:20:19,493 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 12:20:40,310 INFO  Controller - Controller::package_received
+2018-09-02 12:28:25,456 INFO   - -- program start --
+2018-09-02 12:28:25,456 INFO   - password storage project - server component
+2018-09-02 12:28:25,456 INFO   - -------------------------------------------
+2018-09-02 12:28:25,456 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 12:28:25,456 INFO   - server needs to store passwords and communicate password information
+2018-09-02 12:28:25,456 INFO   - to clients, rich and thin
+2018-09-02 12:28:25,456 INFO   - 
+2018-09-02 12:28:25,456 INFO   - log4cxx configuration successfully parsed
+2018-09-02 12:28:26,375 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 12:28:26,375 INFO   - xml_template_single: 
+2018-09-02 12:28:27,148 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 12:28:27,148 INFO   - xml_template_bracket_all: 
+2018-09-02 12:28:28,105 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 12:28:28,105 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 12:28:28,105 DEBUG Utility - Opened database successfully
+2018-09-02 12:28:28,106 INFO  DatabaseLayer - set_database function
+2018-09-02 12:28:39,594 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 12:28:39,594 INFO  CommunicationLayer - Receive package created.
+2018-09-02 12:28:39,594 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 12:28:39,594 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 12:29:02,096 INFO  Controller - Controller::package_received
+2018-09-02 12:29:04,887 INFO  Controller - Controller: parsing received package
+2018-09-02 12:29:04,887 INFO  std - get_all_password_entries function
+2018-09-02 12:29:04,887 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 12:29:04,887 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 12:29:04,887 INFO  Controller - Controller: parsing received package
+2018-09-02 12:29:04,887 INFO  std - get_all_password_entries function
+2018-09-02 12:29:04,887 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 12:29:04,887 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 12:29:10,104 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 12:29:10,104 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 12:29:10,104 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 12:29:10,104 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 12:29:10,104 INFO  CommunicationLayer - payload buffer size: 949
+2018-09-02 12:29:10,104 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 12:29:10,104 INFO  CommunicationLayer - Receive package created.
+2018-09-02 12:29:10,104 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 12:29:10,104 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 12:29:22,438 INFO  Controller - Controller::package_received
+2018-09-02 12:29:32,183 INFO  Controller - Controller: parsing received package
+2018-09-02 12:29:32,183 INFO  Controller - Controller: parsing received package
+2018-09-02 12:29:34,687 INFO  Controller - Controller::send_package_ready: 
+2018-09-02 12:29:34,687 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 12:29:34,687 INFO  CommunicationLayer - New send package created: 
+2018-09-02 12:29:34,687 INFO  CommunicationLayer - payload being sent: 
+2018-09-02 12:29:34,687 INFO  CommunicationLayer - payload buffer size: 0
+2018-09-02 13:09:37,648 INFO   - -- program start --
+2018-09-02 13:09:37,648 INFO   - password storage project - server component
+2018-09-02 13:09:37,648 INFO   - -------------------------------------------
+2018-09-02 13:09:37,648 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 13:09:37,648 INFO   - server needs to store passwords and communicate password information
+2018-09-02 13:09:37,648 INFO   - to clients, rich and thin
+2018-09-02 13:09:37,648 INFO   - 
+2018-09-02 13:09:37,648 INFO   - log4cxx configuration successfully parsed
+2018-09-02 13:09:37,677 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:09:37,677 INFO   - xml_template_single: 
+2018-09-02 13:09:38,740 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:09:38,741 INFO   - xml_template_bracket_all: 
+2018-09-02 13:09:38,743 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:09:38,743 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 13:09:38,743 DEBUG Utility - Opened database successfully
+2018-09-02 13:09:38,743 INFO  DatabaseLayer - set_database function
+2018-09-02 13:25:59,018 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 13:25:59,018 INFO  CommunicationLayer - Receive package created.
+2018-09-02 13:25:59,018 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 13:25:59,018 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 13:26:06,101 INFO  Controller - Controller::package_received
+2018-09-02 13:26:06,101 INFO  Controller - Controller: parsing received package
+2018-09-02 13:26:06,101 INFO  std - get_all_password_entries function
+2018-09-02 13:26:06,102 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 13:26:06,102 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 13:26:06,102 INFO  Controller - Controller: parsing received package
+2018-09-02 13:26:06,102 INFO  std - get_all_password_entries function
+2018-09-02 13:26:06,102 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 13:26:06,102 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 13:26:06,102 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 13:26:06,102 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 13:26:06,102 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 13:26:06,102 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 13:26:06,102 INFO  CommunicationLayer - payload buffer size: 949
+2018-09-02 13:27:39,331 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 13:27:39,331 INFO  CommunicationLayer - Receive package created.
+2018-09-02 13:27:39,331 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 13:27:39,331 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 13:27:39,331 INFO  Controller - Controller::package_received
+2018-09-02 13:27:39,331 INFO  Controller - Controller: parsing received package
+2018-09-02 13:27:39,331 INFO  Controller - Controller: parsing received package
+2018-09-02 13:27:39,331 INFO  Controller - Controller::send_package_ready: 
+2018-09-02 13:27:39,331 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 13:27:39,331 INFO  CommunicationLayer - New send package created: 
+2018-09-02 13:27:39,331 INFO  CommunicationLayer - payload being sent: 
+2018-09-02 13:27:39,331 INFO  CommunicationLayer - payload buffer size: 0
+2018-09-02 13:29:32,136 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 13:29:32,136 INFO  CommunicationLayer - Receive package created.
+2018-09-02 13:29:32,136 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 13:29:32,136 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 13:29:32,136 INFO  Controller - Controller::package_received
+2018-09-02 13:29:32,136 INFO  Controller - Controller: parsing received package
+2018-09-02 13:29:32,136 INFO  Controller - Controller: parsing received package
+2018-09-02 13:29:32,136 INFO  Controller - Controller::send_package_ready: 
+2018-09-02 13:29:32,136 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 13:29:32,136 INFO  CommunicationLayer - New send package created: 
+2018-09-02 13:29:32,137 INFO  CommunicationLayer - payload being sent: 
+2018-09-02 13:29:32,137 INFO  CommunicationLayer - payload buffer size: 0
+2018-09-02 13:32:50,030 INFO   - -- program start --
+2018-09-02 13:32:50,030 INFO   - password storage project - server component
+2018-09-02 13:32:50,030 INFO   - -------------------------------------------
+2018-09-02 13:32:50,030 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 13:32:50,030 INFO   - server needs to store passwords and communicate password information
+2018-09-02 13:32:50,030 INFO   - to clients, rich and thin
+2018-09-02 13:32:50,030 INFO   - 
+2018-09-02 13:32:50,030 INFO   - log4cxx configuration successfully parsed
+2018-09-02 13:32:50,030 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:32:50,030 INFO   - xml_template_single: 
+2018-09-02 13:32:50,030 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:32:50,030 INFO   - xml_template_bracket_all: 
+2018-09-02 13:32:50,030 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:32:50,030 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 13:32:50,030 DEBUG Utility - Opened database successfully
+2018-09-02 13:32:50,030 INFO  DatabaseLayer - set_database function
+2018-09-02 13:33:13,250 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 13:33:13,250 INFO  CommunicationLayer - Receive package created.
+2018-09-02 13:33:13,250 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 13:33:13,250 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 13:33:13,250 INFO  Controller - Controller::package_received
+2018-09-02 13:33:13,250 INFO  Controller - Controller: parsing received package
+2018-09-02 13:33:13,250 INFO  std - get_all_password_entries function
+2018-09-02 13:33:13,250 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 13:33:13,251 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 13:33:13,251 INFO  Controller - Controller: parsing received package
+2018-09-02 13:33:13,251 INFO  std - get_all_password_entries function
+2018-09-02 13:33:13,251 INFO  std - get_all_password_entries - success for: select ID, name, description,login_url, email, username, password, password_hint from password;
+2018-09-02 13:33:13,251 INFO  Controller - Controller: test implementation of <list_all_passwords>.
+2018-09-02 13:33:13,251 INFO  Controller - Controller::send_package_ready: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 13:33:13,251 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 13:33:13,251 INFO  CommunicationLayer - New send package created: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 13:33:13,251 INFO  CommunicationLayer - payload being sent: <?xml version="1.0" encoding="UTF-8"?><password_list><password_entry><password_id>6</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm workstation</password_login_url><password_username>sgnjidic</password_username><password_password>Fido11</password_password><password_password_hint>pekingese eleven</password_password_hint></password_entry><password_entry><password_id>12</password_id><password_name>Sre??ko Gnjidi??</password_name><password_description>update - test entry 2</password_description><password_email>sgnjidic@inet.hr</password_email><password_login_url>ubuntu vm server</password_login_url><password_username>s.gnjidic</password_username><password_password>MacakP1ko</password_password><password_password_hint>dot marked cat</password_password_hint></password_entry></password_list>
+2018-09-02 13:33:13,251 INFO  CommunicationLayer - payload buffer size: 949
+2018-09-02 13:33:57,260 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 13:33:57,260 INFO  CommunicationLayer - Receive package created.
+2018-09-02 13:33:57,260 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 13:33:57,260 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 13:34:44,575 INFO  Controller - Controller::package_received
+2018-09-02 13:35:02,075 INFO  Controller - Controller: parsing received package
+2018-09-02 13:36:56,245 INFO  Controller - Controller: parsing received package
+2018-09-02 13:36:56,245 INFO  Controller - Controller::send_package_ready: 
+2018-09-02 13:36:56,245 INFO  CommunicationLayer - Clearing send package.
+2018-09-02 13:36:56,245 INFO  CommunicationLayer - New send package created: 
+2018-09-02 13:36:56,245 INFO  CommunicationLayer - payload being sent: 
+2018-09-02 13:36:56,245 INFO  CommunicationLayer - payload buffer size: 0
+2018-09-02 13:54:50,043 INFO   - -- program start --
+2018-09-02 13:54:50,043 INFO   - password storage project - server component
+2018-09-02 13:54:50,043 INFO   - -------------------------------------------
+2018-09-02 13:54:50,043 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 13:54:50,043 INFO   - server needs to store passwords and communicate password information
+2018-09-02 13:54:50,043 INFO   - to clients, rich and thin
+2018-09-02 13:54:50,043 INFO   - 
+2018-09-02 13:54:50,043 INFO   - log4cxx configuration successfully parsed
+2018-09-02 13:54:50,043 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:54:50,043 INFO   - xml_template_single: 
+2018-09-02 13:54:50,043 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:54:50,043 INFO   - xml_template_bracket_all: 
+2018-09-02 13:54:50,043 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:54:50,043 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 13:54:50,044 DEBUG Utility - Opened database successfully
+2018-09-02 13:54:50,044 INFO  DatabaseLayer - set_database function
+2018-09-02 13:55:30,382 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 13:55:30,383 INFO  CommunicationLayer - Receive package created.
+2018-09-02 13:55:30,383 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 13:55:30,383 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 13:55:47,167 INFO  Controller - Controller::package_received
+2018-09-02 13:56:32,473 INFO   - -- program start --
+2018-09-02 13:56:32,473 INFO   - password storage project - server component
+2018-09-02 13:56:32,473 INFO   - -------------------------------------------
+2018-09-02 13:56:32,474 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 13:56:32,474 INFO   - server needs to store passwords and communicate password information
+2018-09-02 13:56:32,474 INFO   - to clients, rich and thin
+2018-09-02 13:56:32,474 INFO   - 
+2018-09-02 13:56:32,474 INFO   - log4cxx configuration successfully parsed
+2018-09-02 13:56:32,474 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:56:32,474 INFO   - xml_template_single: 
+2018-09-02 13:56:32,474 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:56:32,474 INFO   - xml_template_bracket_all: 
+2018-09-02 13:56:32,474 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 13:56:32,474 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 13:56:32,474 DEBUG Utility - Opened database successfully
+2018-09-02 13:56:32,474 INFO  DatabaseLayer - set_database function
+2018-09-02 13:56:42,308 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 13:56:42,308 INFO  CommunicationLayer - Receive package created.
+2018-09-02 13:56:42,308 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 13:56:42,308 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 13:57:47,557 INFO  Controller - Controller::package_received
+2018-09-02 21:23:25,512 INFO   - -- program start --
+2018-09-02 21:23:25,512 INFO   - password storage project - server component
+2018-09-02 21:23:25,512 INFO   - -------------------------------------------
+2018-09-02 21:23:25,512 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 21:23:25,512 INFO   - server needs to store passwords and communicate password information
+2018-09-02 21:23:25,513 INFO   - to clients, rich and thin
+2018-09-02 21:23:25,513 INFO   - 
+2018-09-02 21:23:25,513 INFO   - log4cxx configuration successfully parsed
+2018-09-02 21:23:25,513 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 21:23:25,513 INFO   - xml_template_single: 
+2018-09-02 21:23:25,513 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 21:23:25,513 INFO   - xml_template_bracket_all: 
+2018-09-02 21:23:25,513 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 21:23:25,513 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 21:23:25,515 DEBUG Utility - Opened database successfully
+2018-09-02 21:23:25,515 INFO  DatabaseLayer - set_database function
+2018-09-02 21:23:36,734 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 21:23:36,734 INFO  CommunicationLayer - Receive package created.
+2018-09-02 21:23:36,734 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 21:23:36,734 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 21:23:36,734 INFO  Controller - Controller::package_received
+2018-09-02 21:28:10,035 INFO   - -- program start --
+2018-09-02 21:28:10,035 INFO   - password storage project - server component
+2018-09-02 21:28:10,035 INFO   - -------------------------------------------
+2018-09-02 21:28:10,035 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 21:28:10,035 INFO   - server needs to store passwords and communicate password information
+2018-09-02 21:28:10,035 INFO   - to clients, rich and thin
+2018-09-02 21:28:10,035 INFO   - 
+2018-09-02 21:28:10,035 INFO   - log4cxx configuration successfully parsed
+2018-09-02 21:28:10,035 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 21:28:10,035 INFO   - xml_template_single: 
+2018-09-02 21:28:10,035 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 21:28:10,035 INFO   - xml_template_bracket_all: 
+2018-09-02 21:28:10,036 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 21:28:10,036 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 21:28:10,036 DEBUG Utility - Opened database successfully
+2018-09-02 21:28:10,036 INFO  DatabaseLayer - set_database function
+2018-09-02 21:28:15,057 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 21:28:15,057 INFO  CommunicationLayer - Receive package created.
+2018-09-02 21:28:15,057 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 21:28:15,057 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 21:28:31,780 INFO  Controller - Controller::package_received
+2018-09-02 21:29:00,078 INFO   - -- program start --
+2018-09-02 21:29:00,079 INFO   - password storage project - server component
+2018-09-02 21:29:00,079 INFO   - -------------------------------------------
+2018-09-02 21:29:00,079 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-09-02 21:29:00,079 INFO   - server needs to store passwords and communicate password information
+2018-09-02 21:29:00,079 INFO   - to clients, rich and thin
+2018-09-02 21:29:00,079 INFO   - 
+2018-09-02 21:29:00,079 INFO   - log4cxx configuration successfully parsed
+2018-09-02 21:29:00,079 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 21:29:00,079 INFO   - xml_template_single: 
+2018-09-02 21:29:00,079 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 21:29:00,079 INFO   - xml_template_bracket_all: 
+2018-09-02 21:29:00,079 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-09-02 21:29:00,079 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-09-02 21:29:00,079 DEBUG Utility - Opened database successfully
+2018-09-02 21:29:00,079 INFO  DatabaseLayer - set_database function
+2018-09-02 21:29:01,678 INFO  CommunicationLayer - Clearing receive package.
+2018-09-02 21:29:01,678 INFO  CommunicationLayer - Receive package created.
+2018-09-02 21:29:01,679 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-09-02 21:29:01,679 INFO  CommunicationLayer - payload received buffer size: 61
+2018-09-02 21:30:00,203 INFO  Controller - Controller::package_received
+2018-11-18 13:51:07,456 INFO   - -- program start --
+2018-11-18 13:51:07,457 INFO   - password storage project - server component
+2018-11-18 13:51:07,457 INFO   - -------------------------------------------
+2018-11-18 13:51:07,457 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-11-18 13:51:07,457 INFO   - server needs to store passwords and communicate password information
+2018-11-18 13:51:07,457 INFO   - to clients, rich and thin
+2018-11-18 13:51:07,457 INFO   - 
+2018-11-18 13:51:07,457 INFO   - log4cxx configuration successfully parsed
+2018-11-18 13:51:07,457 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 13:51:07,457 INFO   - xml_template_single: 
+2018-11-18 13:51:07,457 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 13:51:07,457 INFO   - xml_template_bracket_all: 
+2018-11-18 13:51:07,457 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 13:51:07,457 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-11-18 13:51:07,458 DEBUG Utility - Opened database successfully
+2018-11-18 13:51:07,458 INFO  DatabaseLayer - set_database function
+2018-11-18 13:51:17,667 INFO  CommunicationLayer - Clearing receive package.
+2018-11-18 13:51:17,667 INFO  CommunicationLayer - Receive package created.
+2018-11-18 13:51:17,667 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-11-18 13:51:17,667 INFO  CommunicationLayer - payload received buffer size: 61
+2018-11-18 13:51:17,667 INFO  Controller - Controller::package_received
+2018-11-18 13:58:43,053 INFO   - -- program start --
+2018-11-18 13:58:43,053 INFO   - password storage project - server component
+2018-11-18 13:58:43,053 INFO   - -------------------------------------------
+2018-11-18 13:58:43,053 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-11-18 13:58:43,053 INFO   - server needs to store passwords and communicate password information
+2018-11-18 13:58:43,053 INFO   - to clients, rich and thin
+2018-11-18 13:58:43,053 INFO   - 
+2018-11-18 13:58:43,053 INFO   - log4cxx configuration successfully parsed
+2018-11-18 13:58:43,053 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 13:58:43,053 INFO   - xml_template_single: 
+2018-11-18 13:58:43,053 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 13:58:43,053 INFO   - xml_template_bracket_all: 
+2018-11-18 13:58:43,053 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 13:58:43,053 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-11-18 13:58:43,053 DEBUG Utility - Opened database successfully
+2018-11-18 13:58:43,053 INFO  DatabaseLayer - set_database function
+2018-11-18 13:58:47,219 INFO  CommunicationLayer - Clearing receive package.
+2018-11-18 13:58:47,219 INFO  CommunicationLayer - Receive package created.
+2018-11-18 13:58:47,219 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-11-18 13:58:47,219 INFO  CommunicationLayer - payload received buffer size: 61
+2018-11-18 13:58:47,220 INFO  Controller - Controller::package_received
+2018-11-18 13:59:12,834 INFO   - -- program start --
+2018-11-18 13:59:12,834 INFO   - password storage project - server component
+2018-11-18 13:59:12,834 INFO   - -------------------------------------------
+2018-11-18 13:59:12,834 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-11-18 13:59:12,834 INFO   - server needs to store passwords and communicate password information
+2018-11-18 13:59:12,834 INFO   - to clients, rich and thin
+2018-11-18 13:59:12,834 INFO   - 
+2018-11-18 13:59:12,834 INFO   - log4cxx configuration successfully parsed
+2018-11-18 13:59:13,705 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 13:59:13,705 INFO   - xml_template_single: 
+2018-11-18 13:59:14,250 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 13:59:14,250 INFO   - xml_template_bracket_all: 
+2018-11-18 13:59:14,971 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 13:59:14,972 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-11-18 13:59:14,972 DEBUG Utility - Opened database successfully
+2018-11-18 13:59:14,972 INFO  DatabaseLayer - set_database function
+2018-11-18 13:59:24,897 INFO  CommunicationLayer - Clearing receive package.
+2018-11-18 13:59:24,897 INFO  CommunicationLayer - Receive package created.
+2018-11-18 13:59:24,897 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-11-18 13:59:24,897 INFO  CommunicationLayer - payload received buffer size: 61
+2018-11-18 13:59:24,897 INFO  Controller - Controller::package_received
+2018-11-18 14:13:36,875 INFO   - -- program start --
+2018-11-18 14:13:36,876 INFO   - password storage project - server component
+2018-11-18 14:13:36,876 INFO   - -------------------------------------------
+2018-11-18 14:13:36,876 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-11-18 14:13:36,876 INFO   - server needs to store passwords and communicate password information
+2018-11-18 14:13:36,876 INFO   - to clients, rich and thin
+2018-11-18 14:13:36,876 INFO   - 
+2018-11-18 14:13:36,876 INFO   - log4cxx configuration successfully parsed
+2018-11-18 14:13:37,818 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 14:13:37,818 INFO   - xml_template_single: 
+2018-11-18 14:13:38,706 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 14:13:38,706 INFO   - xml_template_bracket_all: 
+2018-11-18 14:13:39,491 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 14:13:39,491 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-11-18 14:13:39,491 DEBUG Utility - Opened database successfully
+2018-11-18 14:13:39,491 INFO  DatabaseLayer - set_database function
+2018-11-18 14:13:45,849 INFO  CommunicationLayer - Clearing receive package.
+2018-11-18 14:13:45,849 INFO  CommunicationLayer - Receive package created.
+2018-11-18 14:13:45,849 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-11-18 14:13:45,849 INFO  CommunicationLayer - payload received buffer size: 61
+2018-11-18 14:13:45,849 INFO  Controller - Controller::package_received
+2018-11-18 14:14:27,553 INFO  Controller - Controller: parsing received package
+2018-11-18 14:15:10,194 INFO  Controller - Controller::send_package_ready: 
+2018-11-18 14:15:10,194 INFO  CommunicationLayer - Clearing send package.
+2018-11-18 14:15:10,194 INFO  CommunicationLayer - New send package created: 
+2018-11-18 14:15:10,194 INFO  CommunicationLayer - payload being sent: 
+2018-11-18 14:15:10,194 INFO  CommunicationLayer - payload buffer size: 0
+2018-11-18 14:16:13,897 INFO  CommunicationLayer - Clearing receive package.
+2018-11-18 14:16:36,684 INFO   - -- program start --
+2018-11-18 14:16:36,684 INFO   - password storage project - server component
+2018-11-18 14:16:36,684 INFO   - -------------------------------------------
+2018-11-18 14:16:36,684 INFO   - Linux server daemon where target deployment is VPS which is online all the time
+2018-11-18 14:16:36,684 INFO   - server needs to store passwords and communicate password information
+2018-11-18 14:16:36,684 INFO   - to clients, rich and thin
+2018-11-18 14:16:36,684 INFO   - 
+2018-11-18 14:16:36,684 INFO   - log4cxx configuration successfully parsed
+2018-11-18 14:16:37,854 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 14:16:37,854 INFO   - xml_template_single: 
+2018-11-18 14:16:38,642 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 14:16:38,642 INFO   - xml_template_bracket_all: 
+2018-11-18 14:16:39,387 ERROR Utility - Parse error at file: password line:  description: syntax e
+2018-11-18 14:16:39,387 INFO  Utility - opening sqlite database: password_storage.sql3
+2018-11-18 14:16:39,387 DEBUG Utility - Opened database successfully
+2018-11-18 14:16:39,387 INFO  DatabaseLayer - set_database function
+2018-11-18 14:16:46,130 INFO  CommunicationLayer - Clearing receive package.
+2018-11-18 14:16:46,130 INFO  CommunicationLayer - Receive package created.
+2018-11-18 14:16:46,130 INFO  CommunicationLayer - payload being recieved: ???<?xml version="1.0" encoding="UTF-8"?><list_all_passwords>
+2018-11-18 14:16:46,130 INFO  CommunicationLayer - payload received buffer size: 61
+2018-11-18 14:16:46,130 INFO  Controller - Controller::package_received
+2018-11-18 14:17:01,065 INFO  Controller - Controller: parsing received package
+2018-11-18 14:17:11,011 INFO  Controller - Controller::send_package_ready: 
+2018-11-18 14:17:11,011 INFO  CommunicationLayer - Clearing send package.
+2018-11-18 14:17:11,011 INFO  CommunicationLayer - New send package created: 
+2018-11-18 14:17:11,011 INFO  CommunicationLayer - payload being sent: 
+2018-11-18 14:17:11,011 INFO  CommunicationLayer - payload buffer size: 0

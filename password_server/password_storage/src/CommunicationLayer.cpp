@@ -24,7 +24,7 @@ CommunicationLayer::~CommunicationLayer()
         delete controller;
     }
 
-    LOG4CXX_INFO(CommLogger, "Communication layer destrutor end.");
+    LOG4CXX_INFO(CommLogger, "Communication layer destructor end.");
 
 }
 
@@ -37,17 +37,6 @@ void CommunicationLayer::set_controller(Controller* ctrl)
 Controller* CommunicationLayer::get_controller()
 {
     return controller;
-}
-
-bool CommunicationLayer::set_receive_package(ReceivePackage* new_receive_package)
-{
-    remove_receive_package();
-
-    receive_package = new_receive_package;
-
-    LOG4CXX_INFO(CommLogger, "New receive package received: " + new_receive_package->get_payload());
-
-    return true;
 }
 
 bool CommunicationLayer::remove_receive_package()
@@ -93,8 +82,7 @@ ReceivePackage* CommunicationLayer::create_receive_package()
 {
     remove_receive_package();
 
-    ReceivePackage* receive_pack = new ReceivePackage();
-    receive_package = receive_pack;
+    receive_package = controller->create_receive_package();
 
     LOG4CXX_INFO(CommLogger, "Receive package created.");
 
@@ -103,18 +91,22 @@ ReceivePackage* CommunicationLayer::create_receive_package()
 
 void CommunicationLayer::process_received_package()
 {
+    // ... continue here ...
+    // use debugger to step through and fix objects and references
+    //
     if((controller != nullptr) && (receive_package != nullptr))
     {
         controller->set_received_package(receive_package);
     }
+    // controller should parse received package
+    controller->parse_package_received();
+    // controller should interpret if any commands are received
 
+    // based on commands, action should be taken, return package prepared
+
+    // return package should be sent back to caller
     set_send_package(controller->get_send_package());
     this->send_package->set_is_sent(false);
-    // push received package to controller
-    // controller should parse received package
-    // controller should interpret if any commands are received
-    // based on commands, action should be taken, return package prepared
-    // return package should be sent back to caller
 }
 
 void *CommunicationLayer::sigchld_handler(int s)
@@ -219,9 +211,6 @@ int CommunicationLayer::start_server()
         inet_ntop(their_addr.ss_family, this->get_in_addr((struct sockaddr *)&their_addr), s, sizeof s);
 
         printf("server: got connection from %s\n", s);
-
-        // if (!fork()) { // this is the child process
-            //close(sockfd); // child doesn't need the listener
 
         if (recv(new_fd, buf, 1000000, 0) == -1)
         {

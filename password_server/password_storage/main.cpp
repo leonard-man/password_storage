@@ -163,6 +163,9 @@ int main()
     return 0;
 }
 
+// TODO (developer_1 #1 #2017-02-19): Fix receiving package and sending package in CommunicationLayer
+                                        //
+
 // TODO (developer_1 #5 #2017-02-19): next steps - from password storage main.cpp:
 // TODO (developer_1 #8 #2017-03-09): based on commands, action should be taken, return package prepared
 // TODO (developer_1 #8 #2017-03-09): return package should be sent back to caller
