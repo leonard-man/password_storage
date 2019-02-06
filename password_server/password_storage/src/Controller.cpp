@@ -12,11 +12,13 @@ Controller::~Controller()
     if (m_data_layer != nullptr)
     {
         delete(m_data_layer);
+        m_data_layer = nullptr;
     }
 
     if (m_utils != nullptr)
     {
         delete(m_utils);
+        m_utils = nullptr;
     }
 }
 void Controller::create_message_parsing_result()
@@ -24,6 +26,7 @@ void Controller::create_message_parsing_result()
     if (m_message_parsing_result != nullptr)
     {
         delete(m_message_parsing_result);
+        m_message_parsing_result = nullptr;
     }
 
     m_message_parsing_result = new MessageParsingResult();
@@ -31,8 +34,13 @@ void Controller::create_message_parsing_result()
 
 void Controller::set_utils(Utility* utils)
 {
+    if (m_utils != nullptr)
+    {
+        delete(m_utils);
+        m_utils = nullptr;
+    }
+
     m_utils = utils;
-    //
 }
 
 Utility* Controller::get_utils()
@@ -42,6 +50,12 @@ Utility* Controller::get_utils()
 
 void Controller::set_database_layer(DatabaseLayer* data_layer)
 {
+    if (m_data_layer != nullptr)
+    {
+        delete(m_data_layer);
+        m_data_layer = nullptr;
+    }
+
     m_data_layer = data_layer;
 }
 
@@ -55,6 +69,7 @@ ReceivePackage* Controller::create_receive_package()
     if(m_receive_package != nullptr)
     {
         delete(m_receive_package);
+        m_receive_package = nullptr;
     }
 
     m_receive_package = new ReceivePackage();
@@ -67,6 +82,7 @@ void Controller::set_received_package(ReceivePackage* package_received)
     if(m_receive_package != nullptr)
     {
         delete(m_receive_package);
+        m_receive_package = nullptr;
     }
 
     m_receive_package = package_received;
@@ -79,6 +95,7 @@ SendPackage* Controller::get_send_package()
     if(m_send_package != nullptr)
     {
         delete(m_send_package);
+        m_send_package = nullptr;
     }
 
     SendPackage* send_package = new SendPackage();

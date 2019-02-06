@@ -2,6 +2,7 @@
 #define RECEIVEPACKAGE_H
 
 #include <string>
+#include <iostream>
 
 using namespace std;
 

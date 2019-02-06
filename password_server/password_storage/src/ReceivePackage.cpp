@@ -2,12 +2,12 @@
 
 ReceivePackage::ReceivePackage()
 {
-    //ctor
+    std::cout << "ReceivePackage created.\n";
 }
 
 ReceivePackage::~ReceivePackage()
 {
-    //dtor
+    std::cout << "ReceivePackage destroyed.\n";
 }
 
 void ReceivePackage::set_is_read(bool val)

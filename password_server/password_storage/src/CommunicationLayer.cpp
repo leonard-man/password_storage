@@ -43,12 +43,10 @@ bool CommunicationLayer::remove_receive_package()
 {
     if(receive_package != nullptr)
     {
-        delete receive_package;
+        receive_package = nullptr;
     }
 
-    receive_package = nullptr;
-
-    LOG4CXX_INFO(CommLogger, "Clearing receive package.");
+    LOG4CXX_INFO(CommLogger, "Clearing reference to receive package from CommunicationLayer.");
 
     return true;
 }
@@ -69,9 +67,8 @@ bool CommunicationLayer::remove_send_package()
     if(send_package != nullptr)
     {
         delete send_package;
+        send_package = nullptr;
     }
-
-    send_package = nullptr;
 
     LOG4CXX_INFO(CommLogger, "Clearing send package.");
 
@@ -80,7 +77,7 @@ bool CommunicationLayer::remove_send_package()
 
 ReceivePackage* CommunicationLayer::create_receive_package()
 {
-    remove_receive_package();
+    this->remove_receive_package();
 
     receive_package = controller->create_receive_package();
 
@@ -93,20 +90,22 @@ void CommunicationLayer::process_received_package()
 {
     // ... continue here ...
     // use debugger to step through and fix objects and references
-    //
-    if((controller != nullptr) && (receive_package != nullptr))
-    {
-        controller->set_received_package(receive_package);
-    }
-    // controller should parse received package
+
+    LOG4CXX_INFO(CommLogger, "process_received_package() - entered function");
+
     controller->parse_package_received();
+
     // controller should interpret if any commands are received
 
     // based on commands, action should be taken, return package prepared
 
     // return package should be sent back to caller
     set_send_package(controller->get_send_package());
-    this->send_package->set_is_sent(false);
+
+    if(send_package != nullptr)
+    {
+        this->send_package->set_is_sent(false);
+    }
 }
 
 void *CommunicationLayer::sigchld_handler(int s)
