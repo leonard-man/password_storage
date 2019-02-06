@@ -66,7 +66,6 @@ bool CommunicationLayer::remove_send_package()
 {
     if(send_package != nullptr)
     {
-        delete send_package;
         send_package = nullptr;
     }
 

@@ -22,6 +22,7 @@ string SendPackage::get_payload()
 
 void SendPackage::set_payload(string val)
 {
+    payload.clear();
     payload = val;
 }
 

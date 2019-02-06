@@ -17,5 +17,6 @@ string MessageParsingResult::get_parsing_result_message()
 
 void MessageParsingResult::set_parsing_result_message(string result_message)
 {
+    parsing_result_message.clear();
     parsing_result_message = result_message;
 }
